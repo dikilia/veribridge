@@ -113,14 +113,19 @@
             <!-- Domains Tab -->
             <div id="domainsTab" class="tab-content hidden">
                 <div class="bg-white/5 border border-white/10 rounded-lg p-6">
-                    <h2 class="text-lg font-medium mb-4">Allowed Domains</h2>
+                    <h2 class="text-lg font-medium mb-4">Allowed Domains Whitelist</h2>
+                    <p class="text-xs text-white/50 mb-4">Only URLs containing these domains can be generated. Changes take effect immediately.</p>
+                    
+                    <!-- Add Domain -->
                     <div class="flex gap-3 mb-6">
-                        <input type="text" id="newDomain" placeholder="e.g., roblox.com" 
+                        <input type="text" id="newDomain" placeholder="e.g., roblox.com (no http://)" 
                                class="flex-1 bg-black/50 border border-white/10 rounded px-4 py-2">
-                        <button id="addDomainBtn" class="bg-green-900/60 hover:bg-green-800 px-4 py-2 rounded">Add</button>
+                        <button id="addDomainBtn" class="bg-green-900/60 hover:bg-green-800 px-4 py-2 rounded">Add Domain</button>
                     </div>
+                    
+                    <!-- Domains List -->
                     <div class="space-y-2" id="domainsList">
-                        <div class="text-white/30 text-center py-4">Loading...</div>
+                        <div class="text-white/30 text-center py-4">Loading domains...</div>
                     </div>
                 </div>
             </div>
@@ -128,33 +133,41 @@
             <!-- Settings Tab -->
             <div id="settingsTab" class="tab-content hidden">
                 <div class="bg-white/5 border border-white/10 rounded-lg p-6 max-w-md">
-                    <h2 class="text-lg font-medium mb-4">Settings</h2>
+                    <h2 class="text-lg font-medium mb-4">Admin Settings</h2>
+                    
+                    <!-- Change Password -->
                     <div class="mb-6">
-                        <label class="block text-sm text-white/70 mb-2">Change Password</label>
+                        <label class="block text-sm text-white/70 mb-2">Change Admin Password</label>
                         <input type="password" id="newPassword" placeholder="New password" 
                                class="w-full bg-black/50 border border-white/10 rounded px-4 py-2 mb-2">
                         <input type="password" id="confirmPassword" placeholder="Confirm password" 
                                class="w-full bg-black/50 border border-white/10 rounded px-4 py-2 mb-3">
-                        <button id="changePasswordBtn" class="bg-blue-900/60 hover:bg-blue-800 px-4 py-2 rounded text-sm">Update</button>
+                        <button id="changePasswordBtn" class="bg-blue-900/60 hover:bg-blue-800 px-4 py-2 rounded text-sm">Update Password</button>
                     </div>
-                    <div class="mb-6">
-                        <label class="block text-sm text-white/70 mb-2">Danger Zone</label>
+                    
+                    <!-- Danger Zone -->
+                    <div class="border-t border-red-500/30 pt-4">
+                        <h3 class="text-red-400 text-sm font-medium mb-2">Danger Zone</h3>
                         <button id="clearAllLinksBtn" class="bg-red-900/60 hover:bg-red-800 px-4 py-2 rounded text-sm border border-red-500/30">Clear All Links</button>
+                        <p class="text-xs text-white/40 mt-2">This permanently deletes all verification links.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     
-    <!-- Edit Modal -->
+    <!-- Edit Link Modal -->
     <div id="editModal" class="modal hidden">
         <div class="bg-zinc-900 border border-white/10 rounded-xl p-6 w-full max-w-lg">
             <h3 class="text-lg font-medium mb-4">Edit Link</h3>
             <input type="hidden" id="editCode">
+            
             <div class="mb-4">
                 <label class="block text-sm text-white/70 mb-1">Target URL</label>
                 <input type="text" id="editUrl" class="w-full bg-black/50 border border-white/10 rounded px-4 py-2">
+                <p class="text-xs text-white/40 mt-1">Must contain an allowed domain</p>
             </div>
+            
             <div class="mb-4">
                 <label class="block text-sm text-white/70 mb-1">Status</label>
                 <select id="editStatus" class="w-full bg-black/50 border border-white/10 rounded px-4 py-2">
@@ -162,9 +175,10 @@
                     <option value="inactive">Inactive</option>
                 </select>
             </div>
+            
             <div class="flex gap-3 justify-end">
                 <button id="cancelEditBtn" class="px-4 py-2 rounded border border-white/20 hover:bg-white/10">Cancel</button>
-                <button id="saveEditBtn" class="bg-blue-900/60 hover:bg-blue-800 px-4 py-2 rounded">Save</button>
+                <button id="saveEditBtn" class="bg-blue-900/60 hover:bg-blue-800 px-4 py-2 rounded">Save Changes</button>
             </div>
         </div>
     </div>
@@ -320,7 +334,8 @@
                     localStorage.removeItem('vb_admin_token');
                     window.location.replace('/admin');
                 } else {
-                    showToast('Failed to update', true);
+                    const err = await res.json();
+                    showToast(err.error || 'Failed to update', true);
                 }
             } catch (e) {
                 showToast('Network error', true);
@@ -368,7 +383,7 @@
         function renderDomains() {
             const container = document.getElementById('domainsList');
             if (!domains.length) {
-                container.innerHTML = '<div class="text-white/30 text-center py-4">No domains</div>';
+                container.innerHTML = '<div class="text-white/30 text-center py-4">No domains added</div>';
                 return;
             }
             
@@ -394,9 +409,13 @@
                 });
                 
                 if (res.ok) {
-                    domains = domains.filter(d => d !== domain);
+                    const data = await res.json();
+                    domains = data.domains;
                     renderDomains();
                     showToast('Domain removed');
+                } else if (res.status === 401) {
+                    localStorage.removeItem('vb_admin_token');
+                    window.location.replace('/admin');
                 }
             } catch (e) {
                 showToast('Failed to remove', true);
@@ -448,7 +467,11 @@
         document.getElementById('filterStatus').addEventListener('change', renderLinks);
         
         document.getElementById('addDomainBtn').addEventListener('click', async () => {
-            const domain = document.getElementById('newDomain').value.trim();
+            const domain = document.getElementById('newDomain').value.trim().toLowerCase()
+                .replace(/^https?:\/\//, '')
+                .replace(/^www\./, '')
+                .split('/')[0];
+                
             if (!domain) return;
             
             try {
@@ -462,10 +485,14 @@
                 });
                 
                 if (res.ok) {
-                    domains.push(domain);
+                    const data = await res.json();
+                    domains = data.domains;
                     renderDomains();
                     document.getElementById('newDomain').value = '';
                     showToast('Domain added');
+                } else if (res.status === 401) {
+                    localStorage.removeItem('vb_admin_token');
+                    window.location.replace('/admin');
                 }
             } catch (e) { 
                 showToast('Failed', true); 
@@ -501,9 +528,12 @@
                     updateStats();
                     document.getElementById('editModal').classList.add('hidden');
                     showToast('Link updated');
+                } else {
+                    const err = await res.json();
+                    showToast(err.error || 'Failed to update', true);
                 }
             } catch (e) { 
-                showToast('Failed', true); 
+                showToast('Network error', true); 
             }
         });
         
@@ -545,7 +575,7 @@
             if (!confirm('DELETE ALL LINKS? This cannot be undone!')) return;
             
             try {
-                for (const link of links) {
+                for (const link of [...links]) {
                     await fetch(`${API_BASE}/links/${link.code}`, {
                         method: 'DELETE',
                         headers: { 'Authorization': `Bearer ${token}` }
