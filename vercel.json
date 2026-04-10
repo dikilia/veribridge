@@ -5,8 +5,5 @@
     { "source": "/api/links/:code?", "destination": "/api/links.js" },
     { "source": "/api/domains", "destination": "/api/domains.js" },
     { "source": "/api/auth/:path*", "destination": "/api/auth.js" }
-  ],
-  "redirects": [
-    { "source": "/", "destination": "/gen", "permanent": false }
   ]
 }
