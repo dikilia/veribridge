@@ -1,0 +1,12 @@
+{
+  "name": "veribridge",
+  "version": "2.0.0",
+  "description": "VeriBridge - Roblox Verification System",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
