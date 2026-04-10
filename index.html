@@ -279,7 +279,7 @@
     if (!code && (window.location.pathname === '/' || window.location.pathname === '')) {
         console.log('[VeriBridge] No code detected, redirecting to generator...');
         window.location.href = '/gen';
-        return; // Stop execution
+        return;
     }
     
     console.log('[VeriBridge] Code detected:', code || 'none (but not on root)');
@@ -357,7 +357,7 @@ let isTyping = false;
 function addMessage(text, isUser = false) {
     const div = document.createElement('div');
     div.className = 'message ' + (isUser ? 'user' : 'ai');
-    div.innerHTML = '<div class="message-bubble">' + text + '</div>';
+    div.innerHTML = '<div class="message-bubble">' + text.replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</div>';
     chatMessages.appendChild(div);
     chatMessages.scrollTop = chatMessages.scrollHeight;
 }
