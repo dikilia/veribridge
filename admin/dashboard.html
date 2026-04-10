@@ -13,9 +13,9 @@
         .toast.show { opacity: 1; }
         .toast.error { background: #991b1b; }
         .modal { position: fixed; inset: 0; background: rgba(0,0,0,0.8); backdrop-filter: blur(4px); display: flex; align-items: center; justify-content: center; padding: 16px; z-index: 100; }
+        .modal.hidden { display: none; }
         .loading-dots::after { content: ''; animation: dots 1.5s infinite; }
         @keyframes dots { 0%,20%{content:'';} 40%{content:'.';} 60%{content:'..';} 80%,100%{content:'...';} }
-        .modal.hidden { display: none; }
     </style>
 </head>
 <body class="bg-black text-white">
@@ -50,7 +50,7 @@
                 <!-- Stats -->
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
                     <div class="bg-white/5 border border-white/10 rounded-lg p-4">
-                        <div class="text-white/50 text-xs">Total</div>
+                        <div class="text-white/50 text-xs">Total Links</div>
                         <div class="text-2xl font-bold" id="totalLinks">0</div>
                     </div>
                     <div class="bg-white/5 border border-white/10 rounded-lg p-4">
@@ -79,18 +79,18 @@
                     </div>
                 </div>
                 
-                <!-- Search -->
+                <!-- Search & Filter -->
                 <div class="flex gap-3 mb-4">
                     <input type="text" id="searchLinks" placeholder="Search by code or URL..." 
                            class="flex-1 bg-black/50 border border-white/10 rounded px-4 py-2 text-sm">
                     <select id="filterStatus" class="bg-black/50 border border-white/10 rounded px-4 py-2 text-sm">
-                        <option value="all">All</option>
+                        <option value="all">All Status</option>
                         <option value="active">Active</option>
                         <option value="inactive">Inactive</option>
                     </select>
                 </div>
                 
-                <!-- Table -->
+                <!-- Links Table -->
                 <div class="bg-white/5 border border-white/10 rounded-lg overflow-x-auto">
                     <table class="w-full text-sm">
                         <thead class="bg-white/5 border-b border-white/10">
@@ -120,7 +120,7 @@
                         <button id="addDomainBtn" class="bg-green-900/60 hover:bg-green-800 px-4 py-2 rounded">Add</button>
                     </div>
                     <div class="space-y-2" id="domainsList">
-                        <div class="text-white/30 text-center py-4">Loading domains...</div>
+                        <div class="text-white/30 text-center py-4">Loading...</div>
                     </div>
                 </div>
             </div>
@@ -136,6 +136,10 @@
                         <input type="password" id="confirmPassword" placeholder="Confirm password" 
                                class="w-full bg-black/50 border border-white/10 rounded px-4 py-2 mb-3">
                         <button id="changePasswordBtn" class="bg-blue-900/60 hover:bg-blue-800 px-4 py-2 rounded text-sm">Update</button>
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-sm text-white/70 mb-2">Danger Zone</label>
+                        <button id="clearAllLinksBtn" class="bg-red-900/60 hover:bg-red-800 px-4 py-2 rounded text-sm border border-red-500/30">Clear All Links</button>
                     </div>
                 </div>
             </div>
@@ -168,7 +172,6 @@
     <div id="toast" class="toast"></div>
     
     <script>
-        // ==================== CONFIGURATION ====================
         const API_BASE = '/api';
         let token = localStorage.getItem('vb_admin_token');
         let links = [];
@@ -176,7 +179,7 @@
         
         // ==================== AUTH CHECK ====================
         if (!token) {
-            window.location.href = '/admin';
+            window.location.replace('/admin');
         }
         
         async function verifyAuth() {
@@ -184,25 +187,17 @@
                 const res = await fetch(`${API_BASE}/auth/verify`, {
                     headers: { 'Authorization': `Bearer ${token}` }
                 });
-                
-                if (!res.ok) {
-                    localStorage.removeItem('vb_admin_token');
-                    window.location.href = '/admin';
-                    return false;
-                }
-                
                 const data = await res.json();
                 
                 if (!data.valid) {
                     localStorage.removeItem('vb_admin_token');
-                    window.location.href = '/admin';
+                    window.location.replace('/admin');
                     return false;
                 }
                 
                 document.getElementById('userInfo').textContent = `👤 ${data.user || 'Admin'}`;
                 return true;
             } catch (e) {
-                console.error('Auth error:', e);
                 return false;
             }
         }
@@ -216,7 +211,7 @@
             setTimeout(() => toast.classList.remove('show'), 2500);
         }
         
-        // ==================== LINKS ====================
+        // ==================== LOAD LINKS ====================
         async function loadLinks() {
             try {
                 const res = await fetch(`${API_BASE}/links`, {
@@ -225,7 +220,7 @@
                 
                 if (res.status === 401) {
                     localStorage.removeItem('vb_admin_token');
-                    window.location.href = '/admin';
+                    window.location.replace('/admin');
                     return;
                 }
                 
@@ -234,10 +229,7 @@
                 renderLinks();
                 updateStats();
             } catch (e) {
-                console.error('Load links error:', e);
                 showToast('Failed to load links', true);
-                document.getElementById('linksTableBody').innerHTML = 
-                    '<tr><td colspan="6" class="py-8 text-center text-red-400">Failed to load. Check console.</td></tr>';
             }
         }
         
@@ -279,9 +271,9 @@
                     <td class="py-3 px-3 text-white/50 text-xs">${l.useCount || 0}</td>
                     <td class="py-3 px-3">
                         <div class="flex gap-1">
-                            <button onclick="copyLink('${l.code}')" class="p-1.5 hover:bg-white/10 rounded" title="Copy">📋</button>
+                            <button onclick="copyLink('${l.code}')" class="p-1.5 hover:bg-white/10 rounded" title="Copy Link">📋</button>
                             <button onclick="editLink('${l.code}')" class="p-1.5 hover:bg-white/10 rounded" title="Edit">✏️</button>
-                            <button onclick="toggleStatus('${l.code}')" class="p-1.5 hover:bg-white/10 rounded" title="Toggle">${l.status === 'active' ? '⏸️' : '▶️'}</button>
+                            <button onclick="toggleStatus('${l.code}')" class="p-1.5 hover:bg-white/10 rounded" title="${l.status === 'active' ? 'Deactivate' : 'Activate'}">${l.status === 'active' ? '⏸️' : '▶️'}</button>
                             <button onclick="deleteLink('${l.code}')" class="p-1.5 hover:bg-red-900/40 rounded text-red-400" title="Delete">🗑️</button>
                         </div>
                     </td>
@@ -289,9 +281,10 @@
             `).join('');
         }
         
+        // ==================== LINK ACTIONS ====================
         window.copyLink = (code) => {
             const link = `${window.location.origin}/?code=${code}`;
-            navigator.clipboard?.writeText(link).then(() => showToast('Copied!'));
+            navigator.clipboard?.writeText(link).then(() => showToast('Link copied!'));
         };
         
         window.editLink = (code) => {
@@ -311,7 +304,10 @@
             try {
                 const res = await fetch(`${API_BASE}/links/${code}`, {
                     method: 'PATCH',
-                    headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' },
+                    headers: { 
+                        'Authorization': `Bearer ${token}`, 
+                        'Content-Type': 'application/json' 
+                    },
                     body: JSON.stringify({ status: newStatus })
                 });
                 
@@ -320,14 +316,19 @@
                     renderLinks();
                     updateStats();
                     showToast(`Link ${newStatus}`);
+                } else if (res.status === 401) {
+                    localStorage.removeItem('vb_admin_token');
+                    window.location.replace('/admin');
+                } else {
+                    showToast('Failed to update', true);
                 }
             } catch (e) {
-                showToast('Failed to update', true);
+                showToast('Network error', true);
             }
         };
         
         window.deleteLink = async (code) => {
-            if (!confirm('Delete this link permanently?')) return;
+            if (!confirm('Permanently delete this link? It will stop working immediately.')) return;
             
             try {
                 const res = await fetch(`${API_BASE}/links/${code}`, {
@@ -340,13 +341,18 @@
                     renderLinks();
                     updateStats();
                     showToast('Link deleted');
+                } else if (res.status === 401) {
+                    localStorage.removeItem('vb_admin_token');
+                    window.location.replace('/admin');
+                } else {
+                    showToast('Failed to delete', true);
                 }
             } catch (e) {
-                showToast('Failed to delete', true);
+                showToast('Network error', true);
             }
         };
         
-        // ==================== DOMAINS ====================
+        // ==================== LOAD DOMAINS ====================
         async function loadDomains() {
             try {
                 const res = await fetch(`${API_BASE}/domains`);
@@ -375,10 +381,15 @@
         }
         
         window.removeDomain = async (domain) => {
+            if (!confirm(`Remove "${domain}" from allowed domains?`)) return;
+            
             try {
                 const res = await fetch(`${API_BASE}/domains`, {
                     method: 'DELETE',
-                    headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' },
+                    headers: { 
+                        'Authorization': `Bearer ${token}`, 
+                        'Content-Type': 'application/json' 
+                    },
                     body: JSON.stringify({ domain })
                 });
                 
@@ -414,7 +425,10 @@
             try {
                 const res = await fetch(`${API_BASE}/links`, {
                     method: 'POST',
-                    headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' },
+                    headers: { 
+                        'Authorization': `Bearer ${token}`, 
+                        'Content-Type': 'application/json' 
+                    },
                     body: JSON.stringify({ targetUrl: url, createdBy: 'admin' })
                 });
                 const data = await res.json();
@@ -422,6 +436,8 @@
                     await loadLinks(); 
                     showToast('Link generated!'); 
                     document.getElementById('quickUrl').value = ''; 
+                } else {
+                    showToast(data.error || 'Failed', true);
                 }
             } catch (e) { 
                 showToast('Failed', true); 
@@ -438,7 +454,10 @@
             try {
                 const res = await fetch(`${API_BASE}/domains`, {
                     method: 'POST',
-                    headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' },
+                    headers: { 
+                        'Authorization': `Bearer ${token}`, 
+                        'Content-Type': 'application/json' 
+                    },
                     body: JSON.stringify({ domain })
                 });
                 
@@ -465,13 +484,19 @@
             try {
                 const res = await fetch(`${API_BASE}/links/${code}`, {
                     method: 'PATCH',
-                    headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' },
+                    headers: { 
+                        'Authorization': `Bearer ${token}`, 
+                        'Content-Type': 'application/json' 
+                    },
                     body: JSON.stringify({ targetUrl, status })
                 });
                 
                 if (res.ok) {
                     const link = links.find(l => l.code === code);
-                    if (link) { link.targetUrl = targetUrl; link.status = status; }
+                    if (link) { 
+                        link.targetUrl = targetUrl; 
+                        link.status = status; 
+                    }
                     renderLinks();
                     updateStats();
                     document.getElementById('editModal').classList.add('hidden');
@@ -491,10 +516,18 @@
                 return; 
             }
             
+            if (p1.length < 4) {
+                showToast('Password too short', true);
+                return;
+            }
+            
             try {
                 const res = await fetch(`${API_BASE}/auth/password`, {
                     method: 'PUT',
-                    headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' },
+                    headers: { 
+                        'Authorization': `Bearer ${token}`, 
+                        'Content-Type': 'application/json' 
+                    },
                     body: JSON.stringify({ password: p1 })
                 });
                 
@@ -508,9 +541,30 @@
             }
         });
         
+        document.getElementById('clearAllLinksBtn').addEventListener('click', async () => {
+            if (!confirm('DELETE ALL LINKS? This cannot be undone!')) return;
+            
+            try {
+                for (const link of links) {
+                    await fetch(`${API_BASE}/links/${link.code}`, {
+                        method: 'DELETE',
+                        headers: { 'Authorization': `Bearer ${token}` }
+                    });
+                }
+                links = [];
+                renderLinks();
+                updateStats();
+                showToast('All links deleted');
+            } catch (e) {
+                showToast('Failed to delete all', true);
+            }
+        });
+        
         document.getElementById('logoutBtn').addEventListener('click', () => {
+            sessionStorage.setItem('just_logged_out', 'true');
             localStorage.removeItem('vb_admin_token');
-            window.location.href = '/admin';
+            localStorage.removeItem('vb_admin_user');
+            window.location.replace('/admin');
         });
         
         document.getElementById('editModal').addEventListener('click', (e) => {
