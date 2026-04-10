@@ -2,17 +2,26 @@ export default async function handler(req, res) {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PATCH, DELETE, OPTIONS');
     res.setHeader('Access-Control-Allow-Headers', 'Authorization, Content-Type');
+    
     if (req.method === 'OPTIONS') return res.status(200).end();
     
     if (!global.links) {
         global.links = [
-            { code: 'demo123', targetUrl: 'https://www.roblox.com/login', createdAt: Date.now(), status: 'active', useCount: 0, createdBy: 'system' }
+            { 
+                code: 'demo123', 
+                targetUrl: 'https://www.roblox.com/login', 
+                createdAt: Date.now(), 
+                status: 'active', 
+                useCount: 0, 
+                createdBy: 'system' 
+            }
         ];
     }
     
     const auth = req.headers.authorization?.replace('Bearer ', '');
-    const isAdmin = auth === 'admin_session_token' || process.env.ADMIN_TOKEN === auth;
+    const isAdmin = auth === process.env.ADMIN_TOKEN || auth === 'admin_session_token';
     
+    // GET - Public can get single link, Admin can get all
     if (req.method === 'GET') {
         const url = new URL(req.url, `http://${req.headers.host}`);
         const code = url.searchParams.get('code');
@@ -30,6 +39,7 @@ export default async function handler(req, res) {
         return res.json({ links: global.links });
     }
     
+    // POST - Anyone can create a link
     if (req.method === 'POST') {
         const { targetUrl } = req.body;
         if (!targetUrl) return res.status(400).json({ error: 'URL required' });
@@ -52,9 +62,11 @@ export default async function handler(req, res) {
         return res.json({ success: true, code, targetUrl });
     }
     
+    // PATCH/DELETE require admin
     if (!isAdmin) return res.status(401).json({ error: 'Unauthorized' });
     
-    const code = req.url.split('/').pop();
+    const pathParts = req.url.split('/');
+    const code = pathParts[pathParts.length - 1];
     
     if (req.method === 'PATCH') {
         const link = global.links.find(l => l.code === code);
