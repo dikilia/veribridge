@@ -133,6 +133,9 @@
     <script>
         const API_BASE = '/api';
         
+        // HARDCODED DOMAIN - Change this to your actual domain
+        const SITE_URL = 'https://veribridge-dashboard.vercel.app';
+        
         const targetUrl = document.getElementById('targetUrl');
         const urlError = document.getElementById('urlError');
         const generateBtn = document.getElementById('generateBtn');
@@ -163,6 +166,7 @@
                 allowedDomains = data.domains || ['roblox.com', 'www.roblox.com', 'auth.roblox.com'];
                 displayAllowedDomains();
             } catch (e) {
+                console.error('Failed to load domains:', e);
                 allowedDomains = ['roblox.com', 'www.roblox.com', 'auth.roblox.com'];
                 displayAllowedDomains();
             }
@@ -206,8 +210,6 @@
             
             if (!result.valid) {
                 urlError.textContent = result.error;
-                urlError.classList.add('shake');
-                setTimeout(() => urlError.classList.remove('shake'), 500);
                 urlError.classList.remove('text-green-400');
                 urlError.classList.add('text-red-400');
                 generateBtn.disabled = true;
@@ -223,7 +225,7 @@
         
         targetUrl.addEventListener('input', updateValidation);
         
-        // Generate link - FIXED URL GENERATION
+        // Generate link - FIXED URL
         async function generateLink() {
             const url = targetUrl.value.trim();
             const validation = validateUrl(url);
@@ -259,10 +261,8 @@
                 if (data.success) {
                     lastGeneratedCode = data.code;
                     
-                    // FIXED: Always use root path, never include /gen in the generated link
-                    // This ensures the link goes to index.html, not back to generator
-                    const baseUrl = window.location.origin;
-                    lastGeneratedUrl = `https://veribridge-theta.vercel.app/?code=${data.code}`;
+                    // FIXED: Use hardcoded site URL to ensure correct link
+                    lastGeneratedUrl = `${SITE_URL}/?code=${data.code}`;
                     
                     generatedLink.textContent = lastGeneratedUrl;
                     resultSection.classList.remove('hidden');
