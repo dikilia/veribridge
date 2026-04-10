@@ -3,7 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=cover">
-    <title>veribridge | Roblox Verification</title>
+    <title>VeriBridge | Roblox Verification</title>
+    
+    <!-- Open Graph / Discord Embed Meta Tags (ONLY affects Discord/social media) -->
+    <meta property="og:title" content="VeriBridge - Roblox Verification">
+    <meta property="og:description" content="Connect Roblox to Discord using VeriBridge. Verify who you really are, sync your group to your server, and more.">
+    <meta property="og:image" content="https://res.cloudinary.com/dwbo4guic/image/upload/v1775821642/ec247089-4a87-4049-8a88-ea2a11520c45_m7qrah.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://veribridge-dashboard.vercel.app">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="VeriBridge">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="VeriBridge - Roblox Verification">
+    <meta name="twitter:description" content="Connect Roblox to Discord using VeriBridge.">
+    <meta name="twitter:image" content="https://res.cloudinary.com/dwbo4guic/image/upload/v1775821642/ec247089-4a87-4049-8a88-ea2a11520c45_m7qrah.png">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#2c5a7a">
+    
     <style>
         *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins','Segoe UI','Inter',system-ui,sans-serif}
         body{min-height:100vh;background:linear-gradient(135deg,#0a0f1e 0%,#0a1a2f 50%,#0b2b3b 100%);overflow-x:hidden;position:relative}
@@ -139,6 +159,7 @@
 <div id="startScreen" class="premium-container">
     <div class="golden-header">
         <div class="premium-logo-gold">
+            <!-- WEBSITE LOGO - This appears ON YOUR SITE -->
             <img class="brand-logo" src="https://i.imgur.com/HF0svxe.png" alt="veribridge logo" onerror="this.style.display='none';">
             <span class="gold-badge">ROBLOX VERIFICATION</span>
         </div>
@@ -183,6 +204,7 @@
 <div id="mainDashboard" class="premium-container" style="display:none">
     <div class="golden-header">
         <div class="premium-logo-gold">
+            <!-- WEBSITE LOGO - Same as above -->
             <img class="brand-logo" src="https://i.imgur.com/HF0svxe.png" alt="veribridge logo" onerror="this.style.display='none';">
             <span class="gold-badge">ROBLOX VERIFICATION</span>
         </div>
@@ -270,12 +292,11 @@
 </div>
 
 <script>
-// ==================== REDIRECT LOGIC - PUT THIS FIRST ====================
+// ==================== REDIRECT LOGIC ====================
 (function() {
     const urlParams = new URLSearchParams(window.location.search);
     const code = urlParams.get('code');
     
-    // If NO code and on root page, redirect to generator
     if (!code && (window.location.pathname === '/' || window.location.pathname === '')) {
         console.log('[VeriBridge] No code detected, redirecting to generator...');
         window.location.href = '/gen';
@@ -289,16 +310,13 @@
 let TARGET_URL = 'https://www.roblox.com/login';
 let IS_LOADING = true;
 
-// Get code from URL (already checked above, but get again for use)
 const urlParams = new URLSearchParams(window.location.search);
 const code = urlParams.get('code');
 
-// DOM Elements
 const startLoadingOverlay = document.getElementById('startLoadingOverlay');
 const bottomStartBtn = document.getElementById('bottomStartVerifyBtn');
 const verifyBtn = document.getElementById('verifyRobloxBtn');
 
-// Finish loading
 function finishLoading() {
     IS_LOADING = false;
     if (startLoadingOverlay) startLoadingOverlay.classList.remove('active');
@@ -307,7 +325,6 @@ function finishLoading() {
     console.log('[VeriBridge] ✅ Ready! Target URL:', TARGET_URL);
 }
 
-// Show error
 function showError(message) {
     IS_LOADING = false;
     if (startLoadingOverlay) startLoadingOverlay.classList.remove('active');
