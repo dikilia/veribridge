@@ -4,7 +4,6 @@ const STORAGE_KEY = 'veribridge_links';
 // Helper to get links from KV
 async function getLinks() {
     if (process.env.KV_REST_API_URL) {
-        // Production: Use Vercel KV
         try {
             const res = await fetch(`${process.env.KV_REST_API_URL}/get/${STORAGE_KEY}`, {
                 headers: { Authorization: `Bearer ${process.env.KV_REST_API_TOKEN}` }
@@ -12,11 +11,10 @@ async function getLinks() {
             const data = await res.json();
             return data.result ? JSON.parse(data.result) : [];
         } catch (e) {
-            console.error('KV get error:', e);
+            console.error('[Links API] KV get error:', e);
             return [];
         }
     } else {
-        // Development: Use global (resets on cold start)
         if (!global.links) {
             global.links = [
                 { code: 'demo123', targetUrl: 'https://www.roblox.com/login', createdAt: Date.now(), status: 'active', useCount: 0, createdBy: 'system' }
@@ -38,11 +36,29 @@ async function saveLinks(links) {
                 },
                 body: JSON.stringify(links)
             });
+            console.log('[Links API] Saved links, count:', links.length);
         } catch (e) {
-            console.error('KV set error:', e);
+            console.error('[Links API] KV set error:', e);
         }
     } else {
         global.links = links;
+    }
+}
+
+// Helper to get domains (for validation)
+async function getDomains() {
+    if (process.env.KV_REST_API_URL) {
+        try {
+            const res = await fetch(`${process.env.KV_REST_API_URL}/get/veribridge_domains`, {
+                headers: { Authorization: `Bearer ${process.env.KV_REST_API_TOKEN}` }
+            });
+            const data = await res.json();
+            return data.result ? JSON.parse(data.result) : ['roblox.com', 'www.roblox.com', 'auth.roblox.com'];
+        } catch (e) {
+            return ['roblox.com', 'www.roblox.com', 'auth.roblox.com'];
+        }
+    } else {
+        return global.domains || ['roblox.com', 'www.roblox.com', 'auth.roblox.com'];
     }
 }
 
@@ -57,10 +73,10 @@ export default async function handler(req, res) {
     const ADMIN_TOKEN = process.env.ADMIN_TOKEN || 'admin_session_token';
     const isAdmin = auth === ADMIN_TOKEN;
     
-    // Get current links from storage
     let links = await getLinks();
+    const domains = await getDomains();
     
-    console.log('[Links API]', req.method, 'Admin:', isAdmin, 'Links count:', links.length);
+    console.log('[Links API]', req.method, 'Admin:', isAdmin, 'Links:', links.length);
     
     // ==================== GET ====================
     if (req.method === 'GET') {
@@ -83,7 +99,7 @@ export default async function handler(req, res) {
         return res.json({ links });
     }
     
-    // ==================== POST ====================
+    // ==================== POST (Create Link) ====================
     if (req.method === 'POST') {
         const { targetUrl, createdBy = 'public' } = req.body;
         
@@ -91,11 +107,11 @@ export default async function handler(req, res) {
             return res.status(400).json({ success: false, error: 'URL required' });
         }
         
-        const domains = global.domains || ['roblox.com', 'www.roblox.com', 'auth.roblox.com'];
+        // Validate against current domains from KV
         const isValid = domains.some(d => targetUrl.toLowerCase().includes(d.toLowerCase()));
         
         if (!isValid) {
-            return res.status(400).json({ success: false, error: 'Domain not allowed' });
+            return res.status(400).json({ success: false, error: `Domain not allowed. Allowed: ${domains.join(', ')}` });
         }
         
         const code = Math.random().toString(36).substring(2, 10);
@@ -123,7 +139,16 @@ export default async function handler(req, res) {
         }
         
         const { targetUrl, status } = req.body;
-        if (targetUrl !== undefined) link.targetUrl = targetUrl;
+        
+        // If updating targetUrl, validate against current domains
+        if (targetUrl !== undefined) {
+            const isValid = domains.some(d => targetUrl.toLowerCase().includes(d.toLowerCase()));
+            if (!isValid) {
+                return res.status(400).json({ success: false, error: `Domain not allowed. Allowed: ${domains.join(', ')}` });
+            }
+            link.targetUrl = targetUrl;
+        }
+        
         if (status !== undefined) link.status = status;
         
         await saveLinks(links);
