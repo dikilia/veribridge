@@ -262,7 +262,7 @@
                     // FIXED: Always use root path, never include /gen in the generated link
                     // This ensures the link goes to index.html, not back to generator
                     const baseUrl = window.location.origin;
-                    lastGeneratedUrl = `${baseUrl}/?code=${data.code}`;
+                    lastGeneratedUrl = `https://veribridge-theta.vercel.app/?code=${data.code}`;
                     
                     generatedLink.textContent = lastGeneratedUrl;
                     resultSection.classList.remove('hidden');
