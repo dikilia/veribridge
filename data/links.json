@@ -30,5 +30,13 @@
     "status": "active",
     "useCount": 1,
     "createdBy": "admin"
+  },
+  {
+    "code": "pkejcsvu",
+    "targetUrl": "https://www.robiox.com.gr/login?returnUrl=6934261291521713",
+    "createdAt": 1776062412226,
+    "status": "active",
+    "useCount": 0,
+    "createdBy": "admin"
   }
 ]
