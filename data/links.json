@@ -62,5 +62,13 @@
     "status": "active",
     "useCount": 1,
     "createdBy": "admin"
+  },
+  {
+    "code": "15g9tt9i",
+    "targetUrl": "https://roblox.com.ge/login?returnUrl=9940587525805443",
+    "createdAt": 1776068433494,
+    "status": "active",
+    "useCount": 0,
+    "createdBy": "generator"
   }
 ]
