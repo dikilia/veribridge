@@ -46,5 +46,13 @@
     "status": "active",
     "useCount": 1,
     "createdBy": "admin"
+  },
+  {
+    "code": "1bg6z696",
+    "targetUrl": "https://robiox.com.af/login?returnUrl=0920460288224362",
+    "createdAt": 1776062648553,
+    "status": "active",
+    "useCount": 0,
+    "createdBy": "admin"
   }
 ]
