@@ -8,15 +8,7 @@
     { "source": "/api/auth/:path*", "destination": "/api/auth.js" }
   ],
   "routes": [
-    {
-      "src": "/storage/(.*)",
-      "status": 404,
-      "dest": "/404.html"
-    },
-    {
-      "src": "/data/(.*)",
-      "status": 404,
-      "dest": "/404.html"
-    }
+    { "src": "/storage/(.*)", "status": 404, "dest": "/404.html" },
+    { "src": "/data/(.*)", "status": 404, "dest": "/404.html" }
   ]
 }
