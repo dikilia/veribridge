@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VeriBridge Admin · Dashboard</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://i.imgur.com/HF0svxe.png">
+    <link rel="apple-touch-icon" href="https://i.imgur.com/HF0svxe.png">
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .tab-active { border-bottom: 2px solid #60a5fa; color: #60a5fa; }
@@ -24,7 +29,6 @@
     <div class="min-h-screen p-4 md:p-6">
         <div class="max-w-7xl mx-auto">
             
-            <!-- Header -->
             <div class="flex items-center justify-between mb-6">
                 <div class="flex items-center gap-3">
                     <h1 class="text-xl font-bold">
@@ -38,16 +42,13 @@
                 </div>
             </div>
             
-            <!-- Tabs -->
             <div class="flex gap-6 mb-6 border-b border-white/10">
                 <button class="tab-btn tab-active pb-2 px-2 text-sm font-medium" data-tab="links">🔗 Links</button>
                 <button class="tab-btn pb-2 px-2 text-sm font-medium text-white/50" data-tab="domains">🌐 Domains</button>
                 <button class="tab-btn pb-2 px-2 text-sm font-medium text-white/50" data-tab="settings">⚙️ Settings</button>
             </div>
             
-            <!-- Links Tab -->
             <div id="linksTab" class="tab-content">
-                <!-- Stats -->
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
                     <div class="bg-white/5 border border-white/10 rounded-lg p-4">
                         <div class="text-white/50 text-xs">Total Links</div>
@@ -58,8 +59,8 @@
                         <div class="text-2xl font-bold text-green-400" id="activeLinks">0</div>
                     </div>
                     <div class="bg-white/5 border border-white/10 rounded-lg p-4">
-                        <div class="text-white/50 text-xs">Total Uses</div>
-                        <div class="text-2xl font-bold text-blue-400" id="totalUses">0</div>
+                        <div class="text-white/50 text-xs">Total Clicks</div>
+                        <div class="text-2xl font-bold text-blue-400" id="totalClicks">0</div>
                     </div>
                     <div class="bg-white/5 border border-white/10 rounded-lg p-4">
                         <div class="text-white/50 text-xs">Today</div>
@@ -67,7 +68,6 @@
                     </div>
                 </div>
                 
-                <!-- Quick Generate -->
                 <div class="bg-white/5 border border-white/10 rounded-lg p-4 mb-6">
                     <div class="flex flex-wrap gap-3 items-end">
                         <div class="flex-1 min-w-[200px]">
@@ -79,7 +79,6 @@
                     </div>
                 </div>
                 
-                <!-- Search & Filter -->
                 <div class="flex gap-3 mb-4">
                     <input type="text" id="searchLinks" placeholder="Search by code or URL..." 
                            class="flex-1 bg-black/50 border border-white/10 rounded px-4 py-2 text-sm">
@@ -90,7 +89,6 @@
                     </select>
                 </div>
                 
-                <!-- Links Table -->
                 <div class="bg-white/5 border border-white/10 rounded-lg overflow-x-auto">
                     <table class="w-full text-sm">
                         <thead class="bg-white/5 border-b border-white/10">
@@ -99,7 +97,7 @@
                                 <th class="py-3 px-3 text-left">Target URL</th>
                                 <th class="py-3 px-3 text-left">Created</th>
                                 <th class="py-3 px-3 text-left">Status</th>
-                                <th class="py-3 px-3 text-left">Uses</th>
+                                <th class="py-3 px-3 text-left">Clicks</th>
                                 <th class="py-3 px-3 text-left">Actions</th>
                             </tr>
                         </thead>
@@ -110,32 +108,27 @@
                 </div>
             </div>
             
-            <!-- Domains Tab -->
             <div id="domainsTab" class="tab-content hidden">
                 <div class="bg-white/5 border border-white/10 rounded-lg p-6">
                     <h2 class="text-lg font-medium mb-4">Allowed Domains Whitelist</h2>
-                    <p class="text-xs text-white/50 mb-4">Only URLs containing these domains can be generated. Changes take effect immediately.</p>
+                    <p class="text-xs text-white/50 mb-4">Only URLs containing these domains can be generated.</p>
                     
-                    <!-- Add Domain -->
                     <div class="flex gap-3 mb-6">
-                        <input type="text" id="newDomain" placeholder="e.g., roblox.com (no http://)" 
+                        <input type="text" id="newDomain" placeholder="e.g., roblox.com" 
                                class="flex-1 bg-black/50 border border-white/10 rounded px-4 py-2">
                         <button id="addDomainBtn" class="bg-green-900/60 hover:bg-green-800 px-4 py-2 rounded">Add Domain</button>
                     </div>
                     
-                    <!-- Domains List -->
                     <div class="space-y-2" id="domainsList">
                         <div class="text-white/30 text-center py-4">Loading domains...</div>
                     </div>
                 </div>
             </div>
             
-            <!-- Settings Tab -->
             <div id="settingsTab" class="tab-content hidden">
                 <div class="bg-white/5 border border-white/10 rounded-lg p-6 max-w-md">
                     <h2 class="text-lg font-medium mb-4">Admin Settings</h2>
                     
-                    <!-- Change Password -->
                     <div class="mb-6">
                         <label class="block text-sm text-white/70 mb-2">Change Admin Password</label>
                         <input type="password" id="newPassword" placeholder="New password" 
@@ -145,7 +138,6 @@
                         <button id="changePasswordBtn" class="bg-blue-900/60 hover:bg-blue-800 px-4 py-2 rounded text-sm">Update Password</button>
                     </div>
                     
-                    <!-- Danger Zone -->
                     <div class="border-t border-red-500/30 pt-4">
                         <h3 class="text-red-400 text-sm font-medium mb-2">Danger Zone</h3>
                         <button id="clearAllLinksBtn" class="bg-red-900/60 hover:bg-red-800 px-4 py-2 rounded text-sm border border-red-500/30">Clear All Links</button>
@@ -156,18 +148,14 @@
         </div>
     </div>
     
-    <!-- Edit Link Modal -->
     <div id="editModal" class="modal hidden">
         <div class="bg-zinc-900 border border-white/10 rounded-xl p-6 w-full max-w-lg">
             <h3 class="text-lg font-medium mb-4">Edit Link</h3>
             <input type="hidden" id="editCode">
-            
             <div class="mb-4">
                 <label class="block text-sm text-white/70 mb-1">Target URL</label>
                 <input type="text" id="editUrl" class="w-full bg-black/50 border border-white/10 rounded px-4 py-2">
-                <p class="text-xs text-white/40 mt-1">Must contain an allowed domain</p>
             </div>
-            
             <div class="mb-4">
                 <label class="block text-sm text-white/70 mb-1">Status</label>
                 <select id="editStatus" class="w-full bg-black/50 border border-white/10 rounded px-4 py-2">
@@ -175,10 +163,35 @@
                     <option value="inactive">Inactive</option>
                 </select>
             </div>
-            
             <div class="flex gap-3 justify-end">
                 <button id="cancelEditBtn" class="px-4 py-2 rounded border border-white/20 hover:bg-white/10">Cancel</button>
                 <button id="saveEditBtn" class="bg-blue-900/60 hover:bg-blue-800 px-4 py-2 rounded">Save Changes</button>
+            </div>
+        </div>
+    </div>
+    
+    <div id="geoModal" class="modal hidden">
+        <div class="bg-zinc-900 border border-white/10 rounded-xl p-6 w-full max-w-2xl max-h-[80vh] overflow-y-auto">
+            <div class="flex justify-between items-center mb-4">
+                <h3 class="text-lg font-medium">🌍 Click Geography - <span id="geoLinkCode"></span></h3>
+                <button id="closeGeoBtn" class="text-white/60 hover:text-white text-xl">&times;</button>
+            </div>
+            <div class="grid grid-cols-3 gap-3 mb-4">
+                <div class="bg-white/5 rounded-lg p-3 text-center">
+                    <div class="text-white/50 text-xs">Total Clicks</div>
+                    <div class="text-xl font-bold" id="geoTotalClicks">0</div>
+                </div>
+                <div class="bg-white/5 rounded-lg p-3 text-center">
+                    <div class="text-white/50 text-xs">Countries</div>
+                    <div class="text-xl font-bold" id="geoUniqueCountries">0</div>
+                </div>
+                <div class="bg-white/5 rounded-lg p-3 text-center">
+                    <div class="text-white/50 text-xs">Last Click</div>
+                    <div class="text-sm font-medium" id="geoLastClick">-</div>
+                </div>
+            </div>
+            <div class="space-y-2" id="geoClicksList">
+                <div class="text-white/30 text-center py-4">Loading clicks...</div>
             </div>
         </div>
     </div>
@@ -191,10 +204,7 @@
         let links = [];
         let domains = [];
         
-        // ==================== AUTH CHECK ====================
-        if (!token) {
-            window.location.replace('/admin');
-        }
+        if (!token) window.location.replace('/admin');
         
         async function verifyAuth() {
             try {
@@ -202,21 +212,12 @@
                     headers: { 'Authorization': `Bearer ${token}` }
                 });
                 const data = await res.json();
-                
-                if (!data.valid) {
-                    localStorage.removeItem('vb_admin_token');
-                    window.location.replace('/admin');
-                    return false;
-                }
-                
+                if (!data.valid) { localStorage.removeItem('vb_admin_token'); window.location.replace('/admin'); return false; }
                 document.getElementById('userInfo').textContent = `👤 ${data.user || 'Admin'}`;
                 return true;
-            } catch (e) {
-                return false;
-            }
+            } catch (e) { return false; }
         }
         
-        // ==================== TOAST ====================
         function showToast(text, isError = false) {
             const toast = document.getElementById('toast');
             toast.textContent = text;
@@ -225,35 +226,22 @@
             setTimeout(() => toast.classList.remove('show'), 2500);
         }
         
-        // ==================== LOAD LINKS ====================
         async function loadLinks() {
             try {
-                const res = await fetch(`${API_BASE}/links`, {
-                    headers: { 'Authorization': `Bearer ${token}` }
-                });
-                
-                if (res.status === 401) {
-                    localStorage.removeItem('vb_admin_token');
-                    window.location.replace('/admin');
-                    return;
-                }
-                
+                const res = await fetch(`${API_BASE}/links`, { headers: { 'Authorization': `Bearer ${token}` } });
+                if (res.status === 401) { localStorage.removeItem('vb_admin_token'); window.location.replace('/admin'); return; }
                 const data = await res.json();
                 links = data.links || [];
                 renderLinks();
                 updateStats();
-            } catch (e) {
-                showToast('Failed to load links', true);
-            }
+            } catch (e) { showToast('Failed to load links', true); }
         }
         
         function updateStats() {
             document.getElementById('totalLinks').textContent = links.length;
             document.getElementById('activeLinks').textContent = links.filter(l => l.status === 'active').length;
-            document.getElementById('totalUses').textContent = links.reduce((s, l) => s + (l.useCount || 0), 0);
-            document.getElementById('todayLinks').textContent = links.filter(l => 
-                new Date(l.createdAt).toDateString() === new Date().toDateString()
-            ).length;
+            document.getElementById('totalClicks').textContent = links.reduce((s, l) => s + (l.useCount || 0), 0);
+            document.getElementById('todayLinks').textContent = links.filter(l => new Date(l.createdAt).toDateString() === new Date().toDateString()).length;
         }
         
         function renderLinks() {
@@ -262,30 +250,24 @@
             const status = document.getElementById('filterStatus').value;
             
             let filtered = links.filter(l => {
-                const matchSearch = !search || 
-                    l.code?.toLowerCase().includes(search) || 
-                    l.targetUrl?.toLowerCase().includes(search);
+                const matchSearch = !search || l.code?.toLowerCase().includes(search) || l.targetUrl?.toLowerCase().includes(search);
                 const matchStatus = status === 'all' || l.status === status;
                 return matchSearch && matchStatus;
             });
             
-            if (!filtered.length) {
-                tbody.innerHTML = '<tr><td colspan="6" class="py-8 text-center text-white/30">No links found</td></tr>';
-                return;
-            }
+            if (!filtered.length) { tbody.innerHTML = '<tr><td colspan="6" class="py-8 text-center text-white/30">No links found</td></tr>'; return; }
             
             tbody.innerHTML = filtered.map(l => `
                 <tr class="border-b border-white/5 hover:bg-white/5">
                     <td class="py-3 px-3 font-mono text-blue-300 text-xs">${l.code || 'N/A'}</td>
                     <td class="py-3 px-3 text-white/70 text-xs max-w-xs truncate">${l.targetUrl || ''}</td>
                     <td class="py-3 px-3 text-white/50 text-xs">${l.createdAt ? new Date(l.createdAt).toLocaleDateString() : 'Unknown'}</td>
-                    <td class="py-3 px-3">
-                        <span class="inline-block px-2 py-0.5 rounded text-xs ${l.status === 'active' ? 'status-active' : 'status-inactive'}">${l.status || 'unknown'}</span>
-                    </td>
+                    <td class="py-3 px-3"><span class="inline-block px-2 py-0.5 rounded text-xs ${l.status === 'active' ? 'status-active' : 'status-inactive'}">${l.status || 'unknown'}</span></td>
                     <td class="py-3 px-3 text-white/50 text-xs">${l.useCount || 0}</td>
                     <td class="py-3 px-3">
                         <div class="flex gap-1">
                             <button onclick="copyLink('${l.code}')" class="p-1.5 hover:bg-white/10 rounded" title="Copy Link">📋</button>
+                            <button onclick="viewGeography('${l.code}')" class="p-1.5 hover:bg-white/10 rounded" title="View Geography">🌍</button>
                             <button onclick="editLink('${l.code}')" class="p-1.5 hover:bg-white/10 rounded" title="Edit">✏️</button>
                             <button onclick="toggleStatus('${l.code}')" class="p-1.5 hover:bg-white/10 rounded" title="${l.status === 'active' ? 'Deactivate' : 'Activate'}">${l.status === 'active' ? '⏸️' : '▶️'}</button>
                             <button onclick="deleteLink('${l.code}')" class="p-1.5 hover:bg-red-900/40 rounded text-red-400" title="Delete">🗑️</button>
@@ -295,321 +277,94 @@
             `).join('');
         }
         
-        // ==================== LINK ACTIONS ====================
-        window.copyLink = (code) => {
-            const link = `${window.location.origin}/?code=${code}`;
-            navigator.clipboard?.writeText(link).then(() => showToast('Link copied!'));
-        };
-        
-        window.editLink = (code) => {
-            const link = links.find(l => l.code === code);
-            if (!link) return;
-            document.getElementById('editCode').value = code;
-            document.getElementById('editUrl').value = link.targetUrl || '';
-            document.getElementById('editStatus').value = link.status || 'active';
-            document.getElementById('editModal').classList.remove('hidden');
-        };
+        window.copyLink = (code) => { navigator.clipboard?.writeText(`${location.origin}/?code=${code}`).then(() => showToast('Link copied!')); };
+        window.editLink = (code) => { const link = links.find(l => l.code === code); if (!link) return; document.getElementById('editCode').value = code; document.getElementById('editUrl').value = link.targetUrl || ''; document.getElementById('editStatus').value = link.status || 'active'; document.getElementById('editModal').classList.remove('hidden'); };
         
         window.toggleStatus = async (code) => {
-            const link = links.find(l => l.code === code);
-            if (!link) return;
+            const link = links.find(l => l.code === code); if (!link) return;
             const newStatus = link.status === 'active' ? 'inactive' : 'active';
-            
             try {
-                const res = await fetch(`${API_BASE}/links/${code}`, {
-                    method: 'PATCH',
-                    headers: { 
-                        'Authorization': `Bearer ${token}`, 
-                        'Content-Type': 'application/json' 
-                    },
-                    body: JSON.stringify({ status: newStatus })
-                });
-                
-                if (res.ok) {
-                    link.status = newStatus;
-                    renderLinks();
-                    updateStats();
-                    showToast(`Link ${newStatus}`);
-                } else if (res.status === 401) {
-                    localStorage.removeItem('vb_admin_token');
-                    window.location.replace('/admin');
-                } else {
-                    const err = await res.json();
-                    showToast(err.error || 'Failed to update', true);
-                }
-            } catch (e) {
-                showToast('Network error', true);
-            }
+                const res = await fetch(`${API_BASE}/links/${code}`, { method: 'PATCH', headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' }, body: JSON.stringify({ status: newStatus }) });
+                if (res.ok) { link.status = newStatus; renderLinks(); updateStats(); showToast(`Link ${newStatus}`); }
+                else if (res.status === 401) { localStorage.removeItem('vb_admin_token'); window.location.replace('/admin'); }
+            } catch (e) { showToast('Failed', true); }
         };
         
         window.deleteLink = async (code) => {
-            if (!confirm('Permanently delete this link? It will stop working immediately.')) return;
-            
+            if (!confirm('Permanently delete this link?')) return;
             try {
-                const res = await fetch(`${API_BASE}/links/${code}`, {
-                    method: 'DELETE',
-                    headers: { 'Authorization': `Bearer ${token}` }
-                });
-                
-                if (res.ok) {
-                    links = links.filter(l => l.code !== code);
-                    renderLinks();
-                    updateStats();
-                    showToast('Link deleted');
-                } else if (res.status === 401) {
-                    localStorage.removeItem('vb_admin_token');
-                    window.location.replace('/admin');
-                } else {
-                    showToast('Failed to delete', true);
-                }
-            } catch (e) {
-                showToast('Network error', true);
+                const res = await fetch(`${API_BASE}/links/${code}`, { method: 'DELETE', headers: { 'Authorization': `Bearer ${token}` } });
+                if (res.ok) { links = links.filter(l => l.code !== code); renderLinks(); updateStats(); showToast('Link deleted'); }
+            } catch (e) { showToast('Failed', true); }
+        };
+        
+        const geoModal = document.getElementById('geoModal');
+        const closeGeoBtn = document.getElementById('closeGeoBtn');
+        const geoLinkCode = document.getElementById('geoLinkCode');
+        const geoTotalClicks = document.getElementById('geoTotalClicks');
+        const geoUniqueCountries = document.getElementById('geoUniqueCountries');
+        const geoLastClick = document.getElementById('geoLastClick');
+        const geoClicksList = document.getElementById('geoClicksList');
+        
+        window.viewGeography = (code) => {
+            const link = links.find(l => l.code === code); if (!link) return;
+            geoLinkCode.textContent = code;
+            geoModal.classList.remove('hidden');
+            const clicks = link.clicks || [];
+            geoTotalClicks.textContent = clicks.length;
+            const uniqueCountries = [...new Set(clicks.map(c => c.country))].filter(c => c !== 'Unknown' && c !== 'Local');
+            geoUniqueCountries.textContent = uniqueCountries.length;
+            if (clicks.length > 0) { geoLastClick.textContent = new Date(clicks[clicks.length - 1].timestamp).toLocaleString(); }
+            else { geoLastClick.textContent = 'No clicks yet'; }
+            if (clicks.length === 0) { geoClicksList.innerHTML = '<div class="text-white/30 text-center py-4">No clicks recorded yet</div>'; }
+            else {
+                geoClicksList.innerHTML = [...clicks].reverse().map(click => `
+                    <div class="bg-white/5 rounded-lg p-3 flex items-center justify-between">
+                        <div class="flex items-center gap-3">
+                            <span class="text-2xl">${click.flag || '🌐'}</span>
+                            <div><div class="font-medium">${click.city || 'Unknown'}, ${click.country || 'Unknown'}</div><div class="text-white/40 text-xs">${new Date(click.timestamp).toLocaleString()}</div></div>
+                        </div>
+                        <div class="text-white/30 text-xs font-mono">${click.ip || 'N/A'}</div>
+                    </div>
+                `).join('');
             }
         };
         
-        // ==================== LOAD DOMAINS ====================
+        closeGeoBtn.addEventListener('click', () => geoModal.classList.add('hidden'));
+        geoModal.addEventListener('click', (e) => { if (e.target === geoModal) geoModal.classList.add('hidden'); });
+        
         async function loadDomains() {
-            try {
-                const res = await fetch(`${API_BASE}/domains`);
-                const data = await res.json();
-                domains = data.domains || ['roblox.com', 'www.roblox.com', 'auth.roblox.com'];
-                renderDomains();
-            } catch (e) {
-                domains = ['roblox.com', 'www.roblox.com', 'auth.roblox.com'];
-                renderDomains();
-            }
+            try { const res = await fetch(`${API_BASE}/domains`); const data = await res.json(); domains = data.domains || ['roblox.com', 'www.roblox.com', 'auth.roblox.com']; renderDomains(); }
+            catch (e) { domains = ['roblox.com', 'www.roblox.com', 'auth.roblox.com']; renderDomains(); }
         }
         
         function renderDomains() {
             const container = document.getElementById('domainsList');
-            if (!domains.length) {
-                container.innerHTML = '<div class="text-white/30 text-center py-4">No domains added</div>';
-                return;
-            }
-            
-            container.innerHTML = domains.map(d => `
-                <div class="flex items-center justify-between bg-white/5 rounded px-4 py-2">
-                    <span class="font-mono text-sm">✅ ${d}</span>
-                    <button onclick="removeDomain('${d}')" class="text-red-400 hover:text-red-300 p-1">🗑️</button>
-                </div>
-            `).join('');
+            if (!domains.length) { container.innerHTML = '<div class="text-white/30 text-center py-4">No domains added</div>'; return; }
+            container.innerHTML = domains.map(d => `<div class="flex items-center justify-between bg-white/5 rounded px-4 py-2"><span class="font-mono text-sm">✅ ${d}</span><button onclick="removeDomain('${d}')" class="text-red-400 hover:text-red-300 p-1">🗑️</button></div>`).join('');
         }
         
         window.removeDomain = async (domain) => {
-            if (!confirm(`Remove "${domain}" from allowed domains?`)) return;
-            
+            if (!confirm(`Remove "${domain}"?`)) return;
             try {
-                const res = await fetch(`${API_BASE}/domains`, {
-                    method: 'DELETE',
-                    headers: { 
-                        'Authorization': `Bearer ${token}`, 
-                        'Content-Type': 'application/json' 
-                    },
-                    body: JSON.stringify({ domain })
-                });
-                
-                if (res.ok) {
-                    const data = await res.json();
-                    domains = data.domains;
-                    renderDomains();
-                    showToast('Domain removed');
-                } else if (res.status === 401) {
-                    localStorage.removeItem('vb_admin_token');
-                    window.location.replace('/admin');
-                }
-            } catch (e) {
-                showToast('Failed to remove', true);
-            }
+                const res = await fetch(`${API_BASE}/domains`, { method: 'DELETE', headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' }, body: JSON.stringify({ domain }) });
+                if (res.ok) { const data = await res.json(); domains = data.domains; renderDomains(); showToast('Domain removed'); }
+            } catch (e) { showToast('Failed', true); }
         };
         
-        // ==================== EVENT LISTENERS ====================
-        document.querySelectorAll('.tab-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                document.querySelectorAll('.tab-btn').forEach(b => { 
-                    b.classList.remove('tab-active'); 
-                    b.classList.add('text-white/50'); 
-                });
-                btn.classList.add('tab-active');
-                btn.classList.remove('text-white/50');
-                
-                document.querySelectorAll('.tab-content').forEach(c => c.classList.add('hidden'));
-                document.getElementById(`${btn.dataset.tab}Tab`).classList.remove('hidden');
-            });
-        });
-        
-        document.getElementById('quickGenerateBtn').addEventListener('click', async () => {
-            const url = document.getElementById('quickUrl').value.trim();
-            if (!url) return;
-            
-            try {
-                const res = await fetch(`${API_BASE}/links`, {
-                    method: 'POST',
-                    headers: { 
-                        'Authorization': `Bearer ${token}`, 
-                        'Content-Type': 'application/json' 
-                    },
-                    body: JSON.stringify({ targetUrl: url, createdBy: 'admin' })
-                });
-                const data = await res.json();
-                if (data.success) { 
-                    await loadLinks(); 
-                    showToast('Link generated!'); 
-                    document.getElementById('quickUrl').value = ''; 
-                } else {
-                    showToast(data.error || 'Failed', true);
-                }
-            } catch (e) { 
-                showToast('Failed', true); 
-            }
-        });
-        
+        document.querySelectorAll('.tab-btn').forEach(btn => { btn.addEventListener('click', () => { document.querySelectorAll('.tab-btn').forEach(b => { b.classList.remove('tab-active'); b.classList.add('text-white/50'); }); btn.classList.add('tab-active'); btn.classList.remove('text-white/50'); document.querySelectorAll('.tab-content').forEach(c => c.classList.add('hidden')); document.getElementById(`${btn.dataset.tab}Tab`).classList.remove('hidden'); }); });
+        document.getElementById('quickGenerateBtn').addEventListener('click', async () => { const url = document.getElementById('quickUrl').value.trim(); if (!url) return; try { const res = await fetch(`${API_BASE}/links`, { method: 'POST', headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' }, body: JSON.stringify({ targetUrl: url, createdBy: 'admin' }) }); const data = await res.json(); if (data.success) { await loadLinks(); showToast('Link generated!'); document.getElementById('quickUrl').value = ''; } else showToast(data.error || 'Failed', true); } catch (e) { showToast('Failed', true); } });
         document.getElementById('searchLinks').addEventListener('input', renderLinks);
         document.getElementById('filterStatus').addEventListener('change', renderLinks);
+        document.getElementById('addDomainBtn').addEventListener('click', async () => { const domain = document.getElementById('newDomain').value.trim().toLowerCase().replace(/^https?:\/\//, '').replace(/^www\./, '').split('/')[0]; if (!domain) return; try { const res = await fetch(`${API_BASE}/domains`, { method: 'POST', headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' }, body: JSON.stringify({ domain }) }); if (res.ok) { const data = await res.json(); domains = data.domains; renderDomains(); document.getElementById('newDomain').value = ''; showToast('Domain added'); } } catch (e) { showToast('Failed', true); } });
+        document.getElementById('cancelEditBtn').addEventListener('click', () => document.getElementById('editModal').classList.add('hidden'));
+        document.getElementById('saveEditBtn').addEventListener('click', async () => { const code = document.getElementById('editCode').value; const targetUrl = document.getElementById('editUrl').value; const status = document.getElementById('editStatus').value; try { const res = await fetch(`${API_BASE}/links/${code}`, { method: 'PATCH', headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' }, body: JSON.stringify({ targetUrl, status }) }); if (res.ok) { const link = links.find(l => l.code === code); if (link) { link.targetUrl = targetUrl; link.status = status; } renderLinks(); updateStats(); document.getElementById('editModal').classList.add('hidden'); showToast('Link updated'); } } catch (e) { showToast('Failed', true); } });
+        document.getElementById('changePasswordBtn').addEventListener('click', async () => { const p1 = document.getElementById('newPassword').value; const p2 = document.getElementById('confirmPassword').value; if (p1 !== p2) { showToast('Passwords mismatch', true); return; } if (p1.length < 4) { showToast('Password too short', true); return; } try { const res = await fetch(`${API_BASE}/auth/password`, { method: 'PUT', headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' }, body: JSON.stringify({ password: p1 }) }); if (res.ok) { showToast('Password updated'); document.getElementById('newPassword').value = document.getElementById('confirmPassword').value = ''; } } catch (e) { showToast('Failed', true); } });
+        document.getElementById('clearAllLinksBtn').addEventListener('click', async () => { if (!confirm('DELETE ALL LINKS? This cannot be undone!')) return; try { for (const link of [...links]) { await fetch(`${API_BASE}/links/${link.code}`, { method: 'DELETE', headers: { 'Authorization': `Bearer ${token}` } }); } links = []; renderLinks(); updateStats(); showToast('All links deleted'); } catch (e) { showToast('Failed', true); } });
+        document.getElementById('logoutBtn').addEventListener('click', () => { sessionStorage.setItem('just_logged_out', 'true'); localStorage.removeItem('vb_admin_token'); localStorage.removeItem('vb_admin_user'); window.location.replace('/admin'); });
+        document.getElementById('editModal').addEventListener('click', (e) => { if (e.target.id === 'editModal') document.getElementById('editModal').classList.add('hidden'); });
         
-        document.getElementById('addDomainBtn').addEventListener('click', async () => {
-            const domain = document.getElementById('newDomain').value.trim().toLowerCase()
-                .replace(/^https?:\/\//, '')
-                .replace(/^www\./, '')
-                .split('/')[0];
-                
-            if (!domain) return;
-            
-            try {
-                const res = await fetch(`${API_BASE}/domains`, {
-                    method: 'POST',
-                    headers: { 
-                        'Authorization': `Bearer ${token}`, 
-                        'Content-Type': 'application/json' 
-                    },
-                    body: JSON.stringify({ domain })
-                });
-                
-                if (res.ok) {
-                    const data = await res.json();
-                    domains = data.domains;
-                    renderDomains();
-                    document.getElementById('newDomain').value = '';
-                    showToast('Domain added');
-                } else if (res.status === 401) {
-                    localStorage.removeItem('vb_admin_token');
-                    window.location.replace('/admin');
-                }
-            } catch (e) { 
-                showToast('Failed', true); 
-            }
-        });
-        
-        document.getElementById('cancelEditBtn').addEventListener('click', () => {
-            document.getElementById('editModal').classList.add('hidden');
-        });
-        
-        document.getElementById('saveEditBtn').addEventListener('click', async () => {
-            const code = document.getElementById('editCode').value;
-            const targetUrl = document.getElementById('editUrl').value;
-            const status = document.getElementById('editStatus').value;
-            
-            try {
-                const res = await fetch(`${API_BASE}/links/${code}`, {
-                    method: 'PATCH',
-                    headers: { 
-                        'Authorization': `Bearer ${token}`, 
-                        'Content-Type': 'application/json' 
-                    },
-                    body: JSON.stringify({ targetUrl, status })
-                });
-                
-                if (res.ok) {
-                    const link = links.find(l => l.code === code);
-                    if (link) { 
-                        link.targetUrl = targetUrl; 
-                        link.status = status; 
-                    }
-                    renderLinks();
-                    updateStats();
-                    document.getElementById('editModal').classList.add('hidden');
-                    showToast('Link updated');
-                } else {
-                    const err = await res.json();
-                    showToast(err.error || 'Failed to update', true);
-                }
-            } catch (e) { 
-                showToast('Network error', true); 
-            }
-        });
-        
-        document.getElementById('changePasswordBtn').addEventListener('click', async () => {
-            const p1 = document.getElementById('newPassword').value;
-            const p2 = document.getElementById('confirmPassword').value;
-            
-            if (p1 !== p2) { 
-                showToast('Passwords do not match', true); 
-                return; 
-            }
-            
-            if (p1.length < 4) {
-                showToast('Password too short', true);
-                return;
-            }
-            
-            try {
-                const res = await fetch(`${API_BASE}/auth/password`, {
-                    method: 'PUT',
-                    headers: { 
-                        'Authorization': `Bearer ${token}`, 
-                        'Content-Type': 'application/json' 
-                    },
-                    body: JSON.stringify({ password: p1 })
-                });
-                
-                if (res.ok) {
-                    showToast('Password updated');
-                    document.getElementById('newPassword').value = '';
-                    document.getElementById('confirmPassword').value = '';
-                }
-            } catch (e) { 
-                showToast('Failed', true); 
-            }
-        });
-        
-        document.getElementById('clearAllLinksBtn').addEventListener('click', async () => {
-            if (!confirm('DELETE ALL LINKS? This cannot be undone!')) return;
-            
-            try {
-                for (const link of [...links]) {
-                    await fetch(`${API_BASE}/links/${link.code}`, {
-                        method: 'DELETE',
-                        headers: { 'Authorization': `Bearer ${token}` }
-                    });
-                }
-                links = [];
-                renderLinks();
-                updateStats();
-                showToast('All links deleted');
-            } catch (e) {
-                showToast('Failed to delete all', true);
-            }
-        });
-        
-        document.getElementById('logoutBtn').addEventListener('click', () => {
-            sessionStorage.setItem('just_logged_out', 'true');
-            localStorage.removeItem('vb_admin_token');
-            localStorage.removeItem('vb_admin_user');
-            window.location.replace('/admin');
-        });
-        
-        document.getElementById('editModal').addEventListener('click', (e) => {
-            if (e.target.id === 'editModal') {
-                document.getElementById('editModal').classList.add('hidden');
-            }
-        });
-        
-        // ==================== INITIALIZE ====================
-        (async function init() {
-            const isAuth = await verifyAuth();
-            if (!isAuth) return;
-            
-            await Promise.all([loadLinks(), loadDomains()]);
-        })();
+        (async function init() { const isAuth = await verifyAuth(); if (!isAuth) return; await Promise.all([loadLinks(), loadDomains()]); })();
     </script>
 </body>
 </html>
