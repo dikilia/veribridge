@@ -1,33 +1,52 @@
-import fs from 'fs';
-import path from 'path';
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+const GITHUB_REPO = process.env.GITHUB_REPO || 'dikilia/veribridge';
+const DOMAINS_PATH = 'storage/domains.json';
 
-const STORAGE_DIR = path.join(process.cwd(), 'storage');
-const DATA_FILE = path.join(STORAGE_DIR, 'domains.json');
-
-function initializeStorage() {
-    if (!fs.existsSync(STORAGE_DIR)) {
-        fs.mkdirSync(STORAGE_DIR, { recursive: true });
-    }
-    if (!fs.existsSync(DATA_FILE)) {
-        const initialDomains = ['roblox.com', 'www.roblox.com', 'auth.roblox.com'];
-        fs.writeFileSync(DATA_FILE, JSON.stringify(initialDomains, null, 2));
-    }
-}
-
-function readDomains() {
+async function readFromGitHub(path) {
     try {
-        initializeStorage();
-        return JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
+        const response = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${path}`, {
+            headers: {
+                'Authorization': `Bearer ${GITHUB_TOKEN}`,
+                'Accept': 'application/vnd.github.v3+json'
+            }
+        });
+        if (!response.ok) {
+            if (response.status === 404) return null;
+            throw new Error(`GitHub API error: ${response.status}`);
+        }
+        const data = await response.json();
+        const content = Buffer.from(data.content, 'base64').toString('utf8');
+        return { content: JSON.parse(content), sha: data.sha };
     } catch (error) {
-        return ['roblox.com', 'www.roblox.com', 'auth.roblox.com'];
+        console.error('[GitHub Read] Error:', error);
+        return null;
     }
 }
 
-function writeDomains(domains) {
+async function writeToGitHub(path, content, sha = null) {
     try {
-        fs.writeFileSync(DATA_FILE, JSON.stringify(domains, null, 2));
+        const body = {
+            message: `Update ${path}`,
+            content: Buffer.from(JSON.stringify(content, null, 2)).toString('base64')
+        };
+        if (sha) body.sha = sha;
+        
+        const response = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${path}`, {
+            method: 'PUT',
+            headers: {
+                'Authorization': `Bearer ${GITHUB_TOKEN}`,
+                'Accept': 'application/vnd.github.v3+json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(body)
+        });
+        if (!response.ok) {
+            const error = await response.json();
+            throw new Error(`GitHub API error: ${error.message}`);
+        }
         return true;
     } catch (error) {
+        console.error('[GitHub Write] Error:', error);
         return false;
     }
 }
@@ -36,14 +55,20 @@ export default async function handler(req, res) {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, DELETE, OPTIONS');
     res.setHeader('Access-Control-Allow-Headers', 'Authorization, Content-Type');
-    
     if (req.method === 'OPTIONS') return res.status(200).end();
+    
+    if (!GITHUB_TOKEN) {
+        console.error('[Domains API] GITHUB_TOKEN not configured');
+        return res.status(500).json({ error: 'Storage not configured' });
+    }
     
     const auth = req.headers.authorization?.replace('Bearer ', '');
     const ADMIN_TOKEN = process.env.ADMIN_TOKEN || 'admin_session_token';
     const isAdmin = auth === ADMIN_TOKEN;
     
-    let domains = readDomains();
+    let domainsData = await readFromGitHub(DOMAINS_PATH);
+    let domains = domainsData ? domainsData.content : ['roblox.com', 'www.roblox.com', 'auth.roblox.com'];
+    let sha = domainsData ? domainsData.sha : null;
     
     if (req.method === 'GET') {
         return res.json({ domains });
@@ -57,7 +82,7 @@ export default async function handler(req, res) {
         const { domain } = req.body;
         if (domain && !domains.includes(domain)) {
             domains.push(domain);
-            writeDomains(domains);
+            await writeToGitHub(DOMAINS_PATH, domains, sha);
         }
         return res.json({ success: true, domains });
     }
@@ -65,7 +90,7 @@ export default async function handler(req, res) {
     if (req.method === 'DELETE') {
         const { domain } = req.body;
         domains = domains.filter(d => d !== domain);
-        writeDomains(domains);
+        await writeToGitHub(DOMAINS_PATH, domains, sha);
         return res.json({ success: true, domains });
     }
     
