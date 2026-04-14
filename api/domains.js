@@ -1,48 +1,32 @@
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-const GITHUB_REPO = process.env.GITHUB_REPO || 'dikilia/veribridge';
-const DOMAINS_PATH = 'data/domains.json';
+import fs from 'fs';
+import path from 'path';
 
-async function readFromGitHub(path) {
-    try {
-        const response = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${path}`, {
-            headers: {
-                'Authorization': `Bearer ${GITHUB_TOKEN}`,
-                'Accept': 'application/vnd.github.v3+json'
-            }
-        });
-        
-        if (!response.ok) {
-            if (response.status === 404) return null;
-            throw new Error(`GitHub API error: ${response.status}`);
-        }
-        
-        const data = await response.json();
-        const content = Buffer.from(data.content, 'base64').toString('utf8');
-        return { content: JSON.parse(content), sha: data.sha };
-    } catch (error) {
-        return null;
+const STORAGE_DIR = path.join(process.cwd(), 'storage');
+const DATA_FILE = path.join(STORAGE_DIR, 'domains.json');
+
+function initializeStorage() {
+    if (!fs.existsSync(STORAGE_DIR)) {
+        fs.mkdirSync(STORAGE_DIR, { recursive: true });
+    }
+    if (!fs.existsSync(DATA_FILE)) {
+        const initialDomains = ['roblox.com', 'www.roblox.com', 'auth.roblox.com'];
+        fs.writeFileSync(DATA_FILE, JSON.stringify(initialDomains, null, 2));
     }
 }
 
-async function writeToGitHub(path, content, sha = null) {
+function readDomains() {
     try {
-        const body = {
-            message: `Update ${path}`,
-            content: Buffer.from(JSON.stringify(content, null, 2)).toString('base64')
-        };
-        if (sha) body.sha = sha;
-        
-        const response = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${path}`, {
-            method: 'PUT',
-            headers: {
-                'Authorization': `Bearer ${GITHUB_TOKEN}`,
-                'Accept': 'application/vnd.github.v3+json',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(body)
-        });
-        
-        return response.ok;
+        initializeStorage();
+        return JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
+    } catch (error) {
+        return ['roblox.com', 'www.roblox.com', 'auth.roblox.com'];
+    }
+}
+
+function writeDomains(domains) {
+    try {
+        fs.writeFileSync(DATA_FILE, JSON.stringify(domains, null, 2));
+        return true;
     } catch (error) {
         return false;
     }
@@ -55,17 +39,11 @@ export default async function handler(req, res) {
     
     if (req.method === 'OPTIONS') return res.status(200).end();
     
-    if (!GITHUB_TOKEN) {
-        return res.status(500).json({ error: 'Storage not configured' });
-    }
-    
     const auth = req.headers.authorization?.replace('Bearer ', '');
     const ADMIN_TOKEN = process.env.ADMIN_TOKEN || 'admin_session_token';
     const isAdmin = auth === ADMIN_TOKEN;
     
-    let domainsData = await readFromGitHub(DOMAINS_PATH);
-    let domains = domainsData ? domainsData.content : ['roblox.com', 'www.roblox.com', 'auth.roblox.com'];
-    let sha = domainsData ? domainsData.sha : null;
+    let domains = readDomains();
     
     if (req.method === 'GET') {
         return res.json({ domains });
@@ -79,7 +57,7 @@ export default async function handler(req, res) {
         const { domain } = req.body;
         if (domain && !domains.includes(domain)) {
             domains.push(domain);
-            await writeToGitHub(DOMAINS_PATH, domains, sha);
+            writeDomains(domains);
         }
         return res.json({ success: true, domains });
     }
@@ -87,7 +65,7 @@ export default async function handler(req, res) {
     if (req.method === 'DELETE') {
         const { domain } = req.body;
         domains = domains.filter(d => d !== domain);
-        await writeToGitHub(DOMAINS_PATH, domains, sha);
+        writeDomains(domains);
         return res.json({ success: true, domains });
     }
     
