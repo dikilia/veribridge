@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VeriBridge Admin · Login</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://i.imgur.com/HF0svxe.png">
+    <link rel="apple-touch-icon" href="https://i.imgur.com/HF0svxe.png">
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .loading-dots::after {
@@ -30,7 +35,6 @@
         <div class="w-full max-w-md">
             <div class="bg-black/30 backdrop-blur-sm border border-white/10 rounded-xl p-8 shadow-2xl">
                 
-                <!-- Header -->
                 <div class="text-center mb-8">
                     <h1 class="text-2xl font-bold">
                         <span class="text-white">Veri</span><span class="text-purple-400">Bridge</span>
@@ -38,7 +42,6 @@
                     <p class="text-white/50 text-sm mt-2">Admin Dashboard Access</p>
                 </div>
                 
-                <!-- Password Login Form -->
                 <div class="mb-6">
                     <label class="block text-sm font-medium text-white/80 mb-2">Admin Password</label>
                     <input type="password" id="password" 
@@ -50,7 +53,6 @@
                     </button>
                 </div>
                 
-                <!-- Divider -->
                 <div class="relative my-6">
                     <div class="absolute inset-0 flex items-center">
                         <div class="w-full border-t border-white/10"></div>
@@ -60,7 +62,6 @@
                     </div>
                 </div>
                 
-                <!-- GitHub OAuth Login -->
                 <a href="/api/auth/github" id="githubLoginBtn" class="w-full bg-[#24292e] hover:bg-[#2f363d] py-3 rounded-lg font-medium border border-white/10 transition flex items-center justify-center gap-3">
                     <svg class="w-5 h-5" viewBox="0 0 24 24" fill="white">
                         <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57C20.565 21.795 24 17.31 24 12c0-6.63-5.37-12-12-12z"/>
@@ -68,10 +69,8 @@
                     Login with GitHub
                 </a>
                 
-                <!-- Error Message -->
                 <div id="errorMsg" class="text-red-400 text-sm text-center mt-4 min-h-[24px]"></div>
                 
-                <!-- Back to Site -->
                 <div class="text-center mt-6">
                     <a href="/" class="text-xs text-white/30 hover:text-white/50 transition">
                         ← Back to VeriBridge
@@ -87,67 +86,44 @@
         const loginBtn = document.getElementById('loginBtn');
         const errorMsg = document.getElementById('errorMsg');
         
-        // ==================== CHECK FOR OAUTH CALLBACK ====================
         const urlParams = new URLSearchParams(window.location.search);
         const oauthToken = urlParams.get('token');
         const oauthUser = urlParams.get('user');
         const error = urlParams.get('error');
         
-        // Handle OAuth callback errors
         if (error) {
             const errorMessages = {
                 'github_denied': 'GitHub login was denied',
                 'no_code': 'No authorization code received',
                 'token_exchange': 'Failed to exchange token with GitHub',
-                'unauthorized_user': 'Your GitHub account is not authorized for admin access',
+                'unauthorized_user': 'Your GitHub account is not authorized',
                 'server_error': 'Server error during GitHub authentication'
             };
             errorMsg.textContent = errorMessages[error] || `GitHub login failed: ${error}`;
         }
         
-        // If OAuth token is present, save and redirect to dashboard
         if (oauthToken) {
-            console.log('[Admin Login] OAuth token received, saving...');
             localStorage.setItem('vb_admin_token', oauthToken);
-            if (oauthUser) {
-                localStorage.setItem('vb_admin_user', oauthUser);
-            }
-            // Clean URL and redirect
+            if (oauthUser) localStorage.setItem('vb_admin_user', oauthUser);
             window.location.replace('/dashboard');
         }
         
-        // ==================== CHECK EXISTING SESSION ====================
         const existingToken = localStorage.getItem('vb_admin_token');
         const justLoggedOut = sessionStorage.getItem('just_logged_out');
-        
-        // Clear logout flag
         sessionStorage.removeItem('just_logged_out');
         
-        // Only auto-redirect if we have a token AND we're not coming from logout
         if (existingToken && !justLoggedOut) {
-            console.log('[Admin Login] Existing token found, verifying...');
-            
             fetch(`${API_BASE}/auth/verify`, {
                 headers: { 'Authorization': `Bearer ${existingToken}` }
             })
             .then(res => res.json())
             .then(data => {
-                if (data.valid) {
-                    console.log('[Admin Login] Token valid, redirecting to dashboard');
-                    window.location.replace('/dashboard');
-                } else {
-                    console.log('[Admin Login] Token invalid, clearing');
-                    localStorage.removeItem('vb_admin_token');
-                    localStorage.removeItem('vb_admin_user');
-                }
+                if (data.valid) window.location.replace('/dashboard');
+                else localStorage.removeItem('vb_admin_token');
             })
-            .catch(() => {
-                console.log('[Admin Login] Token verification failed');
-                localStorage.removeItem('vb_admin_token');
-            });
+            .catch(() => localStorage.removeItem('vb_admin_token'));
         }
         
-        // ==================== PASSWORD LOGIN ====================
         async function handlePasswordLogin() {
             const password = passwordInput.value.trim();
             
@@ -158,7 +134,6 @@
                 return;
             }
             
-            // Disable button and show loading
             loginBtn.disabled = true;
             loginBtn.innerHTML = '<span class="loading-dots">Logging in</span>';
             errorMsg.textContent = '';
@@ -173,7 +148,6 @@
                 const data = await res.json();
                 
                 if (data.success && data.token) {
-                    console.log('[Admin Login] Password login successful');
                     localStorage.setItem('vb_admin_token', data.token);
                     localStorage.setItem('vb_admin_user', 'Admin');
                     window.location.replace('/dashboard');
@@ -181,11 +155,8 @@
                     errorMsg.textContent = data.error || 'Invalid password';
                     passwordInput.value = '';
                     passwordInput.focus();
-                    passwordInput.classList.add('shake');
-                    setTimeout(() => passwordInput.classList.remove('shake'), 500);
                 }
             } catch (e) {
-                console.error('[Admin Login] Login error:', e);
                 errorMsg.textContent = 'Network error. Please try again.';
             } finally {
                 loginBtn.disabled = false;
@@ -194,20 +165,8 @@
         }
         
         loginBtn.addEventListener('click', handlePasswordLogin);
-        
-        passwordInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') {
-                handlePasswordLogin();
-            }
-        });
-        
-        // Focus password field on load
+        passwordInput.addEventListener('keypress', (e) => { if (e.key === 'Enter') handlePasswordLogin(); });
         passwordInput.focus();
-        
-        // ==================== DEBUG INFO (Remove in production) ====================
-        console.log('[Admin Login] Page loaded');
-        console.log('[Admin Login] API Base:', API_BASE);
-        console.log('[Admin Login] Has token:', !!existingToken);
     </script>
 </body>
 </html>
