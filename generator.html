@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>VeriBridge · Link Generator</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://i.imgur.com/HF0svxe.png">
+    <link rel="apple-touch-icon" href="https://i.imgur.com/HF0svxe.png">
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @keyframes shine {
@@ -56,7 +61,6 @@
     <div class="flex min-h-screen items-center justify-center p-4">
         <div class="w-full max-w-3xl">
             
-            <!-- Admin Link -->
             <div class="text-right mb-4">
                 <a href="/admin" class="text-xs text-white/40 hover:text-white/60 transition">
                     🔐 Admin Access
@@ -65,7 +69,6 @@
             
             <div class="bg-black/30 backdrop-blur-sm border border-white/10 rounded-xl p-8 shadow-2xl">
                 
-                <!-- Header -->
                 <div class="flex items-center justify-center gap-2 mb-4">
                     <div class="text-3xl font-bold">
                         <span class="text-white">Veri</span><span class="veri-gradient">Bridge</span>
@@ -76,14 +79,12 @@
                     Generate verification links that never expire
                 </p>
                 
-                <!-- Allowed Domains Display -->
                 <div class="text-center mb-6">
                     <div class="inline-flex flex-wrap justify-center gap-2" id="allowedDomainsTags">
                         <span class="text-xs text-white/30">Loading allowed domains...</span>
                     </div>
                 </div>
                 
-                <!-- Target URL Input -->
                 <div class="mb-6">
                     <label class="block text-sm font-medium text-white/80 mb-2">
                         Target Roblox URL
@@ -95,13 +96,11 @@
                     <div id="urlError" class="text-red-400 text-xs mt-2 min-h-[20px]"></div>
                 </div>
                 
-                <!-- Generate Button -->
                 <button id="generateBtn" 
                         class="w-full bg-gradient-to-r from-blue-900 to-indigo-900 hover:from-blue-800 hover:to-indigo-800 py-3 rounded-lg font-medium border border-blue-400/30 transition disabled:opacity-50 disabled:cursor-not-allowed">
                     ✨ Generate Verification Link
                 </button>
                 
-                <!-- Result Section -->
                 <div id="resultSection" class="hidden mt-6 p-4 bg-green-900/20 border border-green-500/30 rounded-lg">
                     <div class="text-sm text-green-300 mb-2">✅ Link Generated Successfully</div>
                     <div class="flex flex-col sm:flex-row gap-2">
@@ -120,7 +119,6 @@
                     </p>
                 </div>
                 
-                <!-- Info -->
                 <div class="mt-6 pt-4 border-t border-white/10 text-xs text-white/40 text-center">
                     Only URLs containing allowed domains can be generated
                 </div>
@@ -132,8 +130,6 @@
     
     <script>
         const API_BASE = '/api';
-        
-        // HARDCODED DOMAIN - Change this to your actual domain
         const SITE_URL = 'https://veribridge-dashboard.vercel.app';
         
         const targetUrl = document.getElementById('targetUrl');
@@ -147,10 +143,8 @@
         const allowedDomainsTags = document.getElementById('allowedDomainsTags');
         
         let allowedDomains = [];
-        let lastGeneratedCode = '';
         let lastGeneratedUrl = '';
         
-        // Show toast
         function showToast(text, isError = false) {
             toast.textContent = text;
             toast.style.background = isError ? '#991b1b' : '#1e3a8a';
@@ -158,7 +152,6 @@
             setTimeout(() => toast.classList.remove('show'), 3000);
         }
         
-        // Load allowed domains from API
         async function loadAllowedDomains() {
             try {
                 const response = await fetch(`${API_BASE}/domains`);
@@ -166,20 +159,17 @@
                 allowedDomains = data.domains || ['roblox.com', 'www.roblox.com', 'auth.roblox.com'];
                 displayAllowedDomains();
             } catch (e) {
-                console.error('Failed to load domains:', e);
                 allowedDomains = ['roblox.com', 'www.roblox.com', 'auth.roblox.com'];
                 displayAllowedDomains();
             }
         }
         
-        // Display allowed domains as tags
         function displayAllowedDomains() {
             allowedDomainsTags.innerHTML = allowedDomains.map(d => 
                 `<span class="px-3 py-1 bg-green-900/30 text-green-300 text-xs rounded-full border border-green-500/30">✅ ${d}</span>`
             ).join('');
         }
         
-        // Validate URL against allowed domains
         function validateUrl(url) {
             if (!url || url.trim() === '') {
                 return { valid: false, error: 'URL is required' };
@@ -194,24 +184,18 @@
             const matchedDomain = allowedDomains.find(domain => urlLower.includes(domain.toLowerCase()));
             
             if (!matchedDomain) {
-                return { 
-                    valid: false, 
-                    error: `❌ Domain not allowed. Allowed: ${allowedDomains.join(', ')}` 
-                };
+                return { valid: false, error: `Domain not allowed. Allowed: ${allowedDomains.join(', ')}` };
             }
             
-            return { valid: true, error: '', matchedDomain };
+            return { valid: true, matchedDomain };
         }
         
-        // Update validation on input
-        function updateValidation() {
-            const url = targetUrl.value.trim();
-            const result = validateUrl(url);
-            
+        targetUrl.addEventListener('input', () => {
+            const result = validateUrl(targetUrl.value);
             if (!result.valid) {
                 urlError.textContent = result.error;
-                urlError.classList.remove('text-green-400');
                 urlError.classList.add('text-red-400');
+                urlError.classList.remove('text-green-400');
                 generateBtn.disabled = true;
             } else {
                 urlError.textContent = `✅ Valid domain: ${result.matchedDomain}`;
@@ -219,28 +203,17 @@
                 urlError.classList.add('text-green-400');
                 generateBtn.disabled = false;
             }
-            
-            return result;
-        }
+        });
         
-        targetUrl.addEventListener('input', updateValidation);
-        
-        // Generate link - FIXED URL
         async function generateLink() {
             const url = targetUrl.value.trim();
             const validation = validateUrl(url);
             
             if (!validation.valid) {
                 urlError.textContent = validation.error;
-                urlError.classList.add('shake');
-                setTimeout(() => urlError.classList.remove('shake'), 500);
                 showToast(validation.error, true);
                 return;
             }
-            
-            urlError.textContent = `✅ Valid domain: ${validation.matchedDomain}`;
-            urlError.classList.remove('text-red-400');
-            urlError.classList.add('text-green-400');
             
             generateBtn.disabled = true;
             generateBtn.innerHTML = '<span class="loading-dots">Generating</span>';
@@ -249,62 +222,35 @@
                 const response = await fetch(`${API_BASE}/links`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ 
-                        targetUrl: url,
-                        createdBy: 'generator',
-                        source: 'public'
-                    })
+                    body: JSON.stringify({ targetUrl: url, createdBy: 'generator' })
                 });
                 
                 const data = await response.json();
                 
                 if (data.success) {
-                    lastGeneratedCode = data.code;
-                    
-                    // FIXED: Use hardcoded site URL to ensure correct link
                     lastGeneratedUrl = `${SITE_URL}/?code=${data.code}`;
-                    
                     generatedLink.textContent = lastGeneratedUrl;
                     resultSection.classList.remove('hidden');
                     showToast('✅ Link generated successfully!');
-                    
-                    resultSection.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
                 } else {
-                    const errorMsg = data.error || 'Failed to generate link';
-                    urlError.textContent = `❌ ${errorMsg}`;
-                    urlError.classList.remove('text-green-400');
-                    urlError.classList.add('text-red-400');
-                    showToast(errorMsg, true);
+                    throw new Error(data.error || 'Generation failed');
                 }
             } catch (e) {
                 console.error('Generate error:', e);
-                urlError.textContent = '❌ Network error. Please try again.';
-                urlError.classList.remove('text-green-400');
-                urlError.classList.add('text-red-400');
-                showToast('Network error', true);
+                showToast('Failed to generate link. Try again.', true);
             } finally {
                 generateBtn.disabled = false;
                 generateBtn.innerHTML = '✨ Generate Verification Link';
-                updateValidation();
             }
         }
         
-        // Event listeners
         generateBtn.addEventListener('click', generateLink);
         
         copyBtn.addEventListener('click', () => {
             if (lastGeneratedUrl) {
                 navigator.clipboard?.writeText(lastGeneratedUrl)
-                    .then(() => showToast('📋 Copied to clipboard!'))
-                    .catch(() => {
-                        const input = document.createElement('input');
-                        input.value = lastGeneratedUrl;
-                        document.body.appendChild(input);
-                        input.select();
-                        document.execCommand('copy');
-                        document.body.removeChild(input);
-                        showToast('📋 Copied!');
-                    });
+                    .then(() => showToast('📋 Copied!'))
+                    .catch(() => showToast('Press Ctrl+C to copy'));
             }
         });
         
@@ -315,18 +261,10 @@
         });
         
         targetUrl.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter' && !generateBtn.disabled) {
-                generateLink();
-            }
+            if (e.key === 'Enter' && !generateBtn.disabled) generateLink();
         });
         
-        // Initialize
-        async function init() {
-            await loadAllowedDomains();
-            updateValidation();
-        }
-        
-        init();
+        loadAllowedDomains();
     </script>
 </body>
 </html>
