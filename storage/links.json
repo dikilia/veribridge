@@ -13,8 +13,17 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776490330325,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "admin",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1776490334905,
+        "ip": "111.125.104.85",
+        "country": "Philippines",
+        "city": "Clark",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      }
+    ]
   }
 ]
