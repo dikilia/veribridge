@@ -4,7 +4,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776493139088,
     "status": "active",
-    "useCount": 2,
+    "useCount": 3,
     "createdBy": "system",
     "clicks": [
       {
@@ -22,6 +22,14 @@
         "city": "Clark",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1776494090767,
+        "ip": "94.74.123.71",
+        "country": "Hong Kong",
+        "city": "Hong Kong",
+        "flag": "🇭🇰",
+        "countryCode": "HK"
       }
     ]
   }
