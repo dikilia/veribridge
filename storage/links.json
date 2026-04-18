@@ -1,14 +1,5 @@
 [
   {
-    "code": "demo123",
-    "targetUrl": "https://www.roblox.com/login",
-    "createdAt": 1703123456789,
-    "status": "active",
-    "useCount": 0,
-    "createdBy": "system",
-    "clicks": []
-  },
-  {
     "code": "nkd1f325",
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776490330325,
