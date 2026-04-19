@@ -4,7 +4,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776493139088,
     "status": "active",
-    "useCount": 8,
+    "useCount": 9,
     "createdBy": "system",
     "clicks": [
       {
@@ -70,6 +70,14 @@
         "city": "Tuguegarao City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1776609417764,
+        "ip": "197.185.148.163",
+        "country": "South Africa",
+        "city": "Johannesburg",
+        "flag": "🇿🇦",
+        "countryCode": "ZA"
       }
     ]
   },
