@@ -146,14 +146,27 @@ export default async function handler(req, res) {
     
     if (!isAdmin) return res.status(401).json({ error: 'Unauthorized' });
     const pathParts = req.url.split('/');
-    const code = pathParts[pathParts.length - 1].split('?')[0];
+    const oldCode = pathParts[pathParts.length - 1].split('?')[0];
     
     if (req.method === 'PATCH') {
-        const link = links.find(l => l.code === code);
+        const link = links.find(l => l.code === oldCode);
         if (!link) return res.status(404).json({ success: false, error: 'Link not found' });
-        const { targetUrl, status } = req.body;
+        
+        const { code: newCode, targetUrl, status } = req.body;
+        
+        if (newCode && newCode !== oldCode) {
+            if (links.some(l => l.code === newCode)) {
+                return res.status(400).json({ success: false, error: 'Code already exists' });
+            }
+            if (!/^[a-z0-9]{4,20}$/i.test(newCode)) {
+                return res.status(400).json({ success: false, error: 'Code must be 4-20 alphanumeric characters' });
+            }
+            link.code = newCode;
+        }
+        
         if (targetUrl !== undefined) link.targetUrl = targetUrl;
         if (status !== undefined) link.status = status;
+        
         const success = await writeToGitHub(LINKS_PATH, links, sha);
         if (success) return res.json({ success: true });
         return res.status(500).json({ success: false, error: 'Failed to update' });
@@ -161,7 +174,7 @@ export default async function handler(req, res) {
     
     if (req.method === 'DELETE') {
         const initialLength = links.length;
-        links = links.filter(l => l.code !== code);
+        links = links.filter(l => l.code !== oldCode);
         if (links.length === initialLength) return res.status(404).json({ success: false, error: 'Link not found' });
         const success = await writeToGitHub(LINKS_PATH, links, sha);
         if (success) return res.json({ success: true });
