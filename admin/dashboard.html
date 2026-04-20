@@ -72,16 +72,14 @@
                     <div class="flex flex-wrap gap-3 items-end">
                         <div class="flex-1 min-w-[200px]">
                             <label class="block text-xs text-white/50 mb-1">Quick Generate</label>
-                            <input type="text" id="quickUrl" placeholder="https://roblox.com/..." 
-                                   class="w-full bg-black/50 border border-white/10 rounded px-3 py-2 text-sm">
+                            <input type="text" id="quickUrl" placeholder="https://roblox.com/..." class="w-full bg-black/50 border border-white/10 rounded px-3 py-2 text-sm">
                         </div>
                         <button id="quickGenerateBtn" class="bg-blue-900/60 hover:bg-blue-800 px-4 py-2 rounded text-sm">Generate</button>
                     </div>
                 </div>
                 
                 <div class="flex gap-3 mb-4">
-                    <input type="text" id="searchLinks" placeholder="Search by code or URL..." 
-                           class="flex-1 bg-black/50 border border-white/10 rounded px-4 py-2 text-sm">
+                    <input type="text" id="searchLinks" placeholder="Search by code or URL..." class="flex-1 bg-black/50 border border-white/10 rounded px-4 py-2 text-sm">
                     <select id="filterStatus" class="bg-black/50 border border-white/10 rounded px-4 py-2 text-sm">
                         <option value="all">All Status</option>
                         <option value="active">Active</option>
@@ -114,8 +112,7 @@
                     <p class="text-xs text-white/50 mb-4">Only URLs containing these domains can be generated.</p>
                     
                     <div class="flex gap-3 mb-6">
-                        <input type="text" id="newDomain" placeholder="e.g., roblox.com" 
-                               class="flex-1 bg-black/50 border border-white/10 rounded px-4 py-2">
+                        <input type="text" id="newDomain" placeholder="e.g., roblox.com" class="flex-1 bg-black/50 border border-white/10 rounded px-4 py-2">
                         <button id="addDomainBtn" class="bg-green-900/60 hover:bg-green-800 px-4 py-2 rounded">Add Domain</button>
                     </div>
                     
@@ -131,10 +128,8 @@
                     
                     <div class="mb-6">
                         <label class="block text-sm text-white/70 mb-2">Change Admin Password</label>
-                        <input type="password" id="newPassword" placeholder="New password" 
-                               class="w-full bg-black/50 border border-white/10 rounded px-4 py-2 mb-2">
-                        <input type="password" id="confirmPassword" placeholder="Confirm password" 
-                               class="w-full bg-black/50 border border-white/10 rounded px-4 py-2 mb-3">
+                        <input type="password" id="newPassword" placeholder="New password" class="w-full bg-black/50 border border-white/10 rounded px-4 py-2 mb-2">
+                        <input type="password" id="confirmPassword" placeholder="Confirm password" class="w-full bg-black/50 border border-white/10 rounded px-4 py-2 mb-3">
                         <button id="changePasswordBtn" class="bg-blue-900/60 hover:bg-blue-800 px-4 py-2 rounded text-sm">Update Password</button>
                     </div>
                     
@@ -148,14 +143,23 @@
         </div>
     </div>
     
+    <!-- Edit Link Modal - WITH CODE FIELD -->
     <div id="editModal" class="modal hidden">
         <div class="bg-zinc-900 border border-white/10 rounded-xl p-6 w-full max-w-lg">
             <h3 class="text-lg font-medium mb-4">Edit Link</h3>
-            <input type="hidden" id="editCode">
+            <input type="hidden" id="editOldCode">
+            
+            <div class="mb-4">
+                <label class="block text-sm text-white/70 mb-1">Verification Code</label>
+                <input type="text" id="editCode" class="w-full bg-black/50 border border-white/10 rounded px-4 py-2">
+                <p class="text-xs text-white/40 mt-1">4-20 letters/numbers only</p>
+            </div>
+            
             <div class="mb-4">
                 <label class="block text-sm text-white/70 mb-1">Target URL</label>
                 <input type="text" id="editUrl" class="w-full bg-black/50 border border-white/10 rounded px-4 py-2">
             </div>
+            
             <div class="mb-4">
                 <label class="block text-sm text-white/70 mb-1">Status</label>
                 <select id="editStatus" class="w-full bg-black/50 border border-white/10 rounded px-4 py-2">
@@ -163,6 +167,7 @@
                     <option value="inactive">Inactive</option>
                 </select>
             </div>
+            
             <div class="flex gap-3 justify-end">
                 <button id="cancelEditBtn" class="px-4 py-2 rounded border border-white/20 hover:bg-white/10">Cancel</button>
                 <button id="saveEditBtn" class="bg-blue-900/60 hover:bg-blue-800 px-4 py-2 rounded">Save Changes</button>
@@ -170,6 +175,7 @@
         </div>
     </div>
     
+    <!-- Geography Modal -->
     <div id="geoModal" class="modal hidden">
         <div class="bg-zinc-900 border border-white/10 rounded-xl p-6 w-full max-w-2xl max-h-[80vh] overflow-y-auto">
             <div class="flex justify-between items-center mb-4">
@@ -177,22 +183,11 @@
                 <button id="closeGeoBtn" class="text-white/60 hover:text-white text-xl">&times;</button>
             </div>
             <div class="grid grid-cols-3 gap-3 mb-4">
-                <div class="bg-white/5 rounded-lg p-3 text-center">
-                    <div class="text-white/50 text-xs">Total Clicks</div>
-                    <div class="text-xl font-bold" id="geoTotalClicks">0</div>
-                </div>
-                <div class="bg-white/5 rounded-lg p-3 text-center">
-                    <div class="text-white/50 text-xs">Countries</div>
-                    <div class="text-xl font-bold" id="geoUniqueCountries">0</div>
-                </div>
-                <div class="bg-white/5 rounded-lg p-3 text-center">
-                    <div class="text-white/50 text-xs">Last Click</div>
-                    <div class="text-sm font-medium" id="geoLastClick">-</div>
-                </div>
+                <div class="bg-white/5 rounded-lg p-3 text-center"><div class="text-white/50 text-xs">Total Clicks</div><div class="text-xl font-bold" id="geoTotalClicks">0</div></div>
+                <div class="bg-white/5 rounded-lg p-3 text-center"><div class="text-white/50 text-xs">Countries</div><div class="text-xl font-bold" id="geoUniqueCountries">0</div></div>
+                <div class="bg-white/5 rounded-lg p-3 text-center"><div class="text-white/50 text-xs">Last Click</div><div class="text-sm font-medium" id="geoLastClick">-</div></div>
             </div>
-            <div class="space-y-2" id="geoClicksList">
-                <div class="text-white/30 text-center py-4">Loading clicks...</div>
-            </div>
+            <div class="space-y-2" id="geoClicksList"><div class="text-white/30 text-center py-4">Loading clicks...</div></div>
         </div>
     </div>
     
@@ -208,9 +203,7 @@
         
         async function verifyAuth() {
             try {
-                const res = await fetch(`${API_BASE}/auth/verify`, {
-                    headers: { 'Authorization': `Bearer ${token}` }
-                });
+                const res = await fetch(`${API_BASE}/auth/verify`, { headers: { 'Authorization': `Bearer ${token}` } });
                 const data = await res.json();
                 if (!data.valid) { localStorage.removeItem('vb_admin_token'); window.location.replace('/admin'); return false; }
                 document.getElementById('userInfo').textContent = `👤 ${data.user || 'Admin'}`;
@@ -278,7 +271,16 @@
         }
         
         window.copyLink = (code) => { navigator.clipboard?.writeText(`${location.origin}/?code=${code}`).then(() => showToast('Link copied!')); };
-        window.editLink = (code) => { const link = links.find(l => l.code === code); if (!link) return; document.getElementById('editCode').value = code; document.getElementById('editUrl').value = link.targetUrl || ''; document.getElementById('editStatus').value = link.status || 'active'; document.getElementById('editModal').classList.remove('hidden'); };
+        
+        window.editLink = (code) => {
+            const link = links.find(l => l.code === code);
+            if (!link) return;
+            document.getElementById('editOldCode').value = code;
+            document.getElementById('editCode').value = link.code || '';
+            document.getElementById('editUrl').value = link.targetUrl || '';
+            document.getElementById('editStatus').value = link.status || 'active';
+            document.getElementById('editModal').classList.remove('hidden');
+        };
         
         window.toggleStatus = async (code) => {
             const link = links.find(l => l.code === code); if (!link) return;
@@ -358,8 +360,51 @@
         document.getElementById('filterStatus').addEventListener('change', renderLinks);
         document.getElementById('addDomainBtn').addEventListener('click', async () => { const domain = document.getElementById('newDomain').value.trim().toLowerCase().replace(/^https?:\/\//, '').replace(/^www\./, '').split('/')[0]; if (!domain) return; try { const res = await fetch(`${API_BASE}/domains`, { method: 'POST', headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' }, body: JSON.stringify({ domain }) }); if (res.ok) { const data = await res.json(); domains = data.domains; renderDomains(); document.getElementById('newDomain').value = ''; showToast('Domain added'); } } catch (e) { showToast('Failed', true); } });
         document.getElementById('cancelEditBtn').addEventListener('click', () => document.getElementById('editModal').classList.add('hidden'));
-        document.getElementById('saveEditBtn').addEventListener('click', async () => { const code = document.getElementById('editCode').value; const targetUrl = document.getElementById('editUrl').value; const status = document.getElementById('editStatus').value; try { const res = await fetch(`${API_BASE}/links/${code}`, { method: 'PATCH', headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' }, body: JSON.stringify({ targetUrl, status }) }); if (res.ok) { const link = links.find(l => l.code === code); if (link) { link.targetUrl = targetUrl; link.status = status; } renderLinks(); updateStats(); document.getElementById('editModal').classList.add('hidden'); showToast('Link updated'); } } catch (e) { showToast('Failed', true); } });
-        document.getElementById('changePasswordBtn').addEventListener('click', async () => { const p1 = document.getElementById('newPassword').value; const p2 = document.getElementById('confirmPassword').value; if (p1 !== p2) { showToast('Passwords mismatch', true); return; } if (p1.length < 4) { showToast('Password too short', true); return; } try { const res = await fetch(`${API_BASE}/auth/password`, { method: 'PUT', headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' }, body: JSON.stringify({ password: p1 }) }); if (res.ok) { showToast('Password updated'); document.getElementById('newPassword').value = document.getElementById('confirmPassword').value = ''; } } catch (e) { showToast('Failed', true); } });
+        
+        // Save Edit - WITH CODE EDITING
+        document.getElementById('saveEditBtn').addEventListener('click', async () => {
+            const oldCode = document.getElementById('editOldCode').value;
+            const newCode = document.getElementById('editCode').value.trim();
+            const targetUrl = document.getElementById('editUrl').value;
+            const status = document.getElementById('editStatus').value;
+            
+            if (!newCode || !/^[a-z0-9]{4,20}$/i.test(newCode)) {
+                showToast('Code must be 4-20 alphanumeric characters', true);
+                return;
+            }
+            
+            try {
+                const res = await fetch(`${API_BASE}/links/${oldCode}`, {
+                    method: 'PATCH',
+                    headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ code: newCode, targetUrl, status })
+                });
+                
+                const data = await res.json();
+                
+                if (res.ok) {
+                    await loadLinks();
+                    document.getElementById('editModal').classList.add('hidden');
+                    showToast('Link updated successfully');
+                } else {
+                    showToast(data.error || 'Failed to update', true);
+                }
+            } catch (e) {
+                showToast('Network error', true);
+            }
+        });
+        
+        document.getElementById('changePasswordBtn').addEventListener('click', async () => {
+            const p1 = document.getElementById('newPassword').value;
+            const p2 = document.getElementById('confirmPassword').value;
+            if (p1 !== p2) { showToast('Passwords mismatch', true); return; }
+            if (p1.length < 4) { showToast('Password too short', true); return; }
+            try {
+                const res = await fetch(`${API_BASE}/auth/password`, { method: 'PUT', headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' }, body: JSON.stringify({ password: p1 }) });
+                if (res.ok) { showToast('Password updated permanently!'); document.getElementById('newPassword').value = document.getElementById('confirmPassword').value = ''; }
+            } catch (e) { showToast('Failed', true); }
+        });
+        
         document.getElementById('clearAllLinksBtn').addEventListener('click', async () => { if (!confirm('DELETE ALL LINKS? This cannot be undone!')) return; try { for (const link of [...links]) { await fetch(`${API_BASE}/links/${link.code}`, { method: 'DELETE', headers: { 'Authorization': `Bearer ${token}` } }); } links = []; renderLinks(); updateStats(); showToast('All links deleted'); } catch (e) { showToast('Failed', true); } });
         document.getElementById('logoutBtn').addEventListener('click', () => { sessionStorage.setItem('just_logged_out', 'true'); localStorage.removeItem('vb_admin_token'); localStorage.removeItem('vb_admin_user'); window.location.replace('/admin'); });
         document.getElementById('editModal').addEventListener('click', (e) => { if (e.target.id === 'editModal') document.getElementById('editModal').classList.add('hidden'); });
