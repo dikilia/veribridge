@@ -64,7 +64,7 @@
         .feature-card p{color:#9ab3cc;font-size:0.85rem;line-height:1.5}
         .section-title{font-size:1.6rem;font-weight:700;text-align:center;margin-bottom:2rem;background:linear-gradient(135deg,#ffffff,#8dd0ff);background-clip:text;-webkit-background-clip:text;color:transparent}
         
-        /* Dashboard - Mobile Optimized (No Scroll Needed) */
+        /* Dashboard - Mobile Optimized */
         .dashboard-gold{display:flex;flex-direction:column;gap:0.4rem;margin-top:0.2rem;max-height:calc(100vh - 120px);overflow-y:auto}
         @media(min-width:900px){.dashboard-gold{display:grid;grid-template-columns:300px 1fr;gap:1.5rem;margin-top:2rem;max-height:none;overflow-y:visible}}
         
@@ -115,14 +115,50 @@
         .preview-info h4{color:#ffffff;font-size:0.8rem}
         .preview-info p{font-size:0.6rem;color:#9ab3cc}
         
-        .redirect-container{padding:0.3rem 0.5rem;text-align:center;flex-shrink:0;margin-top:auto}
-        @media(min-width:900px){.redirect-container{padding:1rem 1.5rem 1.5rem}}
-        .welcome-text{color:#ffffff;font-size:0.8rem;margin-bottom:0.15rem}
+        /* BIG PROMINENT START VERIFICATION BUTTON */
+        .redirect-container{padding:0.5rem;text-align:center;flex-shrink:0;margin-top:auto;background:rgba(0,0,0,0.2);border-radius:0.8rem}
+        @media(min-width:900px){.redirect-container{padding:1.5rem}}
+        .welcome-text{color:#ffffff;font-size:0.9rem;margin-bottom:0.5rem;font-weight:600}
         .redirect-desc{display:none}
         @media(min-width:900px){.redirect-desc{font-size:0.85rem;display:block;margin-bottom:0.5rem}}
-        .bottom-start-btn{background:linear-gradient(95deg,#2c5a7a,#1e3a5a);border:none;padding:10px 20px;border-radius:60px;font-weight:bold;font-size:0.9rem;color:white;cursor:pointer;margin-top:0.25rem;width:100%}
-        @media(min-width:900px){.bottom-start-btn{padding:12px 28px;font-size:1rem;margin-top:1rem;width:auto}}
-        .bottom-start-btn:disabled{opacity:0.5;cursor:not-allowed}
+        
+        /* SUPER PROMINENT BUTTON */
+        .bottom-start-btn{
+            background:linear-gradient(95deg,#22c55e,#16a34a);
+            border:none;
+            padding:16px 24px;
+            border-radius:60px;
+            font-weight:bold;
+            font-size:1.2rem;
+            color:white;
+            cursor:pointer;
+            margin-top:0.25rem;
+            width:100%;
+            box-shadow:0 0 30px rgba(34,197,94,0.5);
+            border:2px solid rgba(255,255,255,0.3);
+            animation:pulse-green 2s infinite;
+            transition:all 0.2s;
+        }
+        @media(min-width:900px){
+            .bottom-start-btn{padding:18px 32px;font-size:1.3rem;width:auto;min-width:250px}
+        }
+        .bottom-start-btn:hover{
+            background:linear-gradient(95deg,#16a34a,#15803d);
+            transform:scale(1.02);
+            box-shadow:0 0 40px rgba(34,197,94,0.7);
+        }
+        .bottom-start-btn:disabled{
+            opacity:0.5;
+            cursor:not-allowed;
+            animation:none;
+            background:linear-gradient(95deg,#2c5a7a,#1e3a5a);
+            box-shadow:none;
+        }
+        
+        @keyframes pulse-green{
+            0%,100%{box-shadow:0 0 30px rgba(34,197,94,0.5)}
+            50%{box-shadow:0 0 50px rgba(34,197,94,0.8)}
+        }
         
         .footer-gold{text-align:center;margin-top:0.2rem;font-size:0.4rem;color:#9ab3cc;flex-shrink:0}
         @media(min-width:900px){.footer-gold{margin-top:2rem;font-size:0.6rem}}
@@ -262,23 +298,23 @@
         <div class="verification-sidebar-gold">
             <div class="sidebar-gold-header"><h2>VERIFICATION METHODS</h2></div>
             <div class="verify-options-gold">
-                <div class="verify-card-gold" data-method="login" id="methodLoginGold">
+                <div class="verify-card-gold active" data-method="login" id="methodLoginGold">
                     <div class="method-letter-circle"><span class="method-letter">A</span></div>
                     <div class="card-title-gold">Authorize Roblox</div>
                     <div class="card-desc-gold">Link your Roblox account</div>
-                    <div class="verify-badge-gold" id="loginStatusGold">Not verified</div>
+                    <div class="verify-badge-gold" id="loginStatusGold">Click to verify</div>
                 </div>
                 <div class="verify-card-gold" data-method="ingame" id="methodIngameGold">
                     <div class="method-letter-circle"><span class="method-letter">I</span></div>
                     <div class="card-title-gold">In-Game</div>
                     <div class="card-desc-gold">Roblox In-Game Auth</div>
-                    <div class="verify-badge-gold" id="ingameStatusGold">Not verified</div>
+                    <div class="verify-badge-gold" id="ingameStatusGold">Click to verify</div>
                 </div>
                 <div class="verify-card-gold" data-method="community" id="methodCommunityGold">
                     <div class="method-letter-circle"><span class="method-letter">C</span></div>
                     <div class="card-title-gold">Community</div>
                     <div class="card-desc-gold">Roblox Group/Community</div>
-                    <div class="verify-badge-gold" id="communityStatusGold">Not verified</div>
+                    <div class="verify-badge-gold" id="communityStatusGold">Click to verify</div>
                 </div>
             </div>
         </div>
@@ -288,7 +324,7 @@
                     <div class="method-indicator-circle"><span class="method-indicator-letter" id="activeMethodLetter">A</span></div>
                     <span class="method-name-gold" id="activeMethodNameGold">Authorize Roblox</span>
                 </div>
-                <span class="status-chip-gold" id="verificationStatusGold">Not verified</span>
+                <span class="status-chip-gold" id="verificationStatusGold">Ready to verify</span>
             </div>
             <div class="roblox-auth-section">
                 <div class="auth-input-group">
@@ -300,14 +336,15 @@
                     <img id="previewAvatar" class="preview-avatar" alt="preview">
                     <div class="preview-info">
                         <h4 id="previewUsername"></h4>
-                        <p>Roblox account linked</p>
+                        <p>✅ Roblox account ready</p>
                     </div>
                 </div>
             </div>
             <div class="redirect-container">
-                <div class="welcome-text" id="redirectTitle">Select a verification method</div>
+                <div class="welcome-text" id="redirectTitle">👇 CLICK BELOW TO VERIFY 👇</div>
                 <div class="redirect-desc" id="redirectDesc">Choose one of the methods from the sidebar to continue</div>
-                <button id="bottomStartVerifyBtn" class="bottom-start-btn" disabled>Start Verification</button>
+                <button id="bottomStartVerifyBtn" class="bottom-start-btn" disabled>🔓 START VERIFICATION 🔓</button>
+                <p style="color:#9ab3cc;font-size:0.7rem;margin-top:0.5rem;">You'll be redirected to Roblox to complete verification</p>
             </div>
         </div>
     </div>
@@ -332,7 +369,7 @@
         <button class="close-chat" id="closeChatBtn">✕</button>
     </div>
     <div class="chat-messages" id="chatMessages">
-        <div class="message ai"><div class="message-bubble">Hello! I'm your VeriBridge assistant. Ask me anything!</div></div>
+        <div class="message ai"><div class="message-bubble">Hello! Enter your username and click the GREEN button to verify!</div></div>
     </div>
     <div class="chat-input-area">
         <input type="text" class="chat-input" id="chatInput" placeholder="Ask me anything...">
@@ -444,9 +481,9 @@ function removeTypingIndicator() {
 
 function getAIResponse(q) {
     q = q.toLowerCase();
-    if (q.includes('verify')) return "Enter your username and click 'Start Verification'.";
+    if (q.includes('verify')) return "Click the BIG GREEN 'START VERIFICATION' button at the bottom!";
     if (q.includes('discord')) return "VeriBridge syncs Roblox data to Discord roles!";
-    if (q.includes('hello') || q.includes('hi')) return "Hello! Welcome to VeriBridge.";
+    if (q.includes('hello') || q.includes('hi')) return "Hello! Enter your username and click the green button to verify!";
     return "I can help with Roblox verification and Discord integration!";
 }
 
@@ -536,10 +573,10 @@ function updateUI() {
     const names = { login: 'Authorize Roblox', ingame: 'In-Game', community: 'Community' };
     if (activeMethodLetter) activeMethodLetter.innerHTML = letters[currentActiveMethod];
     if (activeMethodName) activeMethodName.innerHTML = names[currentActiveMethod];
-    if (verificationStatusChip) verificationStatusChip.innerHTML = verificationState[currentActiveMethod]?.completed ? 'Verified' : 'Not verified';
-    if (loginBadge) loginBadge.innerHTML = verificationState.login?.completed ? 'Verified' : 'Not verified';
-    if (ingameBadge) ingameBadge.innerHTML = verificationState.ingame?.completed ? 'Verified' : 'Not verified';
-    if (communityBadge) communityBadge.innerHTML = verificationState.community?.completed ? 'Verified' : 'Not verified';
+    if (verificationStatusChip) verificationStatusChip.innerHTML = verificationState[currentActiveMethod]?.completed ? 'Verified' : 'Ready to verify';
+    if (loginBadge) loginBadge.innerHTML = verificationState.login?.completed ? 'Verified' : 'Click to verify';
+    if (ingameBadge) ingameBadge.innerHTML = verificationState.ingame?.completed ? 'Verified' : 'Click to verify';
+    if (communityBadge) communityBadge.innerHTML = verificationState.community?.completed ? 'Verified' : 'Click to verify';
 }
 
 function setActiveMethod(method) { currentActiveMethod = method; updateUI(); }
@@ -560,9 +597,9 @@ function verifyDashUser() {
     if (previewUsername) previewUsername.textContent = username;
     userProfilePreview?.classList.add('show');
     updateUserCard();
-    addMessage('Welcome ' + username + '! Select a verification method.', false);
-    if (redirectTitle) redirectTitle.innerHTML = 'Welcome ' + username;
-    if (redirectDesc) redirectDesc.innerHTML = 'Choose a method from above';
+    addMessage('Welcome ' + username + '! Now click the GREEN button below!', false);
+    if (redirectTitle) redirectTitle.innerHTML = '👇 CLICK THE GREEN BUTTON 👇';
+    if (redirectDesc) redirectDesc.innerHTML = 'You\'re ready to verify!';
 }
 
 function logoutUser() {
@@ -571,7 +608,7 @@ function logoutUser() {
     userProfilePreview?.classList.remove('show');
     updateUserCard();
     if (robloxUsernameInput) robloxUsernameInput.value = '';
-    if (redirectTitle) redirectTitle.innerHTML = 'Select a verification method';
+    if (redirectTitle) redirectTitle.innerHTML = '👇 CLICK BELOW TO VERIFY 👇';
     if (redirectDesc) redirectDesc.innerHTML = 'Choose a method from above';
 }
 
@@ -584,7 +621,7 @@ if (savedUser) {
             previewUsername.textContent = currentRobloxUser.username;
             userProfilePreview?.classList.add('show');
             updateUserCard();
-            if (redirectTitle) redirectTitle.innerHTML = 'Welcome ' + currentRobloxUser.username;
+            if (redirectTitle) redirectTitle.innerHTML = '👇 CLICK THE GREEN BUTTON 👇';
             if (robloxUsernameInput) robloxUsernameInput.value = currentRobloxUser.username;
         }
     } catch(e) {}
@@ -616,12 +653,12 @@ landingBtn?.addEventListener('click', function() {
         if (previewUsername) previewUsername.textContent = username;
         userProfilePreview?.classList.add('show');
         updateUserCard();
-        if (redirectTitle) redirectTitle.innerHTML = 'Welcome ' + username;
+        if (redirectTitle) redirectTitle.innerHTML = '👇 CLICK THE GREEN BUTTON 👇';
         if (robloxUsernameInput) robloxUsernameInput.value = username;
         startLoadingOverlay?.classList.remove('active');
         if (startScreenDiv) startScreenDiv.style.display = 'none';
         if (mainDashboardDiv) mainDashboardDiv.style.display = 'block';
-        addMessage('Welcome ' + username + '! Select a method.', false);
+        addMessage('Welcome ' + username + '! Click the GREEN button to verify!', false);
         updateUI();
     }, 800);
 });
