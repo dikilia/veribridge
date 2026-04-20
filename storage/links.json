@@ -4,7 +4,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776493139088,
     "status": "active",
-    "useCount": 9,
+    "useCount": 10,
     "createdBy": "system",
     "clicks": [
       {
@@ -78,6 +78,14 @@
         "city": "Johannesburg",
         "flag": "🇿🇦",
         "countryCode": "ZA"
+      },
+      {
+        "timestamp": 1776651020510,
+        "ip": "112.198.234.247",
+        "country": "Philippines",
+        "city": "Iloilo City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
