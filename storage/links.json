@@ -4,7 +4,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776493139088,
     "status": "active",
-    "useCount": 11,
+    "useCount": 12,
     "createdBy": "system",
     "clicks": [
       {
@@ -92,6 +92,14 @@
         "ip": "223.25.58.183",
         "country": "Philippines",
         "city": "Olongapo City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1776830517191,
+        "ip": "138.84.76.171",
+        "country": "Philippines",
+        "city": "Tarlac City",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
