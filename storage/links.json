@@ -688,7 +688,7 @@
     "targetUrl": "https://roblox.com.ge/games/920587237/Adopt-Me?privateServerLinkCode=46573925045402079729380865517627",
     "createdAt": 1776660884931,
     "status": "active",
-    "useCount": 4,
+    "useCount": 5,
     "createdBy": "generator",
     "clicks": [
       {
@@ -722,6 +722,14 @@
         "city": "Olongapo City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1776898769146,
+        "ip": "191.115.213.215",
+        "country": "Chile",
+        "city": "Cauquenes",
+        "flag": "🇨🇱",
+        "countryCode": "CL"
       }
     ]
   },
