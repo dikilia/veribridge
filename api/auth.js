@@ -61,6 +61,7 @@ async function getSettings() {
 }
 
 export default async function handler(req, res) {
+    // CORS headers
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, OPTIONS');
     res.setHeader('Access-Control-Allow-Headers', 'Authorization, Content-Type');
@@ -68,6 +69,8 @@ export default async function handler(req, res) {
     
     const url = new URL(req.url, `http://${req.headers.host}`);
     const path = url.pathname;
+    
+    console.log('[Auth API] Request:', req.method, path);
     
     const settingsData = await getSettings();
     const settings = settingsData.content || { adminPassword: 'admin123', adminToken: 'admin_session_token' };
@@ -77,25 +80,31 @@ export default async function handler(req, res) {
     const SESSION_TOKEN = settings.adminToken || 'admin_session_token';
     const APP_URL = process.env.APP_URL || 'https://veribridge-dashboard.vercel.app';
     
-    // Password login
+    // ==================== PASSWORD LOGIN ====================
     if (req.method === 'POST' && path.includes('/password')) {
         const { password } = req.body;
+        console.log('[Auth API] Password login attempt');
+        
         if (password === ADMIN_PASSWORD) {
+            console.log('[Auth API] Password login SUCCESS');
             return res.json({ success: true, token: SESSION_TOKEN });
         }
+        console.log('[Auth API] Password login FAILED');
         return res.status(401).json({ success: false, error: 'Invalid password' });
     }
     
-    // Verify token
+    // ==================== VERIFY TOKEN ====================
     if (req.method === 'GET' && path.includes('/verify')) {
         const auth = req.headers.authorization?.replace('Bearer ', '');
+        console.log('[Auth API] Verify token');
+        
         if (auth === SESSION_TOKEN) {
             return res.json({ valid: true, user: 'Admin' });
         }
         return res.json({ valid: false });
     }
     
-    // Change password - NOW WORKS PERMANENTLY
+    // ==================== CHANGE PASSWORD ====================
     if (req.method === 'PUT' && path.includes('/password')) {
         const auth = req.headers.authorization?.replace('Bearer ', '');
         if (auth !== SESSION_TOKEN) {
@@ -117,29 +126,59 @@ export default async function handler(req, res) {
             return res.status(500).json({ error: 'Failed to save to storage' });
         }
         
-        return res.json({ success: true, message: 'Password updated (temporary - add GITHUB_TOKEN for permanent)' });
+        return res.json({ success: true, message: 'Password updated' });
     }
     
-    // GitHub OAuth - Initiate
+    // ==================== GITHUB OAUTH - INITIATE ====================
     if (req.method === 'GET' && path.includes('/github') && !path.includes('/callback')) {
         const clientId = process.env.GITHUB_CLIENT_ID;
-        if (!clientId) return res.status(500).send('GitHub Client ID not configured');
         const redirectUri = `${APP_URL}/api/auth/github/callback`;
+        
+        console.log('[Auth API] GitHub OAuth Initiate');
+        console.log('[Auth API] Client ID:', clientId ? 'SET' : 'MISSING');
+        console.log('[Auth API] Redirect URI:', redirectUri);
+        
+        if (!clientId) {
+            return res.status(500).send('GitHub Client ID not configured. Please add GITHUB_CLIENT_ID to environment variables.');
+        }
+        
+        // Use raw string concatenation to avoid encoding issues
         const githubUrl = `https://github.com/login/oauth/authorize?client_id=${clientId}&redirect_uri=${encodeURIComponent(redirectUri)}&scope=read:user`;
+        
+        console.log('[Auth API] Redirecting to:', githubUrl);
         return res.redirect(githubUrl);
     }
     
-    // GitHub OAuth - Callback
+    // ==================== GITHUB OAUTH - CALLBACK ====================
     if (req.method === 'GET' && path.includes('/github/callback')) {
         const code = url.searchParams.get('code');
         const error = url.searchParams.get('error');
-        if (error) return res.redirect(`${APP_URL}/admin?error=github_denied`);
-        if (!code) return res.redirect(`${APP_URL}/admin?error=no_code`);
+        const errorDescription = url.searchParams.get('error_description');
+        
+        console.log('[Auth API] GitHub Callback');
+        console.log('[Auth API] Code:', code ? 'RECEIVED' : 'MISSING');
+        console.log('[Auth API] Error:', error || 'NONE');
+        
+        if (error) {
+            console.log('[Auth API] GitHub returned error:', error, errorDescription);
+            return res.redirect(`${APP_URL}/admin?error=github_denied&reason=${encodeURIComponent(errorDescription || '')}`);
+        }
+        
+        if (!code) {
+            console.log('[Auth API] No code provided');
+            return res.redirect(`${APP_URL}/admin?error=no_code`);
+        }
         
         try {
-            const tokenRes = await fetch('https://github.com/login/oauth/access_token', {
+            // Exchange code for access token
+            console.log('[Auth API] Exchanging code for token...');
+            
+            const tokenResponse = await fetch('https://github.com/login/oauth/access_token', {
                 method: 'POST',
-                headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
                 body: JSON.stringify({
                     client_id: process.env.GITHUB_CLIENT_ID,
                     client_secret: process.env.GITHUB_CLIENT_SECRET,
@@ -147,24 +186,47 @@ export default async function handler(req, res) {
                     redirect_uri: `${APP_URL}/api/auth/github/callback`
                 })
             });
-            const tokenData = await tokenRes.json();
-            if (tokenData.error) return res.redirect(`${APP_URL}/admin?error=token_exchange`);
             
-            const userRes = await fetch('https://api.github.com/user', {
-                headers: { 'Authorization': `Bearer ${tokenData.access_token}`, 'User-Agent': 'VeriBridge' }
-            });
-            const userData = await userRes.json();
+            const tokenData = await tokenResponse.json();
+            console.log('[Auth API] Token response:', tokenData.error ? 'ERROR: ' + tokenData.error : 'SUCCESS');
             
-            const allowedUsers = (process.env.ALLOWED_GITHUB_USERS || '').split(',').map(u => u.trim().toLowerCase());
-            if (!allowedUsers.includes(userData.login.toLowerCase())) {
-                return res.redirect(`${APP_URL}/admin?error=unauthorized_user`);
+            if (tokenData.error) {
+                return res.redirect(`${APP_URL}/admin?error=token_exchange&reason=${encodeURIComponent(tokenData.error_description || tokenData.error)}`);
             }
             
+            // Get user info
+            console.log('[Auth API] Fetching user info...');
+            const userResponse = await fetch('https://api.github.com/user', {
+                headers: {
+                    'Authorization': `Bearer ${tokenData.access_token}`,
+                    'User-Agent': 'VeriBridge'
+                }
+            });
+            
+            const userData = await userResponse.json();
+            console.log('[Auth API] GitHub user:', userData.login);
+            
+            // Check allowed users
+            const allowedUsers = (process.env.ALLOWED_GITHUB_USERS || '').split(',').map(u => u.trim().toLowerCase());
+            console.log('[Auth API] Allowed users:', allowedUsers);
+            
+            if (!allowedUsers.includes(userData.login.toLowerCase())) {
+                console.log('[Auth API] User NOT allowed:', userData.login);
+                return res.redirect(`${APP_URL}/admin?error=unauthorized_user&user=${userData.login}`);
+            }
+            
+            console.log('[Auth API] User authorized! Redirecting to dashboard...');
+            
+            // Success - redirect to admin with token
             return res.redirect(`${APP_URL}/admin?token=${SESSION_TOKEN}&user=${userData.login}`);
+            
         } catch (err) {
+            console.error('[Auth API] GitHub callback error:', err);
             return res.redirect(`${APP_URL}/admin?error=server_error`);
         }
     }
     
+    // ==================== 404 ====================
+    console.log('[Auth API] Unknown path:', path);
     res.status(404).json({ error: 'Not found' });
 }
