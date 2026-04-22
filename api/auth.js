@@ -1,10 +1,8 @@
 // Your secure password - CHANGE THIS to your own!
 const MASTER_PASSWORD = 'VeriBridge2026!Secure';  // ← CHANGE THIS TO YOUR PASSWORD
 
-// Admin token (also change this to something unique)
-const SESSION_TOKEN = 'vb_admin_' + Math.random().toString(36).substring(2, 15);
-
-let cachedSettings = { adminPassword: MASTER_PASSWORD, adminToken: SESSION_TOKEN };
+// STATIC token - same every time (won't invalidate on cold start)
+const SESSION_TOKEN = 'vb_token_2024';
 
 export default async function handler(req, res) {
     res.setHeader('Access-Control-Allow-Origin', '*');
@@ -15,8 +13,8 @@ export default async function handler(req, res) {
     const url = new URL(req.url, `http://${req.headers.host}`);
     const path = url.pathname;
     
-    const ADMIN_PASSWORD = cachedSettings.adminPassword;
-    const ADMIN_TOKEN = cachedSettings.adminToken;
+    const ADMIN_PASSWORD = MASTER_PASSWORD;
+    const ADMIN_TOKEN = SESSION_TOKEN;
     const APP_URL = process.env.APP_URL || 'https://veribridge-dashboard.vercel.app';
     
     console.log('[Auth API] Request:', req.method, path);
@@ -54,11 +52,11 @@ export default async function handler(req, res) {
             return res.status(400).json({ error: 'Password must be at least 6 characters' });
         }
         
-        // Update the cached password
-        cachedSettings.adminPassword = newPassword;
-        console.log('[Auth API] Password changed successfully');
-        
-        return res.json({ success: true, message: 'Password updated' });
+        // Note: Password change requires updating the MASTER_PASSWORD constant and redeploying
+        return res.json({ 
+            success: true, 
+            message: 'To change password permanently, update MASTER_PASSWORD in api/auth.js and redeploy.' 
+        });
     }
     
     // ==================== GITHUB OAUTH (OPTIONAL) ====================
