@@ -42,6 +42,7 @@
                     <p class="text-white/50 text-sm mt-2">Admin Dashboard Access</p>
                 </div>
                 
+                <!-- Password Login -->
                 <div class="mb-6">
                     <label class="block text-sm font-medium text-white/80 mb-2">Admin Password</label>
                     <input type="password" id="password" 
@@ -49,7 +50,7 @@
                            placeholder="Enter admin password"
                            autocomplete="current-password">
                     <button id="loginBtn" class="w-full mt-3 bg-gradient-to-r from-blue-900 to-indigo-900 hover:from-blue-800 hover:to-indigo-800 py-3 rounded-lg font-medium border border-blue-400/30 transition">
-                        Login
+                        Login with Password
                     </button>
                 </div>
                 
@@ -62,6 +63,7 @@
                     </div>
                 </div>
                 
+                <!-- GitHub OAuth Login -->
                 <a href="/api/auth/github" id="githubLoginBtn" class="w-full bg-[#24292e] hover:bg-[#2f363d] py-3 rounded-lg font-medium border border-white/10 transition flex items-center justify-center gap-3">
                     <svg class="w-5 h-5" viewBox="0 0 24 24" fill="white">
                         <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57C20.565 21.795 24 17.31 24 12c0-6.63-5.37-12-12-12z"/>
@@ -69,7 +71,11 @@
                     Login with GitHub
                 </a>
                 
+                <!-- Error Message -->
                 <div id="errorMsg" class="text-red-400 text-sm text-center mt-4 min-h-[24px]"></div>
+                
+                <!-- Success Message -->
+                <div id="successMsg" class="text-green-400 text-sm text-center mt-2 min-h-[24px]"></div>
                 
                 <div class="text-center mt-6">
                     <a href="/" class="text-xs text-white/30 hover:text-white/50 transition">
@@ -85,45 +91,75 @@
         const passwordInput = document.getElementById('password');
         const loginBtn = document.getElementById('loginBtn');
         const errorMsg = document.getElementById('errorMsg');
+        const successMsg = document.getElementById('successMsg');
         
+        // ==================== CHECK FOR OAUTH CALLBACK ====================
         const urlParams = new URLSearchParams(window.location.search);
         const oauthToken = urlParams.get('token');
         const oauthUser = urlParams.get('user');
         const error = urlParams.get('error');
+        const reason = urlParams.get('reason');
         
+        console.log('[Login] URL Params:', { token: !!oauthToken, user: oauthUser, error, reason });
+        
+        // Handle OAuth callback errors
         if (error) {
             const errorMessages = {
-                'github_denied': 'GitHub login was denied',
-                'no_code': 'No authorization code received',
-                'token_exchange': 'Failed to exchange token with GitHub',
-                'unauthorized_user': 'Your GitHub account is not authorized',
-                'server_error': 'Server error during GitHub authentication'
+                'github_denied': 'GitHub login was denied' + (reason ? `: ${decodeURIComponent(reason)}` : ''),
+                'no_code': 'No authorization code received from GitHub',
+                'token_exchange': 'Failed to exchange token with GitHub' + (reason ? `: ${decodeURIComponent(reason)}` : ''),
+                'unauthorized_user': `GitHub user "${urlParams.get('user') || 'unknown'}" is not authorized for admin access`,
+                'server_error': 'Server error during GitHub authentication. Please try again.'
             };
             errorMsg.textContent = errorMessages[error] || `GitHub login failed: ${error}`;
+            console.error('[Login] OAuth Error:', error, reason);
         }
         
+        // If OAuth token is present, save and redirect to dashboard
         if (oauthToken) {
+            console.log('[Login] OAuth token received, saving...');
             localStorage.setItem('vb_admin_token', oauthToken);
-            if (oauthUser) localStorage.setItem('vb_admin_user', oauthUser);
-            window.location.replace('/dashboard');
+            if (oauthUser) {
+                localStorage.setItem('vb_admin_user', oauthUser);
+            }
+            successMsg.textContent = `✅ Logged in as ${oauthUser || 'Admin'}! Redirecting...`;
+            
+            // Redirect after short delay
+            setTimeout(() => {
+                window.location.replace('/dashboard');
+            }, 1000);
         }
         
+        // ==================== CHECK EXISTING SESSION ====================
         const existingToken = localStorage.getItem('vb_admin_token');
         const justLoggedOut = sessionStorage.getItem('just_logged_out');
+        
         sessionStorage.removeItem('just_logged_out');
         
         if (existingToken && !justLoggedOut) {
+            console.log('[Login] Existing token found, verifying...');
+            
             fetch(`${API_BASE}/auth/verify`, {
                 headers: { 'Authorization': `Bearer ${existingToken}` }
             })
             .then(res => res.json())
             .then(data => {
-                if (data.valid) window.location.replace('/dashboard');
-                else localStorage.removeItem('vb_admin_token');
+                if (data.valid) {
+                    console.log('[Login] Token valid, redirecting to dashboard');
+                    window.location.replace('/dashboard');
+                } else {
+                    console.log('[Login] Token invalid, clearing');
+                    localStorage.removeItem('vb_admin_token');
+                    localStorage.removeItem('vb_admin_user');
+                }
             })
-            .catch(() => localStorage.removeItem('vb_admin_token'));
+            .catch(() => {
+                console.log('[Login] Token verification failed');
+                localStorage.removeItem('vb_admin_token');
+            });
         }
         
+        // ==================== PASSWORD LOGIN ====================
         async function handlePasswordLogin() {
             const password = passwordInput.value.trim();
             
@@ -139,6 +175,7 @@
             errorMsg.textContent = '';
             
             try {
+                console.log('[Login] Attempting password login...');
                 const res = await fetch(`${API_BASE}/auth/password`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -146,21 +183,26 @@
                 });
                 
                 const data = await res.json();
+                console.log('[Login] Password response:', data);
                 
                 if (data.success && data.token) {
                     localStorage.setItem('vb_admin_token', data.token);
                     localStorage.setItem('vb_admin_user', 'Admin');
-                    window.location.replace('/dashboard');
+                    successMsg.textContent = '✅ Login successful! Redirecting...';
+                    setTimeout(() => {
+                        window.location.replace('/dashboard');
+                    }, 1000);
                 } else {
                     errorMsg.textContent = data.error || 'Invalid password';
                     passwordInput.value = '';
                     passwordInput.focus();
                 }
             } catch (e) {
+                console.error('[Login] Error:', e);
                 errorMsg.textContent = 'Network error. Please try again.';
             } finally {
                 loginBtn.disabled = false;
-                loginBtn.innerHTML = 'Login';
+                loginBtn.innerHTML = 'Login with Password';
             }
         }
         
