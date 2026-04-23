@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 177,
+    "useCount": 178,
     "createdBy": "admin",
     "clicks": [
       {
@@ -1528,6 +1528,14 @@
         "city": "Cologne",
         "flag": "🇩🇪",
         "countryCode": "DE"
+      },
+      {
+        "timestamp": 1776962377322,
+        "ip": "45.135.228.191",
+        "country": "Singapore",
+        "city": "Singapore",
+        "flag": "🇸🇬",
+        "countryCode": "SG"
       }
     ]
   },
