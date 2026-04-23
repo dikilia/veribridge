@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 193,
+    "useCount": 194,
     "createdBy": "admin",
     "clicks": [
       {
@@ -1656,6 +1656,14 @@
         "city": "Viladecans",
         "flag": "🇪🇸",
         "countryCode": "ES"
+      },
+      {
+        "timestamp": 1776970481824,
+        "ip": "62.216.211.48",
+        "country": "Germany",
+        "city": "Munich",
+        "flag": "🇩🇪",
+        "countryCode": "DE"
       }
     ]
   },
