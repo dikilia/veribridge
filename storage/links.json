@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 213,
+    "useCount": 214,
     "createdBy": "admin",
     "clicks": [
       {
@@ -1816,6 +1816,14 @@
         "city": "Santiago",
         "flag": "🇨🇱",
         "countryCode": "CL"
+      },
+      {
+        "timestamp": 1776981084259,
+        "ip": "172.56.41.244",
+        "country": "United States",
+        "city": "San Antonio",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
