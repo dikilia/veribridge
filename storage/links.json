@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 264,
+    "useCount": 265,
     "createdBy": "admin",
     "clicks": [
       {
@@ -2224,6 +2224,14 @@
         "city": "Várzea Grande",
         "flag": "🇧🇷",
         "countryCode": "BR"
+      },
+      {
+        "timestamp": 1777002909464,
+        "ip": "73.59.184.239",
+        "country": "United States",
+        "city": "Memphis",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
