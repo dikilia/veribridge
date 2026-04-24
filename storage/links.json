@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 291,
+    "useCount": 292,
     "createdBy": "admin",
     "clicks": [
       {
@@ -2440,6 +2440,14 @@
         "city": "Cagayan de Oro",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777011836668,
+        "ip": "186.189.88.79",
+        "country": "Chile",
+        "city": "Santiago",
+        "flag": "🇨🇱",
+        "countryCode": "CL"
       }
     ]
   },
