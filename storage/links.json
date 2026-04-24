@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 298,
+    "useCount": 299,
     "createdBy": "admin",
     "clicks": [
       {
@@ -2496,6 +2496,14 @@
         "city": "Antwerp",
         "flag": "🇧🇪",
         "countryCode": "BE"
+      },
+      {
+        "timestamp": 1777015510382,
+        "ip": "119.15.75.2",
+        "country": "Australia",
+        "city": "Adelaide",
+        "flag": "🇦🇺",
+        "countryCode": "AU"
       }
     ]
   },
