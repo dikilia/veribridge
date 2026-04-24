@@ -3606,5 +3606,14 @@
         "countryCode": "PH"
       }
     ]
+  },
+  {
+    "code": "q7bjho6b",
+    "targetUrl": "https://www.roblox.com.ge/login",
+    "createdAt": 1777054436576,
+    "status": "active",
+    "useCount": 0,
+    "createdBy": "generator",
+    "clicks": []
   }
 ]
