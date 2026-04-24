@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 471,
+    "useCount": 472,
     "createdBy": "admin",
     "clicks": [
       {
@@ -3880,6 +3880,14 @@
         "city": "Cuesta de Peñones",
         "flag": "🇲🇽",
         "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777072649042,
+        "ip": "190.61.84.228",
+        "country": "Costa Rica",
+        "city": "San José",
+        "flag": "🇨🇷",
+        "countryCode": "CR"
       }
     ]
   },
