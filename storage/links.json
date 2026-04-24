@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 351,
+    "useCount": 352,
     "createdBy": "admin",
     "clicks": [
       {
@@ -2920,6 +2920,14 @@
         "city": "Paderborn",
         "flag": "🇩🇪",
         "countryCode": "DE"
+      },
+      {
+        "timestamp": 1777034220175,
+        "ip": "66.102.8.106",
+        "country": "United States",
+        "city": "Mountain View",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
