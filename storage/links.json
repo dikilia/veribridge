@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 464,
+    "useCount": 465,
     "createdBy": "admin",
     "clicks": [
       {
@@ -3824,6 +3824,14 @@
         "city": "Kingston",
         "flag": "🇯🇲",
         "countryCode": "JM"
+      },
+      {
+        "timestamp": 1777071100380,
+        "ip": "99.93.81.117",
+        "country": "United States",
+        "city": "Oklahoma City",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
