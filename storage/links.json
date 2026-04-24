@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 266,
+    "useCount": 267,
     "createdBy": "admin",
     "clicks": [
       {
@@ -2240,6 +2240,14 @@
         "city": "Bacolod City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777004745241,
+        "ip": "187.188.46.217",
+        "country": "Mexico",
+        "city": "Hermosillo",
+        "flag": "🇲🇽",
+        "countryCode": "MX"
       }
     ]
   },
