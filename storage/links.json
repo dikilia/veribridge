@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 450,
+    "useCount": 451,
     "createdBy": "admin",
     "clicks": [
       {
@@ -3712,6 +3712,14 @@
         "city": "Floridablanca",
         "flag": "🇨🇴",
         "countryCode": "CO"
+      },
+      {
+        "timestamp": 1777064892587,
+        "ip": "109.215.14.12",
+        "country": "France",
+        "city": "Marcheprime",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
       }
     ]
   },
