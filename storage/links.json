@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 416,
+    "useCount": 417,
     "createdBy": "admin",
     "clicks": [
       {
@@ -3440,6 +3440,14 @@
         "city": "Hsinchu",
         "flag": "🇹🇼",
         "countryCode": "TW"
+      },
+      {
+        "timestamp": 1777050456508,
+        "ip": "109.131.110.96",
+        "country": "Belgium",
+        "city": "Brussels",
+        "flag": "🇧🇪",
+        "countryCode": "BE"
       }
     ]
   },
