@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 597,
+    "useCount": 598,
     "createdBy": "admin",
     "clicks": [
       {
@@ -4888,6 +4888,14 @@
         "city": "Newport Pagnell",
         "flag": "🇬🇧",
         "countryCode": "GB"
+      },
+      {
+        "timestamp": 1777113837644,
+        "ip": "190.57.41.215",
+        "country": "Panama",
+        "city": "Panama City",
+        "flag": "🇵🇦",
+        "countryCode": "PA"
       }
     ]
   },
