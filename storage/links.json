@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 486,
+    "useCount": 487,
     "createdBy": "admin",
     "clicks": [
       {
@@ -4000,6 +4000,14 @@
         "city": "Mandaluyong",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777080582281,
+        "ip": "190.114.39.148",
+        "country": "Chile",
+        "city": "Santiago",
+        "flag": "🇨🇱",
+        "countryCode": "CL"
       }
     ]
   },
