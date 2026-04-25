@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 533,
+    "useCount": 534,
     "createdBy": "admin",
     "clicks": [
       {
@@ -4376,6 +4376,14 @@
         "city": "Painted Hills",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777092275037,
+        "ip": "113.163.222.19",
+        "country": "Vietnam",
+        "city": "Thị Trấn Phú Mỹ",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
