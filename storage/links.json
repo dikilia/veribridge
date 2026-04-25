@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 538,
+    "useCount": 539,
     "createdBy": "admin",
     "clicks": [
       {
@@ -4416,6 +4416,14 @@
         "city": "Santo Antônio do Monte",
         "flag": "🇧🇷",
         "countryCode": "BR"
+      },
+      {
+        "timestamp": 1777094113844,
+        "ip": "182.62.178.70",
+        "country": "Malaysia",
+        "city": "Kuala Lumpur",
+        "flag": "🇲🇾",
+        "countryCode": "MY"
       }
     ]
   },
