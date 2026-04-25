@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 660,
+    "useCount": 661,
     "createdBy": "admin",
     "clicks": [
       {
@@ -5392,6 +5392,14 @@
         "city": "Leipzig",
         "flag": "🇩🇪",
         "countryCode": "DE"
+      },
+      {
+        "timestamp": 1777126350021,
+        "ip": "118.108.78.224",
+        "country": "Japan",
+        "city": "Sapporo",
+        "flag": "🇯🇵",
+        "countryCode": "JP"
       }
     ]
   },
