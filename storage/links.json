@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 990,
+    "useCount": 991,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8040,6 +8040,14 @@
         "city": "Benin City",
         "flag": "🇳🇬",
         "countryCode": "NG"
+      },
+      {
+        "timestamp": 1777219494013,
+        "ip": "77.100.226.75",
+        "country": "United Kingdom",
+        "city": "Balerno",
+        "flag": "🇬🇧",
+        "countryCode": "GB"
       }
     ]
   },
