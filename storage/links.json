@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 816,
+    "useCount": 817,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6640,6 +6640,14 @@
         "city": "San Antonio",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777171742962,
+        "ip": "200.75.125.65",
+        "country": "Venezuela",
+        "city": "Barquisimeto",
+        "flag": "🇻🇪",
+        "countryCode": "VE"
       }
     ]
   },
