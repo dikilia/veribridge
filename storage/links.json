@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 818,
+    "useCount": 819,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6651,6 +6651,14 @@
       },
       {
         "timestamp": 1777171971312,
+        "ip": "177.55.226.239",
+        "country": "Brazil",
+        "city": "Belo Horizonte",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
+      },
+      {
+        "timestamp": 1777172031174,
         "ip": "177.55.226.239",
         "country": "Brazil",
         "city": "Belo Horizonte",
