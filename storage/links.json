@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 962,
+    "useCount": 963,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7816,6 +7816,14 @@
         "city": "Haiphong",
         "flag": "🇻🇳",
         "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777211983523,
+        "ip": "187.189.34.114",
+        "country": "Mexico",
+        "city": "Tijuana",
+        "flag": "🇲🇽",
+        "countryCode": "MX"
       }
     ]
   },
