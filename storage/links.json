@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 895,
+    "useCount": 896,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7280,6 +7280,14 @@
         "city": "Liège",
         "flag": "🇧🇪",
         "countryCode": "BE"
+      },
+      {
+        "timestamp": 1777195534219,
+        "ip": "82.34.146.167",
+        "country": "United Kingdom",
+        "city": "Harringay",
+        "flag": "🇬🇧",
+        "countryCode": "GB"
       }
     ]
   },
