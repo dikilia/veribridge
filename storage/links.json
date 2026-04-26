@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 860,
+    "useCount": 861,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6992,6 +6992,14 @@
         "city": "Warsaw",
         "flag": "🇵🇱",
         "countryCode": "PL"
+      },
+      {
+        "timestamp": 1777186489918,
+        "ip": "37.67.80.27",
+        "country": "France",
+        "city": "Bordeaux",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
       }
     ]
   },
