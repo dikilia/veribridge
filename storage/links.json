@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1026,
+    "useCount": 1027,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8328,6 +8328,14 @@
         "city": "Pilar",
         "flag": "🇦🇷",
         "countryCode": "AR"
+      },
+      {
+        "timestamp": 1777229626553,
+        "ip": "189.197.247.83",
+        "country": "Mexico",
+        "city": "Salina Cruz",
+        "flag": "🇲🇽",
+        "countryCode": "MX"
       }
     ]
   },
