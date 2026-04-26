@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1056,
+    "useCount": 1057,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8568,6 +8568,14 @@
         "city": "Coro",
         "flag": "🇻🇪",
         "countryCode": "VE"
+      },
+      {
+        "timestamp": 1777239887813,
+        "ip": "107.222.193.169",
+        "country": "United States",
+        "city": "Youngsville",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
