@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 997,
+    "useCount": 998,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8096,6 +8096,14 @@
         "city": "Villa José León Suárez",
         "flag": "🇦🇷",
         "countryCode": "AR"
+      },
+      {
+        "timestamp": 1777221812181,
+        "ip": "174.234.132.230",
+        "country": "United States",
+        "city": "Brainerd",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
