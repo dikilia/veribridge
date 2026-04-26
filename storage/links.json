@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1046,
+    "useCount": 1047,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8488,6 +8488,14 @@
         "city": "Gilroy",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777236716944,
+        "ip": "131.226.105.252",
+        "country": "Philippines",
+        "city": "Manila",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
