@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1025,
+    "useCount": 1026,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8320,6 +8320,14 @@
         "city": "Johannesburg",
         "flag": "🇿🇦",
         "countryCode": "ZA"
+      },
+      {
+        "timestamp": 1777229550523,
+        "ip": "179.40.69.244",
+        "country": "Argentina",
+        "city": "Pilar",
+        "flag": "🇦🇷",
+        "countryCode": "AR"
       }
     ]
   },
