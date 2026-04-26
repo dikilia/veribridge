@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1033,
+    "useCount": 1034,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8384,6 +8384,14 @@
         "city": "Los Cabos",
         "flag": "🇲🇽",
         "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777232091461,
+        "ip": "58.10.6.236",
+        "country": "Thailand",
+        "city": "Pattaya",
+        "flag": "🇹🇭",
+        "countryCode": "TH"
       }
     ]
   },
