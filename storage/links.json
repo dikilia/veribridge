@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1069,
+    "useCount": 1070,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8672,6 +8672,14 @@
         "city": "Scottsdale",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777247458595,
+        "ip": "175.176.66.239",
+        "country": "Philippines",
+        "city": "Cebu City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
