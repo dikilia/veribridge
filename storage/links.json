@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 827,
+    "useCount": 828,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6728,6 +6728,14 @@
         "city": "Taichung",
         "flag": "🇹🇼",
         "countryCode": "TW"
+      },
+      {
+        "timestamp": 1777173870207,
+        "ip": "77.111.246.45",
+        "country": "United States",
+        "city": "Washington",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
