@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 975,
+    "useCount": 976,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7920,6 +7920,14 @@
         "city": "Lyon",
         "flag": "🇫🇷",
         "countryCode": "FR"
+      },
+      {
+        "timestamp": 1777217447390,
+        "ip": "82.135.207.151",
+        "country": "Lithuania",
+        "city": "Garliava",
+        "flag": "🇱🇹",
+        "countryCode": "LT"
       }
     ]
   },
