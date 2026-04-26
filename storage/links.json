@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 832,
+    "useCount": 833,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6768,6 +6768,14 @@
         "city": "Barranquilla",
         "flag": "🇨🇴",
         "countryCode": "CO"
+      },
+      {
+        "timestamp": 1777174819539,
+        "ip": "187.222.154.135",
+        "country": "Mexico",
+        "city": "La Paz",
+        "flag": "🇲🇽",
+        "countryCode": "MX"
       }
     ]
   },
