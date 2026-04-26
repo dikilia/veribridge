@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1040,
+    "useCount": 1041,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8440,6 +8440,14 @@
         "city": "Olathe",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777234365597,
+        "ip": "5.173.146.7",
+        "country": "Poland",
+        "city": "Warsaw",
+        "flag": "🇵🇱",
+        "countryCode": "PL"
       }
     ]
   },
