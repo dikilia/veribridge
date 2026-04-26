@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 879,
+    "useCount": 880,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7144,6 +7144,14 @@
         "city": "Riga",
         "flag": "🇱🇻",
         "countryCode": "LV"
+      },
+      {
+        "timestamp": 1777191743244,
+        "ip": "45.220.17.46",
+        "country": "South Africa",
+        "city": "Centurion",
+        "flag": "🇿🇦",
+        "countryCode": "ZA"
       }
     ]
   },
