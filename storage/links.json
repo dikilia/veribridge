@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 995,
+    "useCount": 996,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8080,6 +8080,14 @@
         "city": "Cebu City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777220976792,
+        "ip": "73.23.249.160",
+        "country": "United States",
+        "city": "Fort Myers",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
