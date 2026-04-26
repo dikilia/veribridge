@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 869,
+    "useCount": 870,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7064,6 +7064,14 @@
         "city": "Iligan",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777189721093,
+        "ip": "185.70.52.151",
+        "country": "Georgia",
+        "city": "Tbilisi",
+        "flag": "🇬🇪",
+        "countryCode": "GE"
       }
     ]
   },
