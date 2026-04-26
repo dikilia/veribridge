@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 996,
+    "useCount": 997,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8088,6 +8088,14 @@
         "city": "Fort Myers",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777221669814,
+        "ip": "131.0.235.11",
+        "country": "Argentina",
+        "city": "Villa José León Suárez",
+        "flag": "🇦🇷",
+        "countryCode": "AR"
       }
     ]
   },
