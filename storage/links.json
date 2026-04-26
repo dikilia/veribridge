@@ -4,7 +4,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776493139088,
     "status": "active",
-    "useCount": 12,
+    "useCount": 13,
     "createdBy": "system",
     "clicks": [
       {
@@ -100,6 +100,14 @@
         "ip": "138.84.76.171",
         "country": "Philippines",
         "city": "Tarlac City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777194123795,
+        "ip": "112.198.231.15",
+        "country": "Philippines",
+        "city": "Cabanatuan City",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
