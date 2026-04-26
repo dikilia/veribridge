@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1036,
+    "useCount": 1037,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8408,6 +8408,14 @@
         "city": "Vila Real de Santo António",
         "flag": "🇵🇹",
         "countryCode": "PT"
+      },
+      {
+        "timestamp": 1777232873019,
+        "ip": "98.44.142.84",
+        "country": "United States",
+        "city": "Houston",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
