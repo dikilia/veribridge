@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1213,
+    "useCount": 1214,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9848,6 +9848,14 @@
         "city": "Montreal",
         "flag": "🇨🇦",
         "countryCode": "CA"
+      },
+      {
+        "timestamp": 1777314041536,
+        "ip": "81.65.90.110",
+        "country": "France",
+        "city": "Argenteuil",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
       }
     ]
   },
