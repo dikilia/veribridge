@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1158,
+    "useCount": 1159,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9406,6 +9406,14 @@
         "ip": "143.44.165.229",
         "country": "Philippines",
         "city": "Cebu City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777287982178,
+        "ip": "119.93.79.43",
+        "country": "Philippines",
+        "city": "Makati City",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
