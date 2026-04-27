@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1151,
+    "useCount": 1152,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9347,6 +9347,14 @@
       },
       {
         "timestamp": 1777283399566,
+        "ip": "27.145.15.131",
+        "country": "Thailand",
+        "city": "Khlong Luang",
+        "flag": "🇹🇭",
+        "countryCode": "TH"
+      },
+      {
+        "timestamp": 1777283468315,
         "ip": "27.145.15.131",
         "country": "Thailand",
         "city": "Khlong Luang",
