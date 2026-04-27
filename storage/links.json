@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1109,
+    "useCount": 1110,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9016,6 +9016,14 @@
         "city": "Monterrey",
         "flag": "🇲🇽",
         "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777264153958,
+        "ip": "57.129.132.250",
+        "country": "United Kingdom",
+        "city": "Bexley",
+        "flag": "🇬🇧",
+        "countryCode": "GB"
       }
     ]
   },
