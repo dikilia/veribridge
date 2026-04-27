@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1197,
+    "useCount": 1198,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9720,6 +9720,14 @@
         "city": "Medellín",
         "flag": "🇨🇴",
         "countryCode": "CO"
+      },
+      {
+        "timestamp": 1777305033051,
+        "ip": "104.28.163.27",
+        "country": "Singapore",
+        "city": "Singapore",
+        "flag": "🇸🇬",
+        "countryCode": "SG"
       }
     ]
   },
