@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1169,
+    "useCount": 1170,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9496,6 +9496,14 @@
         "city": "Makati City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777291744461,
+        "ip": "79.117.158.62",
+        "country": "Spain",
+        "city": "Vinaròs",
+        "flag": "🇪🇸",
+        "countryCode": "ES"
       }
     ]
   },
