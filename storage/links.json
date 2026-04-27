@@ -9666,7 +9666,7 @@
     "targetUrl": "https://roblox.com.ge/games/8737602449/PLS-DONATE?privateServerLinkCode=46573925045402079729380865517627",
     "createdAt": 1776820399964,
     "status": "active",
-    "useCount": 4,
+    "useCount": 5,
     "createdBy": "generator",
     "clicks": [
       {
@@ -9698,6 +9698,14 @@
         "ip": "138.84.76.171",
         "country": "Philippines",
         "city": "Tarlac City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777298012696,
+        "ip": "223.25.58.183",
+        "country": "Philippines",
+        "city": "Olongapo City",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
