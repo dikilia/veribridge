@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1092,
+    "useCount": 1093,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8880,6 +8880,14 @@
         "city": "Round Rock",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777259299273,
+        "ip": "116.106.164.151",
+        "country": "Vietnam",
+        "city": "Hanoi",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
