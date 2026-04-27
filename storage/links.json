@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1117,
+    "useCount": 1118,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9080,6 +9080,14 @@
         "city": "Marikina City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777270501201,
+        "ip": "27.34.68.108",
+        "country": "Nepal",
+        "city": "Kathmandu",
+        "flag": "🇳🇵",
+        "countryCode": "NP"
       }
     ]
   },
