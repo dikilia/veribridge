@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1226,
+    "useCount": 1227,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9952,6 +9952,14 @@
         "city": "Farnborough",
         "flag": "🇬🇧",
         "countryCode": "GB"
+      },
+      {
+        "timestamp": 1777319072506,
+        "ip": "102.182.190.182",
+        "country": "South Africa",
+        "city": "Cape Town",
+        "flag": "🇿🇦",
+        "countryCode": "ZA"
       }
     ]
   },
