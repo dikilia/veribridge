@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1086,
+    "useCount": 1087,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8832,6 +8832,14 @@
         "city": "Limit",
         "flag": "🇯🇲",
         "countryCode": "JM"
+      },
+      {
+        "timestamp": 1777258803776,
+        "ip": "98.231.169.254",
+        "country": "United States",
+        "city": "Lafayette",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
