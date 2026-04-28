@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1327,
+    "useCount": 1328,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10784,6 +10784,14 @@
         "city": "Bogotá",
         "flag": "🇨🇴",
         "countryCode": "CO"
+      },
+      {
+        "timestamp": 1777405078873,
+        "ip": "98.79.139.2",
+        "country": "United States",
+        "city": "Miami",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
