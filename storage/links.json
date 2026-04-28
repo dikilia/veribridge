@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1303,
+    "useCount": 1304,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10568,6 +10568,14 @@
         "city": "Cabanatuan City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777374699204,
+        "ip": "171.234.14.245",
+        "country": "Vietnam",
+        "city": "Buon Ma Thuot",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
