@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1344,
+    "useCount": 1345,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10920,6 +10920,14 @@
         "city": "Tassin-la-Demi-Lune",
         "flag": "🇫🇷",
         "countryCode": "FR"
+      },
+      {
+        "timestamp": 1777413198126,
+        "ip": "172.58.125.224",
+        "country": "United States",
+        "city": "Williamston",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
