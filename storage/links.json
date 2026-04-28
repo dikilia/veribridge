@@ -150,7 +150,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1307,
+    "useCount": 1308,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10608,6 +10608,14 @@
         "city": "Mechelen",
         "flag": "🇧🇪",
         "countryCode": "BE"
+      },
+      {
+        "timestamp": 1777379904871,
+        "ip": "1.169.48.69",
+        "country": "Taiwan",
+        "city": "Yilan",
+        "flag": "🇹🇼",
+        "countryCode": "TW"
       }
     ]
   },
