@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1296,
+    "useCount": 1297,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10512,6 +10512,14 @@
         "city": "Bridgetown",
         "flag": "🇧🇧",
         "countryCode": "BB"
+      },
+      {
+        "timestamp": 1777372027252,
+        "ip": "189.216.232.39",
+        "country": "Mexico",
+        "city": "Toluca",
+        "flag": "🇲🇽",
+        "countryCode": "MX"
       }
     ]
   },
