@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1364,
+    "useCount": 1365,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11080,6 +11080,14 @@
         "city": "Birmingham",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777419860982,
+        "ip": "157.100.202.31",
+        "country": "Ecuador",
+        "city": "Quito",
+        "flag": "🇪🇨",
+        "countryCode": "EC"
       }
     ]
   },
