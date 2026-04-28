@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1320,
+    "useCount": 1321,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10728,6 +10728,14 @@
         "city": "Vitrolles",
         "flag": "🇫🇷",
         "countryCode": "FR"
+      },
+      {
+        "timestamp": 1777393955068,
+        "ip": "124.83.106.218",
+        "country": "Philippines",
+        "city": "Meycauayan",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
