@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1346,
+    "useCount": 1347,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10936,6 +10936,14 @@
         "city": "Emmen",
         "flag": "🇳🇱",
         "countryCode": "NL"
+      },
+      {
+        "timestamp": 1777413700414,
+        "ip": "82.120.100.44",
+        "country": "France",
+        "city": "Le Mans",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
       }
     ]
   },
