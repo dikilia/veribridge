@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1359,
+    "useCount": 1360,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11040,6 +11040,14 @@
         "city": "Créteil",
         "flag": "🇫🇷",
         "countryCode": "FR"
+      },
+      {
+        "timestamp": 1777418049766,
+        "ip": "129.101.58.7",
+        "country": "United States",
+        "city": "Rapid City",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
