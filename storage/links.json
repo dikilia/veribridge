@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1330,
+    "useCount": 1331,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10803,6 +10803,14 @@
       },
       {
         "timestamp": 1777407940018,
+        "ip": "177.226.36.218",
+        "country": "Mexico",
+        "city": "Tala",
+        "flag": "🇲🇽",
+        "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777407975955,
         "ip": "177.226.36.218",
         "country": "Mexico",
         "city": "Tala",
