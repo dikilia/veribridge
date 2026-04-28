@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1319,
+    "useCount": 1320,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10720,6 +10720,14 @@
         "city": "Helsingborg",
         "flag": "🇸🇪",
         "countryCode": "SE"
+      },
+      {
+        "timestamp": 1777391571017,
+        "ip": "128.79.134.92",
+        "country": "France",
+        "city": "Vitrolles",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
       }
     ]
   },
