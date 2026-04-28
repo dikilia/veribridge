@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1322,
+    "useCount": 1323,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10744,6 +10744,14 @@
         "city": "Lausanne",
         "flag": "🇨🇭",
         "countryCode": "CH"
+      },
+      {
+        "timestamp": 1777396796028,
+        "ip": "181.43.122.159",
+        "country": "Chile",
+        "city": "Santiago",
+        "flag": "🇨🇱",
+        "countryCode": "CL"
       }
     ]
   },
