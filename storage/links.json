@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1355,
+    "useCount": 1356,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11006,6 +11006,14 @@
         "ip": "98.193.173.127",
         "country": "United States",
         "city": "Murfreesboro",
+        "flag": "🇺🇸",
+        "countryCode": "US"
+      },
+      {
+        "timestamp": 1777416495877,
+        "ip": "155.186.185.66",
+        "country": "United States",
+        "city": "Stockbridge",
         "flag": "🇺🇸",
         "countryCode": "US"
       }
