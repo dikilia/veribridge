@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1353,
+    "useCount": 1354,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10992,6 +10992,14 @@
         "city": "Umbulan Tebingsuluh",
         "flag": "🇮🇩",
         "countryCode": "ID"
+      },
+      {
+        "timestamp": 1777416147178,
+        "ip": "70.64.143.67",
+        "country": "Canada",
+        "city": "Saskatoon",
+        "flag": "🇨🇦",
+        "countryCode": "CA"
       }
     ]
   },
