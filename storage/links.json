@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1332,
+    "useCount": 1333,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10824,6 +10824,14 @@
         "city": "Cam Ranh",
         "flag": "🇻🇳",
         "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777408935646,
+        "ip": "73.62.179.210",
+        "country": "United States",
+        "city": "Minneapolis",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
