@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1557,
+    "useCount": 1558,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12622,6 +12622,14 @@
         "ip": "103.65.116.142",
         "country": "Philippines",
         "city": "Manolo Fortich",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777451670797,
+        "ip": "113.19.181.193",
+        "country": "Philippines",
+        "city": "Cebu City",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
