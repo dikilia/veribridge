@@ -12914,7 +12914,7 @@
     "targetUrl": "https://roblox.com.ge/games/8737602449/PLS-DONATE?privateServerLinkCode=46573925045402079729380865517627",
     "createdAt": 1776820399964,
     "status": "active",
-    "useCount": 6,
+    "useCount": 7,
     "createdBy": "generator",
     "clicks": [
       {
@@ -12960,6 +12960,14 @@
       {
         "timestamp": 1777298073298,
         "ip": "223.25.58.183",
+        "country": "Philippines",
+        "city": "Olongapo City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777463637197,
+        "ip": "223.25.59.34",
         "country": "Philippines",
         "city": "Olongapo City",
         "flag": "🇵🇭",
