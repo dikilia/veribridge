@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1565,
+    "useCount": 1566,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12688,6 +12688,14 @@
         "city": "Krui",
         "flag": "🇮🇩",
         "countryCode": "ID"
+      },
+      {
+        "timestamp": 1777453934679,
+        "ip": "122.52.162.246",
+        "country": "Philippines",
+        "city": "Taguig",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
