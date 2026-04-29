@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1423,
+    "useCount": 1424,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11552,6 +11552,14 @@
         "city": "West Kelowna",
         "flag": "🇨🇦",
         "countryCode": "CA"
+      },
+      {
+        "timestamp": 1777429673856,
+        "ip": "75.65.204.79",
+        "country": "United States",
+        "city": "West Monroe",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
