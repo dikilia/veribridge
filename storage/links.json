@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1446,
+    "useCount": 1447,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11736,6 +11736,14 @@
         "city": "Naga",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777433783188,
+        "ip": "181.78.203.189",
+        "country": "Ecuador",
+        "city": "Quito",
+        "flag": "🇪🇨",
+        "countryCode": "EC"
       }
     ]
   },
