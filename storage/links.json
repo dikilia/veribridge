@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1570,
+    "useCount": 1571,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12728,6 +12728,14 @@
         "city": "Orly",
         "flag": "🇫🇷",
         "countryCode": "FR"
+      },
+      {
+        "timestamp": 1777454220698,
+        "ip": "125.165.152.75",
+        "country": "Indonesia",
+        "city": "South Tangerang",
+        "flag": "🇮🇩",
+        "countryCode": "ID"
       }
     ]
   },
