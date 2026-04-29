@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1430,
+    "useCount": 1431,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11608,6 +11608,14 @@
         "city": "Bangkok",
         "flag": "🇹🇭",
         "countryCode": "TH"
+      },
+      {
+        "timestamp": 1777430725853,
+        "ip": "110.54.199.90",
+        "country": "Philippines",
+        "city": "Talavera",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
