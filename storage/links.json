@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1522,
+    "useCount": 1523,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12344,6 +12344,14 @@
         "city": "Hat Yai",
         "flag": "🇹🇭",
         "countryCode": "TH"
+      },
+      {
+        "timestamp": 1777447526778,
+        "ip": "136.158.82.39",
+        "country": "Philippines",
+        "city": "Tanza",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
