@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1491,
+    "useCount": 1492,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12096,6 +12096,14 @@
         "city": "Paranaque City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777441424782,
+        "ip": "103.160.205.162",
+        "country": "Indonesia",
+        "city": "Pendaleman",
+        "flag": "🇮🇩",
+        "countryCode": "ID"
       }
     ]
   },
