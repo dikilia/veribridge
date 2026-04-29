@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1441,
+    "useCount": 1442,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11694,6 +11694,14 @@
         "ip": "110.93.90.64",
         "country": "Philippines",
         "city": "Angono",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777431798143,
+        "ip": "119.93.43.33",
+        "country": "Philippines",
+        "city": "Pasig",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
