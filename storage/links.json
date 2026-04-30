@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1644,
+    "useCount": 1645,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13320,6 +13320,14 @@
         "city": "Phnom Penh",
         "flag": "🇰🇭",
         "countryCode": "KH"
+      },
+      {
+        "timestamp": 1777568167349,
+        "ip": "177.234.234.140",
+        "country": "Ecuador",
+        "city": "Machala",
+        "flag": "🇪🇨",
+        "countryCode": "EC"
       }
     ]
   },
