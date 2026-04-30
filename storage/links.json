@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1611,
+    "useCount": 1612,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13054,6 +13054,14 @@
         "ip": "171.225.192.50",
         "country": "Vietnam",
         "city": "Haiphong",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777523515728,
+        "ip": "116.101.175.12",
+        "country": "Vietnam",
+        "city": "Hanoi",
         "flag": "🇻🇳",
         "countryCode": "VN"
       }
