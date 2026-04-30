@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1646,
+    "useCount": 1647,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13336,6 +13336,14 @@
         "city": "Sheffield",
         "flag": "🇬🇧",
         "countryCode": "GB"
+      },
+      {
+        "timestamp": 1777571160525,
+        "ip": "45.234.80.214",
+        "country": "Brazil",
+        "city": "Caruaru",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
       }
     ]
   },
