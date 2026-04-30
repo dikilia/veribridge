@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1628,
+    "useCount": 1629,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13192,6 +13192,14 @@
         "city": "Ulan Bator",
         "flag": "🇲🇳",
         "countryCode": "MN"
+      },
+      {
+        "timestamp": 1777546847513,
+        "ip": "120.28.197.191",
+        "country": "Philippines",
+        "city": "Davao City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
