@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1625,
+    "useCount": 1626,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13168,6 +13168,14 @@
         "city": "Kota Kinabalu",
         "flag": "🇲🇾",
         "countryCode": "MY"
+      },
+      {
+        "timestamp": 1777538970084,
+        "ip": "14.10.97.66",
+        "country": "Japan",
+        "city": "Ibaraki",
+        "flag": "🇯🇵",
+        "countryCode": "JP"
       }
     ]
   },
