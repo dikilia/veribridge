@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1651,
+    "useCount": 1652,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13376,6 +13376,14 @@
         "city": "Tuguegarao City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777580859998,
+        "ip": "82.65.89.137",
+        "country": "France",
+        "city": "Donnemarie-Dontilly",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
       }
     ]
   },
