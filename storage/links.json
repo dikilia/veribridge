@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1634,
+    "useCount": 1635,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13240,6 +13240,14 @@
         "city": "General Trias",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777553253709,
+        "ip": "104.28.156.106",
+        "country": "Singapore",
+        "city": "Singapore",
+        "flag": "🇸🇬",
+        "countryCode": "SG"
       }
     ]
   },
