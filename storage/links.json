@@ -13936,8 +13936,17 @@
     "targetUrl": "https://www.robiox.com.ps/login?returnUrl=3727139150287741",
     "createdAt": 1777670699542,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "admin",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1777670710541,
+        "ip": "111.90.230.241",
+        "country": "Philippines",
+        "city": "Dau",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      }
+    ]
   }
 ]
