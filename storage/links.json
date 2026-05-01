@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1692,
+    "useCount": 1693,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13704,6 +13704,14 @@
         "city": "Can Tho",
         "flag": "🇻🇳",
         "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777653466716,
+        "ip": "218.149.138.52",
+        "country": "South Korea",
+        "city": "Buk-gu",
+        "flag": "🇰🇷",
+        "countryCode": "KR"
       }
     ]
   },
