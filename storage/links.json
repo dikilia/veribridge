@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1658,
+    "useCount": 1659,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13432,6 +13432,14 @@
         "city": "Mountain View",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777602162029,
+        "ip": "112.206.103.53",
+        "country": "Philippines",
+        "city": "Taguig",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
