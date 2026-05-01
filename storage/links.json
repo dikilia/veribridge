@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1706,
+    "useCount": 1707,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13816,6 +13816,14 @@
         "city": "Montevideo",
         "flag": "🇺🇾",
         "countryCode": "UY"
+      },
+      {
+        "timestamp": 1777675087359,
+        "ip": "88.174.97.148",
+        "country": "France",
+        "city": "Angers",
+        "flag": "🇫🇷",
+        "countryCode": "FR"
       }
     ]
   },
