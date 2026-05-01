@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1656,
+    "useCount": 1657,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13416,6 +13416,14 @@
         "city": "Ho Chi Minh City",
         "flag": "🇻🇳",
         "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777599253902,
+        "ip": "24.180.49.3",
+        "country": "United States",
+        "city": "Long Beach",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
