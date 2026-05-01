@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1678,
+    "useCount": 1679,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13587,6 +13587,14 @@
       },
       {
         "timestamp": 1777634118910,
+        "ip": "89.153.145.120",
+        "country": "Portugal",
+        "city": "Porto",
+        "flag": "🇵🇹",
+        "countryCode": "PT"
+      },
+      {
+        "timestamp": 1777634124423,
         "ip": "89.153.145.120",
         "country": "Portugal",
         "city": "Porto",
