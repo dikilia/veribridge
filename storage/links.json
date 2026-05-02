@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1714,
+    "useCount": 1715,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13880,6 +13880,14 @@
         "city": "Santiago de los Caballeros",
         "flag": "🇩🇴",
         "countryCode": "DO"
+      },
+      {
+        "timestamp": 1777693398540,
+        "ip": "196.188.36.168",
+        "country": "Ethiopia",
+        "city": "Addis Ababa",
+        "flag": "🇪🇹",
+        "countryCode": "ET"
       }
     ]
   },
