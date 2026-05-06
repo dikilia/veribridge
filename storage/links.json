@@ -14082,8 +14082,17 @@
     "targetUrl": "https://www.roblox.com.ml",
     "createdAt": 1778035033461,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1778035042036,
+        "ip": "76.38.68.161",
+        "country": "United States",
+        "city": "Wilmington",
+        "flag": "🇺🇸",
+        "countryCode": "US"
+      }
+    ]
   }
 ]
