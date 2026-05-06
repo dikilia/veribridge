@@ -14094,5 +14094,14 @@
         "countryCode": "US"
       }
     ]
+  },
+  {
+    "code": "gq21mtpa",
+    "targetUrl": "https://www.roblox.com.ml",
+    "createdAt": 1778035091386,
+    "status": "active",
+    "useCount": 0,
+    "createdBy": "generator",
+    "clicks": []
   }
 ]
