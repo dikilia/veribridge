@@ -14109,8 +14109,17 @@
     "targetUrl": "https://roblox.com.ge/games/142823291/Murder-Mystery-2?privateServerLinkCode=90285511871094429909550058336686",
     "createdAt": 1778302004182,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1778302018877,
+        "ip": "181.220.199.11",
+        "country": "Brazil",
+        "city": "Porto Velho",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
+      }
+    ]
   }
 ]
