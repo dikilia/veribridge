@@ -14143,8 +14143,17 @@
     "targetUrl": "https://roblox.com.ge/users/4717066480/profile",
     "createdAt": 1778677479683,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1778677502704,
+        "ip": "31.146.132.172",
+        "country": "Georgia",
+        "city": "Tbilisi",
+        "flag": "🇬🇪",
+        "countryCode": "GE"
+      }
+    ]
   }
 ]
