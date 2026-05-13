@@ -14161,7 +14161,7 @@
     "targetUrl": "https://roblox.com.bz/login?returnUrl=2671794013209664",
     "createdAt": 1778688484557,
     "status": "active",
-    "useCount": 2,
+    "useCount": 3,
     "createdBy": "admin",
     "clicks": [
       {
@@ -14179,6 +14179,14 @@
         "city": "Tarlac City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1778689098726,
+        "ip": "99.72.116.132",
+        "country": "United States",
+        "city": "Houston",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   }
