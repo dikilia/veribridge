@@ -14277,5 +14277,14 @@
         "countryCode": "MN"
       }
     ]
+  },
+  {
+    "code": "rkhxi1kb",
+    "targetUrl": "https://www.roblox.com.ge/login",
+    "createdAt": 1778841289625,
+    "status": "active",
+    "useCount": 0,
+    "createdBy": "generator",
+    "clicks": []
   }
 ]
