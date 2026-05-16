@@ -14348,5 +14348,14 @@
         "countryCode": "RO"
       }
     ]
+  },
+  {
+    "code": "clhaoyal",
+    "targetUrl": "https://www.roblox.com.ge/login",
+    "createdAt": 1778915026519,
+    "status": "active",
+    "useCount": 0,
+    "createdBy": "generator",
+    "clicks": []
   }
 ]
