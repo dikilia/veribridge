@@ -14363,8 +14363,17 @@
     "targetUrl": "https://roblox.com.ge/login",
     "createdAt": 1778940614095,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1778940620482,
+        "ip": "143.44.185.136",
+        "country": "Philippines",
+        "city": "Davao City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      }
+    ]
   }
 ]
