@@ -14480,8 +14480,17 @@
     "targetUrl": "https://roblox.com.bz/users/765760854/profile",
     "createdAt": 1779055529354,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1779055536990,
+        "ip": "195.123.240.206",
+        "country": "United States",
+        "city": "Los Angeles",
+        "flag": "🇺🇸",
+        "countryCode": "US"
+      }
+    ]
   }
 ]
