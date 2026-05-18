@@ -14560,8 +14560,17 @@
     "targetUrl": "https://roblox.com.ge/users/1206546104/profile",
     "createdAt": 1779099638968,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1779099642568,
+        "ip": "191.185.37.170",
+        "country": "Brazil",
+        "city": "Belo Horizonte",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
+      }
+    ]
   }
 ]
