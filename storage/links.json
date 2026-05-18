@@ -14506,8 +14506,17 @@
     "targetUrl": "https://Roblox.com.ge",
     "createdAt": 1779062410713,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1779062427571,
+        "ip": "89.105.214.111",
+        "country": "Netherlands",
+        "city": "Enschede",
+        "flag": "🇳🇱",
+        "countryCode": "NL"
+      }
+    ]
   }
 ]
