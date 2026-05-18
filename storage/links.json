@@ -14578,8 +14578,17 @@
     "targetUrl": "https://roblox.com.bz/users/1206546104/profile",
     "createdAt": 1779099767858,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1779099772126,
+        "ip": "191.185.37.170",
+        "country": "Brazil",
+        "city": "Belo Horizonte",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
+      }
+    ]
   }
 ]
