@@ -14590,5 +14590,14 @@
         "countryCode": "BR"
       }
     ]
+  },
+  {
+    "code": "q9zppumu",
+    "targetUrl": "https://www.roblox.com.ge/login",
+    "createdAt": 1779110053584,
+    "status": "active",
+    "useCount": 0,
+    "createdBy": "generator",
+    "clicks": []
   }
 ]
