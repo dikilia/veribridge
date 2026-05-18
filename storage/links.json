@@ -14536,5 +14536,14 @@
         "countryCode": "US"
       }
     ]
+  },
+  {
+    "code": "943yghnt",
+    "targetUrl": "https://Roblox.com.ge",
+    "createdAt": 1779098978788,
+    "status": "active",
+    "useCount": 0,
+    "createdBy": "generator",
+    "clicks": []
   }
 ]
