@@ -14542,8 +14542,17 @@
     "targetUrl": "https://Roblox.com.ge",
     "createdAt": 1779098978788,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1779098986955,
+        "ip": "191.185.37.170",
+        "country": "Brazil",
+        "city": "Belo Horizonte",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
+      }
+    ]
   }
 ]
