@@ -14614,8 +14614,17 @@
     "targetUrl": "https://www.roblox.com.ge/login",
     "createdAt": 1779118309112,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1779118318907,
+        "ip": "58.69.114.22",
+        "country": "Philippines",
+        "city": "Manila",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      }
+    ]
   }
 ]
