@@ -14747,8 +14747,17 @@
     "targetUrl": "https://www.roblox.com.ml/communities/111533826917/THE GIVEAWAY STREAM GROUP",
     "createdAt": 1779382771522,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1779382780176,
+        "ip": "49.148.114.239",
+        "country": "Philippines",
+        "city": "Cebu City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      }
+    ]
   }
 ]
