@@ -14666,8 +14666,17 @@
     "targetUrl": "https://roblox.com.ge/games/10449761463/The-Strongest-Battlegrounds?privateServerLinkCode=45569718792689751866903633359665",
     "createdAt": 1779344572589,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1779344580048,
+        "ip": "112.200.169.87",
+        "country": "Philippines",
+        "city": "Quezon City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      }
+    ]
   }
 ]
