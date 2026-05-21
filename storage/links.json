@@ -14711,8 +14711,17 @@
     "targetUrl": "https://roblox.com.bz/users/2971960740/profile",
     "createdAt": 1779344849406,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1779344853300,
+        "ip": "112.200.169.87",
+        "country": "Philippines",
+        "city": "Quezon City",
+        "flag": "🇵🇭",
+        "countryCode": "PH"
+      }
+    ]
   }
 ]
