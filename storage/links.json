@@ -14765,8 +14765,17 @@
     "targetUrl": "https://www.roblox.et/login",
     "createdAt": 1779557595719,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1779557601608,
+        "ip": "74.141.146.87",
+        "country": "United States",
+        "city": "Columbus",
+        "flag": "🇺🇸",
+        "countryCode": "US"
+      }
+    ]
   }
 ]
