@@ -14783,8 +14783,17 @@
     "targetUrl": "https://www.roblox.com.ml/games/2753915549/Blox-Fruits?privateServerLinkCode=818584259988715922608449222637",
     "createdAt": 1779876354762,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1779876377511,
+        "ip": "145.140.20.123",
+        "country": "Netherlands",
+        "city": "Zeist",
+        "flag": "🇳🇱",
+        "countryCode": "NL"
+      }
+    ]
   }
 ]
