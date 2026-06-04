@@ -14831,5 +14831,14 @@
         "countryCode": "PH"
       }
     ]
+  },
+  {
+    "code": "ujk07fcu",
+    "targetUrl": "https://www.roblox.com.ge/login",
+    "createdAt": 1780532079830,
+    "status": "active",
+    "useCount": 0,
+    "createdBy": "generator",
+    "clicks": []
   }
 ]
