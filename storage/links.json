@@ -14882,8 +14882,17 @@
     "targetUrl": "https://roblox.com.ge/users/3890197202/profile",
     "createdAt": 1780769434150,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1780769437746,
+        "ip": "81.206.28.60",
+        "country": "Netherlands",
+        "city": "Arnhem",
+        "flag": "🇳🇱",
+        "countryCode": "NL"
+      }
+    ]
   }
 ]
