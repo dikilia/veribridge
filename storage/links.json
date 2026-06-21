@@ -14894,5 +14894,14 @@
         "countryCode": "NL"
       }
     ]
+  },
+  {
+    "code": "4wmvvfgt",
+    "targetUrl": "https://roblox.com.bz/login?returnUrl=7790244825323055",
+    "createdAt": 1782055128413,
+    "status": "active",
+    "useCount": 0,
+    "createdBy": "generator",
+    "clicks": []
   }
 ]
