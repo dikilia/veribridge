@@ -14926,8 +14926,17 @@
     "targetUrl": "https://www.roblox.com.ml/users/279437701433/profile",
     "createdAt": 1782834499305,
     "status": "active",
-    "useCount": 0,
+    "useCount": 1,
     "createdBy": "generator",
-    "clicks": []
+    "clicks": [
+      {
+        "timestamp": 1782834511677,
+        "ip": "108.48.163.19",
+        "country": "United States",
+        "city": "Clinton",
+        "flag": "🇺🇸",
+        "countryCode": "US"
+      }
+    ]
   }
 ]
