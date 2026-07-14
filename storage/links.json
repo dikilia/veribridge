@@ -13944,7 +13944,7 @@
     "targetUrl": "https://roblox.com.ge/games/920587237/Adopt-Me?privateServerLinkCode=46573925045402079729380865517627",
     "createdAt": 1776660884931,
     "status": "active",
-    "useCount": 5,
+    "useCount": 6,
     "createdBy": "generator",
     "clicks": [
       {
@@ -13986,6 +13986,14 @@
         "city": "Cauquenes",
         "flag": "🇨🇱",
         "countryCode": "CL"
+      },
+      {
+        "timestamp": 1784018422659,
+        "ip": "45.175.180.162",
+        "country": "Brazil",
+        "city": "Itapipoca",
+        "flag": "🇧🇷",
+        "countryCode": "BR"
       }
     ]
   },
